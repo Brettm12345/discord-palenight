@@ -3,7 +3,7 @@
     background:transparent; /* Previous:  white1; */
     position: relative;
     border-radius:50%;
-    box-shadow: none; /* Previous: 0 0 0 13px #212121 inset; */
+    box-shadow: none; /* Previous: 0 0 0 13px var(--nox-level3) inset; */
   }
   .theme-dark .close-3RZM3j:hover{
     color:var(--nox-white);

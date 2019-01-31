@@ -11,7 +11,7 @@
     // /*-webkit-filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.4));*/
     box-shadow: 0 3px 7px rgba(0,0,0,.4);
     transition: 200ms cubic-bezier(.2,0,0,1) !important;
-    background-color:#212121;
+    background-color:var(--nox-level4);
 }
 .embed .embed-thumbnail-gifv video:hover,
 .embed .image:not(iframe):hover,
