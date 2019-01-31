@@ -1,0 +1,28 @@
+* {
+  font-family: "Noto Sans ExtraCondensed Medium", sans-serif !important;
+  text-rendering: geometricPrecision !important;
+}
+
+input,
+textarea,
+keygen,
+select,
+button {
+  font-family: "Noto Sans ExtraCondensed Medium", sans-serif !important;
+}
+
+.ace_editor * {
+  font-family: "Iosevka Term Custom", Consolas, Menlo, Monaco, Lucida Console,
+    Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
+    monospace, serif !important;
+}
+
+.markup-2BOw-j pre,
+.markup-2BOw-j pre *,
+.markup-2BOw-j pre code,
+.markup-2BOw-j pre code *,
+.markup-2BOw-j code.inline {
+  font-family: "Iosevka Term Custom", Consolas, Menlo, Monaco, Lucida Console,
+    Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
+    monospace, serif !important;
+}
