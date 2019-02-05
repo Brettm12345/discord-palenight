@@ -51,25 +51,29 @@
   background-size: 80%;
 }
 
+.name-2WpE7M {
+  color: $nox-white;
+}
+
 .channel-2QD9_O.btn-friends .name-2WpE7M {
   margin-right: 30px;
 }
 
 .privateChannels-1nO12o .channel-2QD9_O.selected .icon-friends {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba($nox-black, 0);
   opacity: 1 !important;
   -ms-transform: scale(1);
   transform: scale(1);
 }
 
 .privateChannels-1nO12o .channel-2QD9_O .icon-friends {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba($nox-black, 0);
   opacity: 0.8 !important;
   transition: all 100ms ease;
 }
 
 .privateChannels-1nO12o .channel-2QD9_O:hover .icon-friends {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba($nox-black, 0);
   opacity: 1 !important;
   -ms-transform: scale(1);
   transform: scale(1);

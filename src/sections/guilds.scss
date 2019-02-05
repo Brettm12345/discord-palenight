@@ -3,7 +3,7 @@
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV:not(:empty)::after {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba($nox-white, 0.06);
   content: '';
   display: block;
   height: 2px;
@@ -112,7 +112,7 @@
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqHeparator-1X4GQ1::after {
-  background: rgba(255, 255, 255, 0.01);
+  background: rgba($nox-white, 0.01);
   left: 0;
   right: 0;
 }
@@ -122,7 +122,7 @@
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:hover {
-  background: rgba(0, 0, 0, 0);
+  background: rgba($nox-black, 0);
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-of-type:active {
@@ -197,8 +197,8 @@
   background-repeat: no-repeat;
   border-radius: 50%;
   bottom: 20px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.2) inset,
-    0 2px 1px $nox-white1 inset;
+  box-shadow: 0 5px 15px rgba($nox-black, 0.25),
+    0 -1px 0 rgba($nox-black, 0.2) inset, 0 2px 1px $nox-white1 inset;
   content: '';
   content: url('data: image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDEzaC02djZoLTJ2LTZINXYtMmg2VjVoMnY2aDZ2MnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==');
   display: block;
@@ -214,8 +214,8 @@
 
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:hover::after {
   background-color: $nox-accent;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4), 0 -1px 0 rgba(0, 0, 0, 0.2) inset,
-    0 2px 1px rgba(255, 255, 255, 0.2) inset;
+  box-shadow: 0 10px 15px rgba($nox-black, 0.4),
+    0 -1px 0 rgba($nox-black, 0.2) inset, 0 2px 1px rgba($nox-white, 0.2) inset;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.guildsAdd-21_IdK:hover {
@@ -312,7 +312,7 @@ a:active .friendsIcon-2I7J-e {
   background-position: 50%;
   background-size: 100%;
   border-radius: 50%;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 20px rgba($nox-black, 0.1);
   content: '';
   display: block;
   height: 46px;
@@ -341,7 +341,7 @@ a:active .friendsIcon-2I7J-e {
   .guild-1EfMGQ
   .guildInner-3DSoA4
   .guildIcon-CT-ZDq:hover::after {
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 20px rgba($nox-black, 0.4);
   -ms-transform: translate(-50%, -50%) scale(1);
   transform: translate(-50%, -50%) scale(1);
   transition: 0ms cubic-bezier(0.3, 0, 0, 1);
@@ -394,7 +394,7 @@ a:active .friendsIcon-2I7J-e {
   .guild-1EfMGQ
   .guildInner-3DSoA4
   .guildIcon-CT-ZDq:hover::before {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba($nox-white, 0.06);
   transition: 0ms ease;
 }
 
@@ -452,7 +452,7 @@ a:active .friendsIcon-2I7J-e {
   background-color: #43b581 !important;
   background-position: 50%;
   border-radius: 0 !important;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 10px 20px rgba($nox-black, 0.2) inset;
   height: 64px !important;
   margin: 0 !important;
   margin-bottom: 7px;
@@ -626,14 +626,14 @@ a:active .friendsIcon-2I7J-e {
   animation: guild-notifs 0.8s cubic-bezier(0.2, 0, 0, 1);
   box-shadow: 0 0 0 2px $nox-level1 inset,
     0 0 0 $nox-notification-width $nox-notification-color,
-    0 0 0 23px rgba(255, 255, 255, 0), 0 2px 20px rgba(0, 0, 0, 0.1) !important;
+    0 0 0 23px rgba($nox-white, 0), 0 2px 20px rgba($nox-black, 0.1) !important;
 }
 
 .dms-rcsEnV .guild-1EfMGQ a::after {
   animation: scale-center 1s cubic-bezier(0.44, 0.37, 0, 1.25),
     guild-notifs 0.8s cubic-bezier(0.2, 0, 0, 1);
   box-shadow: 0 0 0 -2px $nox-level1 inset, 0 0 0 -2px $nox-notification-color,
-    0 0 0 23px rgba(255, 255, 255, 0), 0 2px 20px rgba(0, 0, 0, 0.1) !important;
+    0 0 0 23px rgba($nox-white, 0), 0 2px 20px rgba($nox-black, 0.1) !important;
 }
 
 .guildsWrapper-5TJh6A
@@ -654,21 +654,21 @@ a:active .friendsIcon-2I7J-e {
 .guild-1EfMGQ.unread-qLkInr a:hover::after {
   box-shadow: 0 0 0 2px $nox-level1 inset,
     0 0 0 $nox-notification-width $nox-notification-color,
-    0 0 0 23px rgba(255, 255, 255, 0), 0 2px 20px rgba(0, 0, 0, 0.1) !important;
+    0 0 0 23px rgba($nox-white, 0), 0 2px 20px rgba($nox-black, 0.1) !important;
 }
 
 @keyframes guild-notifs {
   0% {
     box-shadow: 0 0 0 -2px $nox-level1 inset,
       0 0 0 -15px $nox-notification-color, 0 0 0 0 $nox-white8,
-      0 2px 20px rgba(0, 0, 0, 0.1);
+      0 2px 20px rgba($nox-black, 0.1);
   }
 }
 
 .guild-1EfMGQ.unread-qLkInr.selected-ML3OIq a::after {
   box-shadow: 0 0 0 2px $nox-level1 inset,
     0 0 0 $nox-notification-width $nox-notification-color,
-    0 0 0 23px rgba(255, 255, 255, 0), 0 2px 20px rgba(0, 0, 0, 0.1) !important;
+    0 0 0 23px rgba($nox-white, 0), 0 2px 20px rgba($nox-black, 0.1) !important;
 }
 
 .unreadMentionsBar-1VrBNe,
@@ -684,7 +684,7 @@ a:active .friendsIcon-2I7J-e {
   border-radius: 50%;
   box-shadow: none;
   margin-left: 0;
-  // box-shadow: 0 2px 8px rgba(0, 0, 0, .6);
+  // box-shadow: 0 2px 8px rgba($nox-black, .6);
   padding: 6px;
 }
 
@@ -692,7 +692,7 @@ a:active .friendsIcon-2I7J-e {
 //     content: "";
 //     display: block;
 //     width: 50%;
-//     background: rgba(255, 255, 255, .06);
+//     background: rgba($nox-white, .06);
 //     height: 2px;
 //     margin-left: auto;
 //     margin-right: auto;

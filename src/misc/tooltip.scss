@@ -2,7 +2,7 @@
   animation: opacity 80ms ease;
   background-color: $nox-level1 !important;
   border-radius: 3px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 5px 15px rgba($nox-black, 0.2) !important;
   font-size: 13px;
   padding: 6px 10px;
   pointer-events: none;

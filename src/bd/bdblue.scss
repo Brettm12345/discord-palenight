@@ -33,7 +33,7 @@
   border-radius: 100px;
   bottom: 100px;
   box-shadow: 0 0 0 2px #3a71c1, 0 0 10px rgba(58, 113, 193, 0.5),
-    0 2px 10px rgba(0, 0, 0, 0.3);
+    0 2px 10px rgba($nox-black, 0.3);
   color: $nox-white;
   content: 'Tip: if you want to have this blue as the accent color for the theme, go in "custom css" and set the accent color to #3A71C1 .';
   display: block;

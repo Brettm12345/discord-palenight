@@ -1,6 +1,7 @@
 /* Syntax Highlighting */
 .hljs {
   background: $nox-level0 !important;
+  color: $nox-white !important;
   display: block;
   overflow-x: auto;
   padding: 0.5em !important;
@@ -15,24 +16,24 @@
 }
 
 .hljs-built_in,
-.hljs-selector-tag,
 .hljs-selector-class,
-.hljs-selector-id,
 .hljs-section,
 .hljs-link {
-  color: $blue !important;
+  color: $yellow !important;
 }
 
+.hljs-selector-tag,
+.hljs-selector-attr,
+.hljs-selector-id,
 .hljs-keyword {
   color: $magenta !important;
 }
 
-.hljs,
+.hljs-attribute,
 .hljs-subst {
   color: $nox-light-fg !important;
 }
 
-.hljs-attribute,
 .hljs-string,
 .hljs-title {
   color: $green !important;

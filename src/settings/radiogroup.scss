@@ -1,7 +1,7 @@
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g {
   background: $nox-level1;
   border-radius: 0;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0);
+  box-shadow: 0 3px 10px rgba($nox-black, 0);
   margin-bottom: 0;
   position: relative;
   transition: all 100ms ease, z-index 0ms 100ms;
@@ -9,20 +9,20 @@
 }
 
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:not(:last-of-type) {
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0),
-    0 -2px 0 rgba(255, 255, 255, 0.02) inset;
+  box-shadow: 0 3px 10px rgba($nox-black, 0),
+    0 -2px 0 rgba($nox-white, 0.02) inset;
 }
 
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:hover {
   background: #2e2e2e;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba($nox-black, 0.1);
   transition: all 100ms ease, z-index 0ms;
   z-index: 2;
 }
 
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:active {
   background: $nox-accent;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba($nox-black, 0.2);
   transition: all 50ms ease, z-index 0ms;
   z-index: 2000;
 }
@@ -44,7 +44,7 @@
 
 .radioGroup-1GBvlr {
   border-radius: 3px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba($nox-black, 0.1);
 }
 
 .theme-dark .inner-zqa7da {
@@ -171,8 +171,8 @@
   background: $nox-level1;
   border: 0;
   border-radius: 3px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2),
-    0 1px 0 rgba(255, 255, 255, 0.03) inset;
+  box-shadow: 0 5px 10px rgba($nox-black, 0.2),
+    0 1px 0 rgba($nox-white, 0.03) inset;
 }
 
 .checkbox-1ix_J3[style*='border-color: rgb(114, 137, 218);'] {

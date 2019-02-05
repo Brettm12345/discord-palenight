@@ -17,8 +17,8 @@
   // TODO
   background: #141414;
   bottom: 68px;
-  box-shadow: 0 2px 0 rgba(255, 255, 255, 0.03) inset;
-  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 0 rgba($nox-white, 0.03) inset;
+  box-shadow: 0 -5px 10px rgba($nox-black, 0.2);
   content: '';
   display: block;
   height: 72px;
@@ -148,8 +148,8 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 }
 
 .alt-3btY0e .item-1GzJrl:active .status-oxiHuE {
-  box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.15) inset,
-    0 1px 1px rgba(255, 255, 255, 0.05) inset, 0 0 0 0 $nox-white inset;
+  box-shadow: 0 -10px 20px rgba($nox-black, 0.15) inset,
+    0 1px 1px rgba($nox-white, 0.05) inset, 0 0 0 0 $nox-white inset;
   opacity: 1;
   -ms-transform: scale(0.7);
   transform: scale(0.7);
@@ -218,7 +218,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 .alt-3btY0e .statusIconText-3b4TkH > div:not(.status-oxiHuE) {
   background-color: $nox-level1 !important;
   border-radius: 3px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 5px 15px rgba($nox-black, 0.2) !important;
   color: $nox-light-fg;
   font-size: 13px;
   left: 50%;

@@ -4,7 +4,7 @@
 }
 
 .reactionDefault-GBA58K .count-1vzEyg {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba($nox-white, 0.3);
 }
 
 .reactionSelected-1pqISm .count-1vzEyg {
@@ -12,7 +12,7 @@
 }
 
 .reactionDefault-GBA58K:hover .count-1vzEyg {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba($nox-white, 0.8);
 }
 
 .modal-3HD5ck {
@@ -22,7 +22,7 @@
 .theme-dark .modal-3HD5ck {
   background: $nox-level1;
   border-radius: 4px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 20px rgba($nox-black, 0.3);
   overflow: hidden;
 }
 
@@ -47,5 +47,5 @@
 }
 
 .reactionDefault-GBA58K:hover {
-  background: rgba(255, 255, 255, 0.04) !important;
+  background: rgba($nox-white, 0.04) !important;
 }

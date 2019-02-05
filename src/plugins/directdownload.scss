@@ -18,7 +18,7 @@ body #files_directDownload .file {
   background: $nox-level1;
   border: 0;
   border-radius: 0 !important;
-  box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 -2px 15px rgba($nox-black, 0.2) !important;
   height: 40px;
   margin: 0;
   max-width: 240px;
@@ -32,17 +32,17 @@ body #files_directDownload .file {
 }
 
 body #files_directDownload .file:not(:first-of-type) {
-  box-shadow: 0 -32px 10px -30px rgba(0, 0, 0, 0.1) inset !important;
+  box-shadow: 0 -32px 10px -30px rgba($nox-black, 0.1) inset !important;
 }
 
 body #files_directDownload .file:first-of-type:not(:last-of-type) {
-  box-shadow: 0 -32px 10px -30px rgba(0, 0, 0, 0.1) inset,
-    0 -2px 15px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 -32px 10px -30px rgba($nox-black, 0.1) inset,
+    0 -2px 15px rgba($nox-black, 0.2) !important;
 }
 
 body #files_directDownload .file.done:hover {
   background: $nox-level1;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 2px 15px rgba($nox-black, 0.2) !important;
   transition: all 100ms ease, z-index 0ms;
   z-index: 2;
 }

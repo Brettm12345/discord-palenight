@@ -1,7 +1,7 @@
 .theme-dark .popoutList-T9CKZQ {
   background: $nox-level2;
   border-radius: 4px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 20px rgba($nox-black, 0.3);
 }
 
 .popoutList-T9CKZQ .searchBar-1MOL6S {
@@ -23,8 +23,8 @@
 }
 
 .theme-dark .elevationBorderHigh-2WYJ09 {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3),
-    0 1px 0 rgba(255, 255, 255, 0.02) inset;
+  box-shadow: 0 5px 10px rgba($nox-black, 0.3),
+    0 1px 0 rgba($nox-white, 0.02) inset;
 }
 
 .themedPopout-25DgLi {
@@ -35,7 +35,7 @@
 
 .popout-3sVMXz .themedPopout-25DgLi .header-SsaQ8X {
   border-radius: 3px 3px 0 0;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 10px rgba($nox-black, 0.3);
 }
 
 .popoutList-T9CKZQ .selectableItem-1MP3MQ:hover {

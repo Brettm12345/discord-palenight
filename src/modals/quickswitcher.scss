@@ -3,14 +3,14 @@
 .quickswitcher-3JagVE {
   background: $nox-level2 !important;
   border-radius: 5px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2),
-    0 1px 0 rgba(255, 255, 255, 0.02) inset !important;
+  box-shadow: 0 5px 10px rgba($nox-black, 0.2),
+    0 1px 0 rgba($nox-white, 0.02) inset !important;
 }
 
 .theme-dark .quickswitcher-3JagVE .input-2VB9rf {
   animation: quickswitcher2 400ms cubic-bezier(0.7, 0, 0, 1);
   background: $nox-level1;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba($nox-black, 0.2);
   left: 0;
   position: absolute;
   top: -90px;
@@ -109,7 +109,7 @@
 }
 
 .theme-dark .quickswitcher-3JagVE .tipsWithResults-HhTE9b {
-  border-color: rgba(255, 255, 255, 0.03);
+  border-color: rgba($nox-white, 0.03);
   color: $nox-white3;
 }
 

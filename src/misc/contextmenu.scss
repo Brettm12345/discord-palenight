@@ -7,7 +7,7 @@
   background: $nox-level2 !important;
   border: 1px solid $nox-level2;
   border-radius: 2px;
-  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.4) !important;
+  box-shadow: 0 2px 25px rgba($nox-black, 0.4) !important;
   padding: 0;
   padding-bottom: 15px;
   padding-top: 15px;
@@ -39,8 +39,7 @@
 }
 
 .contextMenu-HLZMGh .itemGroup-1tL0uz:not(:first-child):not(:empty) {
-  // TODO
-  border-color: #242424 !important;
+  border-color: $nox-level3 !important;
 }
 
 @keyframes context-open-invertY {
@@ -52,7 +51,7 @@
 }
 
 .theme-dark.contextMenu-HLZMGh .itemGroup-1tL0uz {
-  border-color: rgba(255, 255, 255, 0.03) !important;
+  border-color: rgba($nox-white, 0.03) !important;
 }
 
 .contextMenu-HLZMGh .item-1Yvehc {
@@ -141,7 +140,7 @@
 }
 
 .contextMenu-HLZMGh .item-1Yvehc:active .checkbox-3kaeSU span::before {
-  border-color: #343434 !important;
+  border-color: $nox-level0 !important;
 }
 
 .contextMenu-HLZMGh .item-1Yvehc .checkbox-3kaeSU span::before {

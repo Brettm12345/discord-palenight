@@ -42,14 +42,14 @@
 }
 
 .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi span {
-  background: rgba(0, 0, 0, 0) !important;
+  background: rgba($nox-black, 0) !important;
   border-radius: 5px;
   padding: 3px 10px;
 }
 
 .theme-dark .divider-3gKybi::after,
 .theme-dark .divider-3gKybi::before {
-  border-color: $nox-error-bg;
+  border-color: rgba($nox-error, 0.4);
 }
 
 .divider-3gKybi::before {
@@ -74,9 +74,13 @@
 // END DIVIDERS
 
 .chat-3bRxxu .hasMore-3e72_v button {
-  background: rgba(0, 0, 0, 0.1) !important;
+  background: rgba($nox-black, 0.1) !important;
   border-radius: 100px;
   color: $nox-white5 !important;
+}
+
+.theme-dark .timestampCozy-2hLAPV {
+  color: $nox-white5;
 }
 
 .jumpToPresentBar-9P20AM button:first-of-type {
@@ -93,7 +97,7 @@
 .chat-3bRxxu .jumpToPresentBar-9P20AM {
   border-radius: 20px;
   bottom: 15px;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 20px rgba($nox-black, 0.1);
   right: 50px !important;
   width: auto !important;
 }
@@ -162,7 +166,7 @@
 
 .chat-3bRxxu .messagesWrapper-3lZDfY::after {
   background: $nox-white;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba($nox-black, 0.1);
   content: '';
   height: 100px;
   left: -15px;
@@ -184,7 +188,7 @@
   background-color: $nox-level2 !important;
   border: 0;
   border-radius: 3px !important;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba($nox-black, 0.1);
 }
 
 .chat-3bRxxu .wrapper-2F3Zv8 {

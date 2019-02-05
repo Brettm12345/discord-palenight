@@ -12,7 +12,7 @@
   .scroller-wrap::before {
   background: $nox-accent;
   border-radius: 2px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 15px rgba($nox-black, 0.2);
   color: $nox-light-fg;
   content: 'Accent color';
   display: inline-block;
@@ -30,7 +30,7 @@
   .scroller-wrap::after {
   background: $nox-notification-color;
   border-radius: 2px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 15px rgba($nox-black, 0.2);
   color: #000;
   content: 'Notification color';
   display: inline-block;

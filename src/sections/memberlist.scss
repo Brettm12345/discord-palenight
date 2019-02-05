@@ -17,11 +17,15 @@
 }
 
 .theme-dark .members-1998pB .member-3W1lQa:hover .content-OzHfo4 {
-  background: rgba(255, 255, 255, 0.04);
+  background: $nox-white4;
 }
 
 .theme-dark .members-1998pB .member-3W1lQa.popout-open .content-OzHfo4 {
   background: $nox-level4;
+}
+
+.theme-dark .memberOnline-1CIh-0 {
+  color: $nox-white8;
 }
 
 .members-1998pB .member-3W1lQa .content-OzHfo4 {
@@ -37,6 +41,10 @@
   overflow: visible;
 }
 
+.membersGroup-v9BXpm {
+  color: $nox-white !important;
+}
+
 .members-1998pB .membersGroup-v9BXpm {
   height: auto;
   margin-left: 10px;
@@ -49,7 +57,7 @@
 }
 
 .membersWrap-2h-GB4 .members-1998pB::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background-color: $nox-white5 !important;
   border: 0;
   border-left: 3px solid $nox-level2 !important;
   border-radius: 0 !important;
@@ -167,7 +175,7 @@
 
 .botTag-2WPJ74 {
   background: $nox-accent;
-  color: $nox-white !important;
+  color: $nox-light-fg !important;
   font-weight: 600;
 }
 

@@ -4,7 +4,7 @@
 
 .search-results-wrap .search-result .search-result-message {
   border-radius: 3px !important;
-  box-shadow: 0 0 10px 6px $nox-level4, 0 2px 10px rgba(0, 0, 0, 1) !important;
+  box-shadow: 0 0 10px 6px $nox-level4, 0 2px 10px rgba($nox-black, 1) !important;
   transition: 100ms ease !important;
 }
 
@@ -12,7 +12,7 @@
   .search-result:not(.expanded)
   .search-result-message:hover {
   border-radius: 3px !important;
-  box-shadow: 0 0 10px 6px $nox-level4, 0 2px 15px rgba(0, 0, 0, 1) !important;
+  box-shadow: 0 0 10px 6px $nox-level4, 0 2px 15px rgba($nox-black, 1) !important;
 }
 
 .theme-dark

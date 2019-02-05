@@ -71,6 +71,13 @@
   color: $nox-white4;
 }
 
+.theme-dark .tile-2OwFgW {
+  background-color: $nox-level2;
+  &:hover {
+    background-color: $nox-level4;
+  }
+}
+
 .tile-2H4MQG {
   border-radius: 5px;
   box-shadow: 0 5px 5px $nox-black4;
@@ -157,7 +164,7 @@
 
 .home-2gmu2h .premium-39U29H .learnMoreButton-1OUyxs:active {
   background: #dcdcdc !important;
-  color: rgba(0, 0, 0, 0.7) !important;
+  color: rgba($nox-black, 0.7) !important;
 }
 
 /* ITEM PAGE */
@@ -238,7 +245,7 @@
 }
 
 .filterBrowsingHeaderWrapper-3I9RkU .searchBox-3Y2Vi7 {
-  background: rgba(0, 0, 0, 0);
+  background: rgba($nox-black, 0);
   box-shadow: none;
 }
 

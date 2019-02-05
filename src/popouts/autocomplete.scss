@@ -6,7 +6,7 @@
 #autocomplete-popout {
   background: $nox-level2;
   border-radius: 4px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 20px rgba($nox-black, 0.3);
 }
 
 #autocomplete-popout header {

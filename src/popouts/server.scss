@@ -58,14 +58,14 @@
 
 .item-1GzJrl:hover .label-1Y-LW5,
 .item-1GzJrl .label-1Y-LW5 {
-  color: #a1a1a1;
+  color: $nox-white;
 }
 
 .popoutBottom-1YbShG
   .menu-Sp6bN1
   .item-1GzJrl.leave-1DRJfn:hover
   .label-1Y-LW5 {
-  color: #f15959;
+  color: $nox-error;
 }
 
 .menu-Sp6bN1 .separator-2zcjq8 {
@@ -76,7 +76,7 @@
   animation: popoutanim-inner 300ms cubic-bezier(0.4, 0, 0, 1),
     opacity 100ms ease 100ms backwards;
   background: transparent;
-  background: #303030 !important;
+  background: $nox-level1 !important;
   border-radius: 0;
   display: -ms-flexbox;
   display: flex;
@@ -124,10 +124,10 @@ body:active .popoutBottom-1YbShG:not(:active) .menu-Sp6bN1:not(:active) {
 
 .popoutBottom-1YbShG[style*='overflow: hidden; visibility: visible;'] {
   animation: popoutanim 300ms cubic-bezier(0.4, 0, 0, 1);
-  background: #303030;
+  background: $nox-level1;
   border-radius: 4px;
   box-shadow: none !important;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0 5px 15px rgba($nox-black, 0.5) !important;
   height: auto !important;
   left: 75px !important;
   margin: 0;
@@ -171,7 +171,7 @@ body:active
 }
 
 .popoutBottom-1YbShG .menu-Sp6bN1 .item-1GzJrl:hover {
-  background-color: rgba(255, 255, 255, 0.03);
+  background-color: rgba($nox-white, 0.03);
 }
 
 .popoutBottom-1YbShG .menu-Sp6bN1 .icon-2doZ3q {

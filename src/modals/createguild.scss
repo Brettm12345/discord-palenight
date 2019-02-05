@@ -10,13 +10,13 @@
 
 .animator-US5i9g .action-1lSjCi {
   background: $nox-level2;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 10px rgba($nox-black, 0.3);
   transition: 200ms ease;
 }
 
 .animator-US5i9g .action-1lSjCi:hover {
   background: $nox-level2;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 5px rgba($nox-black, 0.3);
 }
 
 .animator-US5i9g .action-1lSjCi .actionBody-1qj65C {
@@ -29,7 +29,7 @@
 }
 
 .animator-US5i9g .action-1lSjCi:active {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 5px 15px rgba($nox-black, 0.8);
   transition: 50ms ease !important;
 }
 
@@ -142,7 +142,7 @@ body .animator-US5i9g .action-1lSjCi.join-33Tr-7:active .actionButton-2PeQbJ {
 
 // .animator-US5i9g input {
 //     border: 0!important;
-//     border-bottom: 2px solid rgba(255, 255, 255, .05)!important;
+//     border-bottom: 2px solid rgba($nox-white, .05)!important;
 //     border-radius: 0;
 // }
 

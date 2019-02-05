@@ -1,11 +1,13 @@
-const gulp = require("gulp");
-const fs = require("fs");
-const path = require("path");
-const sass = require("gulp-sass");
-const rename = require("gulp-rename");
-const insert = require("gulp-insert");
-const globImporter = require("node-sass-glob-importer");
-const sassLint = require("gulp-sass-lint");
+const gulp = require('gulp');
+const fs = require('fs');
+const path = require('path');
+const sass = require('gulp-sass');
+const rename = require('gulp-rename');
+const insert = require('gulp-insert');
+const packageImporter = require('node-sass-package-importer');
+const globImporter = require('node-sass-glob-importer');
+const stylelint = require('gulp-stylelint');
+const stylelintFormatter = require('stylelint-formatter-pretty');
 
 const META = `/*//META{"name":"Nox Palenight","description":"A theme for Discord loosely based on Google's Material Design Guidelines.","author":"Lilian Tedone & Zerebos","version":"1.0.0"}*//**/
 
@@ -41,48 +43,69 @@ const getDirectories = source =>
     .readdirSync(source)
     .map(name => path.join(source, name))
     .filter(isDirectory);
-const directories = getDirectories("./src").map(d =>
-  `./${d}/*.scss`.replace("\\", "/")
+const directories = getDirectories('./src').map(d =>
+  `./${d}/*.scss`.replace('\\', '/')
 );
 
-const fileList = ["./src/index.css", "./src/*.scss", ...directories];
+const fileList = ['./src/index.css', './src/*.scss', ...directories];
 
-gulp.task("import", function() {
-  return gulp
-    .src("./src/index.scss")
-    .pipe(
-      sass({ importer: globImporter(), outputStyle: "compressed" }).on(
-        "error",
-        sass.logError
-      )
-    )
-    .pipe(rename({ basename: "import", extname: ".css" }))
-    .pipe(insert.prepend(LICENSE))
-    .pipe(gulp.dest("./release/"));
-});
-
-gulp.task("sass-lint", function() {
+gulp.task('import', () =>
   gulp
-    .src(["./src/**/*.scss", "./src/*.scss"])
-    .pipe(sassLint())
-    .pipe(sassLint.format())
-    .pipe(sassLint.failOnError());
-});
-
-gulp.task("sass", function() {
-  return gulp
-    .src("./src/index.scss")
+    .src('./src/index.scss')
     .pipe(
-      sass({ importer: globImporter(), outputStyle: "compressed" }).on(
-        "error",
-        sass.logError
-      )
+      sass({
+        importer: [packageImporter(), globImporter()],
+        outputStyle: 'compressed'
+      }).on('error', sass.logError)
     )
-    .pipe(rename({ basename: "Nox.Palenight.theme", extname: ".css" }))
-    .pipe(insert.prepend(META + LICENSE))
-    .pipe(gulp.dest("/home/brett/.config/BetterDiscord/themes/"));
-});
+    .pipe(rename({ basename: 'import', extname: '.css' }))
+    .pipe(insert.prepend(LICENSE))
+    .pipe(gulp.dest('./release/'))
+);
 
-gulp.task("sass-watch", function() {
-  return gulp.watch(fileList).on("all", gulp.series("sass"));
-});
+gulp.task('lint', () =>
+  gulp
+    .src(['./src/**/*.scss', './src/*.scss'])
+    .pipe(
+      stylelint({
+        failAfterError: false,
+        reporters: [{ formatter: stylelintFormatter, console: true }]
+      })
+    )
+    .pipe(gulp.dest('src'))
+);
+
+gulp.task('lint:fix', () =>
+  gulp
+    .src(['./src/**/*.scss', './src/*.scss'])
+    .pipe(
+      stylelint({
+        failAfterError: false,
+        reporters: [{ formatter: stylelintFormatter, console: true }],
+        fix: true
+      })
+    )
+    .pipe(gulp.dest('src'))
+);
+
+gulp.task('lint:watch', () =>
+  gulp.watch(fileList).on('all', gulp.series('lint'))
+);
+
+gulp.task('sass', () =>
+  gulp
+    .src('./src/index.scss')
+    .pipe(
+      sass({
+        importer: [packageImporter(), globImporter()],
+        outputStyle: 'compressed'
+      }).on('error', sass.logError)
+    )
+    .pipe(rename({ basename: 'Nox.Palenight.theme', extname: '.css' }))
+    .pipe(insert.prepend(META + LICENSE))
+    .pipe(gulp.dest('/home/brett/.config/BetterDiscord/themes/'))
+);
+
+gulp.task('sass:watch', () =>
+  gulp.watch(fileList).on('all', gulp.series('sass'))
+);

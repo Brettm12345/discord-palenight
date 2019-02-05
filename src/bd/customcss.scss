@@ -20,8 +20,8 @@
 #bd-customcss-detach-controls-buttons button:last-of-type::after {
   background: $nox-accent;
   border-radius: 50%;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3), 40px 0 $nox-notification-color,
-    40px 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 10px rgba($nox-black, 0.3), 40px 0 $nox-notification-color,
+    40px 2px 10px rgba($nox-black, 0.3);
   content: '';
   display: block;
   height: 30px;
@@ -54,10 +54,10 @@
 .contentRegion-3nDuYy #bd-customcss-attach-controls::before {
   background: $nox-accent;
   border-radius: 50%;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3),
+  box-shadow: 0 2px 15px rgba($nox-black, 0.3),
     65px -12px 0 -10px $nox-important-notification,
-    65px -10px 15px -8px rgba(0, 0, 0, 0.2), 50px 0 0 $nox-notification-color,
-    50px 2px 15px rgba(0, 0, 0, 0.3);
+    65px -10px 15px -8px rgba($nox-black, 0.2), 50px 0 0 $nox-notification-color,
+    50px 2px 15px rgba($nox-black, 0.3);
   color: $nox-white;
   content: '';
   display: block;
@@ -98,7 +98,7 @@
 .contentRegion-3nDuYy #bd-customcss-attach-controls,
 #bd-customcss-detach-container #bd-customcss-attach-controls {
   background: $nox-level4 !important;
-  box-shadow: 0 1px rgba(255, 255, 255, 0.05) inset;
+  box-shadow: 0 1px rgba($nox-white, 0.05) inset;
   margin-bottom: 0 !important;
 }
 

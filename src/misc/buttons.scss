@@ -62,12 +62,12 @@
 }
 
 .buttonBrandGhostDefault-2JCnWW {
-  background: rgba(255, 255, 255, 0.05) !important;
+  background: rgba($nox-white, 0.05) !important;
   color: $nox-accent !important;
 }
 
 .lookGhost-2Fn_0-.colorBrand-3pXr91 {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba($nox-white, 0.05);
   color: $nox-accent;
   margin: 3px;
 }
@@ -93,7 +93,7 @@
 #app-mount .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV {
   // margin-bottom: 5px;
   border-radius: 3px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0);
+  box-shadow: 0 6px 10px rgba($nox-black, 0);
   transition: all 200ms ease;
 }
 
@@ -109,7 +109,7 @@
 ._2t3of887:hover,
 #app-mount .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
   background: $nox-accent;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 15px rgba($nox-black, 0.2);
   transform: translate(0, -1px);
   transition: all 100ms ease, transform 150ms cubic-bezier(0, 0, 0, 1);
 }
@@ -131,8 +131,8 @@
 #app-mount .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:active {
   background: rgb(220, 220, 220);
   border-radius: 4px;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
-  color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 0 rgba($nox-black, 0.5);
+  color: rgba($nox-black, 0.7);
   -ms-transform: translate(0, 2px);
   transform: translate(0, 2px);
   transition: all 50ms ease;
@@ -189,7 +189,7 @@
 ._2t3of887._1VCgwLw2:active {
   background: rgb(220, 220, 220);
   border-color: transparent;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba($nox-black, 0.7);
 }
 
 .lookLink-9FtZy-.colorBrand-3pXr91 {
@@ -341,7 +341,7 @@
 .lookOutlined-3sRXeN.colorRed-1TFJan:active {
   background: rgb(220, 220, 220);
   border-color: transparent;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba($nox-black, 0.7);
 }
 
 span + button {

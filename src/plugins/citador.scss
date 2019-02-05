@@ -5,7 +5,7 @@ body .quote-close {
   background-repeat: no-repeat !important;
   background-size: 60% !important;
   border-radius: 50%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba($nox-black, 0.1);
   height: 30px;
   position: absolute;
   right: 0;
@@ -68,7 +68,7 @@ body .citar-btn {
 .replyer:hover,
 .quoter:hover,
 body .citar-btn:hover {
-  background-color: #404040 !important;
+  background-color: $nox-level0 !important;
   opacity: 1 !important;
   transition: 0ms !important;
 }

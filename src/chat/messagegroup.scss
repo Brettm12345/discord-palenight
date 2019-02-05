@@ -3,7 +3,7 @@
 // TODO: background-image: url("/assets/f78426a064bc9dd24847519259bc42af.png"); on empty messages/system messages
 
 .container-1YxwTf {
-  background: rgba(0, 0, 0, 0.1);
+  background: $nox-level2;
   margin: 20px 10px 20px 80px;
   overflow: visible;
   padding: 0 7px 10px 10px;
@@ -15,7 +15,7 @@
 }
 
 .container-1YxwTf::before {
-  border-color: transparent rgba(0, 0, 0, 0.1) transparent transparent;
+  border-color: transparent $nox-level2 transparent transparent;
   border-style: solid;
   border-width: 0 10px 10px 0;
   content: '';
@@ -74,8 +74,8 @@
 .container-1YxwTf .isMentioned-N-h9aa {
   background: none;
   .markup-2BOw-j {
-    background: $nox-warning-bg;
-    border-left: 4px solid $nox-warning;
+    background: rgba($nox-warning, 0.1);
+    border-left: 4px solid rgba($nox-warning, 0.1);
     border-radius: 2px 3px 3px 2px;
     margin-left: -4px;
     padding-left: 3px;
@@ -254,7 +254,7 @@
 
 .container-1YxwTf .message-1PNnaP textarea {
   border-radius: 6px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba($nox-white, 0.6);
   font-size: 0.9375rem;
   line-height: 1.1em;
   margin-bottom: 0;
@@ -265,11 +265,11 @@
 }
 
 .container-1YxwTf .message-1PNnaP textarea:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba($nox-white, 0.8);
 }
 
 .container-1YxwTf .message-1PNnaP textarea:focus {
-  color: rgba(255, 255, 255, 1);
+  color: rgba($nox-white, 1);
 }
 
 .container-1YxwTf .channelTextArea-1LDbYG .emojiButton-2wRZts {
@@ -292,15 +292,15 @@
 // Blocked Messages
 .messageGroupBlocked-3wrQQX {
   background: $nox-level1 !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid rgba($nox-black, 0.1) !important;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba($nox-black, 0.1);
   margin: 20px 6px 20px 19px;
   transition: 300ms ease;
 }
 
 .messageGroupBlocked-3wrQQX:hover {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 2px 5px rgba($nox-black, 0.2) !important;
 }
 
 .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlockedBtn-1PBBh- {
@@ -327,7 +327,7 @@
 }
 
 .container-1YxwTf.isLocalBot-38G0P0 {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba($nox-black, 0.2);
   border-radius: 3px !important;
 }
 

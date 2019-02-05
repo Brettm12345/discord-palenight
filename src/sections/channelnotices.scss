@@ -8,13 +8,13 @@
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
   background: $nox-level2;
   border-radius: 3px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0);
+  box-shadow: 0 6px 10px rgba($nox-black, 0);
   transition: all 200ms ease;
 }
 
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u:hover {
   background: $nox-accent;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 15px rgba($nox-black, 0.2);
   filter: brightness(93%) contrast(110%) !important;
   transform: translate(0, -1px);
   transition: all 100ms ease, transform 150ms cubic-bezier(0, 0, 0, 1);
@@ -26,8 +26,8 @@
   .btn-11C5_u:active {
   background: rgb(220, 220, 220);
   border-radius: 4px;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
-  color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 0 rgba($nox-black, 0.5);
+  color: rgba($nox-black, 0.7);
   -ms-transform: translate(0, 2px);
   transform: translate(0, 2px);
   transition: all 50ms ease;

@@ -1,5 +1,5 @@
 .contentColumn-2hrIYH .notDetected-33MY4s {
-  background: #404040;
+  background: $nox-level0;
 }
 
 .contentColumn-2hrIYH .gameNameInput-385LoS:focus,
@@ -21,12 +21,12 @@
 .contentColumn-2hrIYH .gameNameInput-385LoS:hover {
   border: 0;
   border-radius: 0;
-  box-shadow: 0 2px 0 rgba(255, 255, 255, 0.05), -240px 2px 0 $nox-accent;
+  box-shadow: 0 2px 0 rgba($nox-white, 0.05), -240px 2px 0 $nox-accent;
 }
 
 .contentColumn-2hrIYH .gameNameInput-385LoS:focus {
   border: 0;
-  box-shadow: 0 2px 0 rgba(255, 255, 255, 0.05), 0 2px 0 $nox-accent;
+  box-shadow: 0 2px 0 rgba($nox-white, 0.05), 0 2px 0 $nox-accent;
   transition: 200ms cubic-bezier(0, 0, 0, 1);
 }
 
@@ -37,7 +37,7 @@
 }
 
 .contentColumn-2hrIYH .game-1ipmAa {
-  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.04);
+  box-shadow: 0 1px 0 0 rgba($nox-white, 0.04);
 }
 
 .contentColumn-2hrIYH .notDetected-33MY4s .lastPlayed-3bQ7Bo {

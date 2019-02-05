@@ -4,8 +4,8 @@
   background: $nox-level2;
   border: 0;
   border-radius: 3px !important;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
-    0 0 1px 1px rgba(255, 255, 255, 0.02) inset !important;
+  box-shadow: 0 10px 20px rgba($nox-black, 0.2),
+    0 0 1px 1px rgba($nox-white, 0.02) inset !important;
 }
 
 .container-3ayLPN .queryContainer-RKFJW- {

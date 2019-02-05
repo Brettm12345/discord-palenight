@@ -33,12 +33,12 @@
 
 .modal-1UGdnR .message-2qRu38 .comment,
 .uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba($nox-white, 0.05);
 }
 
 .modal-1UGdnR .message-2qRu38 .comment::before,
 .uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf::before {
-  border-color: transparent rgba(255, 255, 255, 0.05) transparent transparent;
+  border-color: transparent rgba($nox-white, 0.05) transparent transparent;
   border-style: solid;
   border-width: 0 10px 10px 0;
   content: '';
@@ -60,7 +60,7 @@
 
 .buttonPrimaryLinkDefault-1PQflF:hover,
 .uploadModal-2ifh8j .footer-3mqk7D .button:hover {
-  background: #404040;
+  background: $nox-level0;
   color: $nox-white;
   text-decoration: none !important;
   transform: translate(0, -1px);
@@ -165,7 +165,7 @@
 }
 
 .uploadModal-2ifh8j .comment-4IWttf {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba($nox-black, 0.1);
   border-radius: 0 3px 3px !important;
   padding: 0 7px 1px 10px;
 }
@@ -181,7 +181,7 @@
   .channelTextArea-1LDbYG
   .inner-zqa7da
   textarea {
-  background: rgba(255, 255, 255, 0.1) !important;
+  background: rgba($nox-white, 0.1) !important;
   border-radius: 5px !important;
 }
 

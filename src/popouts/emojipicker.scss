@@ -8,7 +8,7 @@
 
 .emote-container:hover,
 .emojiPicker-3m1S-j .scroller-2FKFPG .emojiItem-109bjA.selected-39BZ4S {
-  background: rgba(0, 0, 0, 0);
+  background: rgba($nox-black, 0);
 }
 
 .emojiPicker-3m1S-j .scroller-2FKFPG .emojiItem-109bjA {
@@ -367,8 +367,8 @@
 }
 
 .diversitySelector-tmmMv0 .popout-2nUePc {
-  background: #101010;
-  border-color: #101010;
+  background: $nox-level0;
+  border-color: $nox-level0;
 }
 
 .emojiPicker-3m1S-j .no-search-results .sad-discord {
@@ -391,7 +391,7 @@
 }
 
 .diversitySelector-tmmMv0 .popout-2nUePc .item-16cXuq:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba($nox-white, 0.05);
 }
 
 body:active .popoutTopRight-3BzFIE:not(:active) {

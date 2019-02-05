@@ -17,15 +17,14 @@
 }
 
 form .channelTextArea-rNsIhG {
-  background: $nox-level2;
+  background: $nox-level3;
   border: 0;
   margin: 0;
   padding: 0;
 }
 
 .textArea-2Spzkt {
-  background: $nox-level2 !important;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba($nox-white, 0.7);
   font-size: 0.875rem;
   letter-spacing: normal;
   line-height: 1.125rem;
@@ -43,13 +42,13 @@ form .channelTextArea-rNsIhG {
 }
 
 .inner-zqa7da:hover .textArea-2Spzkt {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba($nox-white, 0.8);
   opacity: 1 !important;
   transition: all 200ms ease;
 }
 
 .inner-zqa7da .textArea-2Spzkt:focus {
-  color: rgba(255, 255, 255, 1);
+  color: rgba($nox-white, 1);
   opacity: 1 !important;
   transition: all 200ms ease;
 }
@@ -110,6 +109,7 @@ form .channelTextArea-rNsIhG {
 }
 
 .theme-dark .inner-zqa7da {
+  background-color: $nox-level4;
   transition: all 200ms ease;
 }
 
@@ -149,7 +149,7 @@ form .channelTextArea-rNsIhG {
   background-color: $nox-level2 !important;
   border-bottom: 0;
   border-radius: 0;
-  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -5px 10px rgba($nox-black, 0.1);
   margin-bottom: 0;
   margin-right: 20px;
   margin-right: 0;
@@ -161,7 +161,7 @@ form .channelTextArea-rNsIhG {
 }
 
 .theme-dark .selectorSelected-1_M1WV {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background-color: rgba($nox-white, 0.05) !important;
   border-radius: 2px;
 }
 
@@ -185,7 +185,7 @@ form .channelTextArea-rNsIhG {
   background: $nox-level1 !important;
   border-radius: 5px 5px 0 0;
   bottom: 100%;
-  box-shadow: 0 -3px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -3px 20px rgba($nox-black, 0.1);
   color: $nox-white;
   margin-left: 15px;
   opacity: 0.95;
@@ -217,15 +217,19 @@ form .channelTextArea-rNsIhG {
 
 .theme-dark .chat-3bRxxu form {
   border: 0;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+  box-shadow: rgba($nox-black, 0.1) 0 0 20px;
   margin: 0;
 }
 
 .listeningAlong-2UPsxf {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 0.1));
+  background: linear-gradient(
+    180deg,
+    rgba($nox-black, 0) 90%,
+    rgba($nox-black, 0.1)
+  );
   background-color: $nox-level4;
   border: 0;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 20px rgba($nox-black, 0.4);
   transition: all 500ms ease;
   z-index: 4;
 }

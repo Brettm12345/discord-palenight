@@ -1,6 +1,6 @@
 #bfredux::before {
-  background: #363636 !important;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  background: $nox-level1 !important;
+  box-shadow: 0 2px 10px rgba($nox-black, 0.2);
 }
 
 #bfredux {
@@ -25,5 +25,5 @@
 }
 
 #bfredux div:not(.bf-arrow):active {
-  background: rgba(0, 0, 0, 0.2) !important;
+  background: rgba($nox-black, 0.2) !important;
 }

@@ -3,7 +3,7 @@
   background: $nox-level1 !important;
   border: 0;
   border-radius: 2px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px rgba($nox-black, 0.2);
   margin-bottom: 10px;
   padding-bottom: 8px;
 }
@@ -22,7 +22,7 @@
 
 .bd-plugin-container .bd-plugin-info .bd-plugin-description,
 .bda-slist .bda-description {
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba($nox-white, 0.05);
   color: $nox-white7;
 }
 
@@ -30,16 +30,12 @@
   margin-top: 5px;
 }
 
-.bda-slist {
-  .checkbox::before {
-    color: $nox-white5;
-  }
+.bda-slist .checkbox::before {
+  color: $nox-white5;
+}
 
-  .bda-footer {
-    a #bd-settings-sidebar a {
-      color: $nox-accent !important;
-    }
-  }
+.bda-footer a #bd-settings-sidebar a {
+  color: $nox-accent !important;
 }
 
 .avatar-uploader .avatar-uploader-inner {
@@ -85,7 +81,7 @@ div.control-group .shortcut-recorder input:focus {
 }
 
 #bd-settings-sidebar::after {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba($nox-white, 0.04);
   content: '';
   display: block;
   height: 2px;
@@ -105,11 +101,11 @@ div.control-group .shortcut-recorder input:focus {
 }
 
 #bd-settingspane-container .ui-switch-item h3 {
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba($nox-white, 0.95);
 }
 
 #bd-settingspane-container .ui-switch-item .style-description {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.04);
+  border-bottom: 2px solid rgba($nox-white, 0.04);
   color: $nox-white3;
   line-height: 15px;
   margin-top: 0;
@@ -117,7 +113,7 @@ div.control-group .shortcut-recorder input:focus {
 }
 
 #bd-settings-sidebar .ui-tab-bar-header {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba($nox-white, 0.25);
 }
 
 #bd-settingspane-container
@@ -237,7 +233,7 @@ div.control-group .shortcut-recorder input:focus {
   -webkit-appearance: none;
   background: $nox-accent;
   border-radius: 50%;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 10px rgba($nox-black, 0.3);
   cursor: pointer;
   height: 20px;
   margin-top: -8px;
@@ -246,13 +242,13 @@ div.control-group .shortcut-recorder input:focus {
 
 input[type='range']::-webkit-slider-runnable-track {
   background: $nox-accent;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px rgba($nox-black, 0.2);
   height: 3px;
   width: 100%;
 }
 
 .standardSidebarView-3F1I7i .bda-slist .bda-description {
-  border-color: rgba(255, 255, 255, 0.03);
+  border-color: rgba($nox-white, 0.03);
 }
 
 #bd-settingspane-container {
@@ -262,7 +258,7 @@ input[type='range']::-webkit-slider-runnable-track {
 #bd-settingspane-container .bda-slist::after {
   background: $nox-accent;
   border-radius: 2px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px rgba($nox-black, 0.2);
   color: $nox-white;
   display: block;
   font-weight: 600;
@@ -303,7 +299,7 @@ input[type='range']::-webkit-slider-runnable-track {
 #bd-settingspane-container .bda-slist::before {
   background: $nox-accent;
   border-radius: 2px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px rgba($nox-black, 0.2);
   color: $nox-light-fg;
   display: block;
   font-weight: 600;

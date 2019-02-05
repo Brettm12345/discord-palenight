@@ -73,14 +73,14 @@
 .form-actions .btn-default,
 .form.deprecated .btn-primary {
   border-radius: 3px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0);
+  box-shadow: 0 6px 10px rgba($nox-black, 0);
   margin-bottom: 5px;
   transition: all 200ms ease;
 }
 
 .form-actions .btn-default:hover,
 .form.deprecated .btn-primary:hover {
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 15px rgba($nox-black, 0.2);
   -ms-transform: translate(0, -1px);
   transform: translate(0, -1px);
   transition: all 100ms ease, transform 150ms cubic-bezier(0, 0, 0, 1);
@@ -90,8 +90,8 @@
 .form.deprecated .btn-primary:active {
   background: rgb(220, 220, 220) !important;
   border-radius: 4px;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
-  color: rgba(0, 0, 0, 0.7) !important;
+  box-shadow: 0 0 0 rgba($nox-black, 0.5);
+  color: rgba($nox-black, 0.7) !important;
   -ms-transform: translate(0, 2px);
   transform: translate(0, 2px);
   transition: all 50ms ease;
@@ -105,7 +105,7 @@
   background: transparent !important;
   background: transparent !important;
   border: 0;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.05) !important;
+  border-bottom: 2px solid rgba($nox-white, 0.05) !important;
   border-radius: 0 !important;
   color: $nox-white !important;
   margin-bottom: 0 !important;

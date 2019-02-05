@@ -30,8 +30,7 @@
 }
 
 .replyer:hover {
-  // TODO
-  background-color: #404040 !important;
+  background-color: $nox-level0 !important;
   opacity: 1 !important;
   transition: 0ms !important;
 }
@@ -53,6 +52,5 @@
 }
 
 .replyer:active {
-  // TODO
-  background: #101010 !important;
+  background: $nox-level4 !important;
 }

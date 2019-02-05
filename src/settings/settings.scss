@@ -42,10 +42,14 @@
 }
 
 .theme-dark .standardSidebarView-3F1I7i .esc-text {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba($nox-white, 0.25);
 }
 
 /* End Close Button */
+.theme-dark .itemDefault-3Jdr52,
+.theme-dark .itemHover-EnbcjT {
+  color: $nox-white;
+}
 
 .theme-dark .standardSidebarView-3F1I7i {
   background: transparent !important;
@@ -71,14 +75,14 @@
 .standardSidebarView-3F1I7i #editor-detached button,
 .standardSidebarView-3F1I7i .bda-slist li button {
   border-radius: 3px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0);
+  box-shadow: 0 6px 10px rgba($nox-black, 0);
   margin-bottom: 5px;
   transition: all 200ms ease;
 }
 
 .standardSidebarView-3F1I7i #editor-detached button:hover,
 .standardSidebarView-3F1I7i .bda-slist li button:hover {
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 15px rgba($nox-black, 0.2);
   -ms-transform: translate(0, -1px);
   transform: translate(0, -1px);
   transition: all 100ms ease, transform 150ms cubic-bezier(0, 0, 0, 1);
@@ -88,8 +92,8 @@
 .standardSidebarView-3F1I7i .bda-slist li button:active {
   background: rgb(220, 220, 220) !important;
   border-radius: 4px;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
-  color: rgba(0, 0, 0, 0.7) !important;
+  box-shadow: 0 0 0 rgba($nox-black, 0.5);
+  color: rgba($nox-black, 0.7) !important;
   -ms-transform: translate(0, 2px);
   transform: translate(0, 2px);
   transition: all 50ms ease;
@@ -101,12 +105,12 @@
 }
 
 .theme-dark .separator-gCa7yv {
-  background: rgba(255, 255, 255, 0.04) !important;
+  background: rgba($nox-white, 0.04) !important;
   height: 2px !important;
 }
 
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background-color: rgba($nox-white, 0.05) !important;
   color: $nox-white;
 }
 
@@ -132,8 +136,8 @@
 }
 
 .theme-dark .elevationBorderHigh-2WYJ09 {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3),
-    0 1px 0 rgba(255, 255, 255, 0.02) inset;
+  box-shadow: 0 5px 10px rgba($nox-black, 0.3),
+    0 1px 0 rgba($nox-white, 0.02) inset;
 }
 
 .theme-dark .elevationHigh-1PneE4 {
