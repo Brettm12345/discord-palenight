@@ -135,10 +135,10 @@ $Classes: (
     "ContextMenu": (
         "darkBackgroundColor": ".#18191c",
         "darkBoxShadow": ".0",
-        "darkItemColor": ".rgba(#ffffff,",
-        "darkHoverItemColor": ".#ffffff",
+        "darkItemColor": ".rgba(var(--nox-light-fg),",
+        "darkHoverItemColor": ".var(--nox-light-fg)",
         "darkHoverItemBackgroundColor": ".#040405",
-        "lightBackgroundColor": ".#ffffff",
+        "lightBackgroundColor": ".var(--nox-light-fg)",
         "lightBoxShadow": ".0",
         "lightItemColor": ".#9099a4",
         "lightHoverItemColor": ".#747f8d",

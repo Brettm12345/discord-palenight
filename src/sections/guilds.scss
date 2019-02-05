@@ -496,7 +496,8 @@ a:active .friendsIcon-2I7J-e {
     background-color: var(--nox-important-notification);
     padding: 6px;
     border-radius: 50%;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .6);
+    // box-shadow: 0 2px 8px rgba(0, 0, 0, .6);
+    box-shadow: none;
 }
 
 // .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV:not(:empty)::after {

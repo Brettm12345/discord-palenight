@@ -7,9 +7,9 @@ A customization of nox material discord theme
 These variables allow you to customize the theme to your preferences.
 
 - `--nox-accent` - The accent color you want for the theme. Default: `#3F85FF`
-- `--nox-notification-color` - Color for the unread indicator in guilds list. Default: `#FFFFFF`
+- `--nox-notification-color` - Color for the unread indicator in guilds list. Default: `#bfc7d5`
 - `--nox-notification-width` - Width of the circle around guilds. Default: `3px`
-- `--nox-important-notification` - Background color for mention/ping badges. Default: `#F04747`
+- `--nox-important-notification` - Background color for mention/ping badges. Default: `#ff5370`
 - `--nox-channels-scrollbar` - Set this to `none` to remove the scrollbar in the channel list.
 - `--nox-settings-scrollbar` - Set this to `none` to remove the scrollbar in settings.
 - `--nox-settings-time` - Length of the animation to open settings. Default: `500ms`

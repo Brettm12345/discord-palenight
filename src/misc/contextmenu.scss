@@ -83,7 +83,7 @@
 }
 
 .contextMenu-HLZMGh .item-1Yvehc.danger-2dXSTE:hover {
-    color: #F04747 !important;
+    color: var(--nox-important-notification) !important;
 }
 
 .contextMenu-HLZMGh .item-1Yvehc:active .checkbox-3kaeSU span {
@@ -96,7 +96,7 @@
 }
 
 .contextMenu-HLZMGh .item-1Yvehc.danger-2dXSTE:active {
-    background: #F04747 !important;
+    background: var(--nox-important-notification) !important;
     color: var(--nox-white) !important;
 }
 

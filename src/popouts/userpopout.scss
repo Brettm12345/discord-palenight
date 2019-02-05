@@ -70,7 +70,7 @@
 .userPopout-3XzG_A .quickMessage-2XpSaN {
     border: 0;
     color: var(--nox-white);
-    background:#373737;
+    background:var(--nox-level0);
     opacity: 1 !important;
     transition:300ms ease;
     border-radius: 0;
@@ -79,7 +79,7 @@
 }
 .userPopout-3XzG_A .quickMessage-2XpSaN:hover,
 .userPopout-3XzG_A .quickMessage-2XpSaN:focus {
-    background:#3A3A3A;
+    background:var(--nox-level0);
     border: 0;
     color: var(--nox-white);
     transition:300ms cubic-bezier(0,0,0,1);
@@ -220,7 +220,7 @@
   }
   
   .quick-message:focus {
-      background:#3A3A3A;
+      background:var(--nox-level0);
       border: 0;
       color: var(--nox-white);
       transition:300ms cubic-bezier(0,0,0,1);

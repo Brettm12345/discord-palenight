@@ -175,7 +175,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
   animation-delay: 100ms;
 }
 .alt-3btY0e .item-1GzJrl:nth-of-type(4) .status-oxiHuE{
-    background-color: #F04747;
+    background-color: var(--nox-important-notification);
     background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iLTk0NyA1MjkgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgLTk0NyA1MjkgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojRkZGRkZGO308L3N0eWxlPjxyZWN0IHg9Ii05NDAuNCIgeT0iNTQwLjEiIGNsYXNzPSJzdDAiIHdpZHRoPSIxMC45IiBoZWlnaHQ9IjEuOCIvPjwvc3ZnPg==);
     background-size: 70%;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
   left:50%;
   top:-5px;
   opacity: 0;
-  color:#ffffff;
+  color:var(--nox-light-fg);
   transition: 200ms cubic-bezier(.4,0,0,1);
   transform: translate(-50%,calc(-100% + 10px));
   white-space: nowrap;

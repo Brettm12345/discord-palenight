@@ -79,8 +79,8 @@
     animation: checkbx 500ms ease;
   }
   .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g .checkbox-1ix_J3.checked-3_4uQ9{
-    border-color:#ffffff !important;
-    background:#ffffff;
+    border-color:var(--nox-light-fg) !important;
+    background:var(--nox-light-fg);
     transition:all 200ms cubic-bezier(.6,0,0,.7);
     animation: checkbx2 500ms ease;
   }
@@ -138,7 +138,7 @@
     background-color:var(--nox-accent) !important;
 }
 .checkbox-1ix_J3 polyline[stroke="#43b581"]{
-    stroke:#ffffff !important;
+    stroke:var(--nox-light-fg) !important;
   }
 .checkbox-1ix_J3 polyline[stroke="#7289da"]{
   stroke:var(--nox-accent) !important;

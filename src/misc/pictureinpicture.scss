@@ -39,7 +39,7 @@
   }
   .pictureInPictureWindow-1B5qSe .overlayRight-3LLinM::after{
       content:"";
-      background:#ffffff;
+      background:var(--nox-light-fg);
       border-radius:50%;
       display:block;
       width:100%;

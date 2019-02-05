@@ -31,7 +31,7 @@ body .select-2TCrqx .Select-control {
 
 .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label,
 .has-value.Select--single>.Select-control .Select-value .Select-value-label{
-  color:#ffffff;
+  color:var(--nox-light-fg);
 }
 
 // .Select .Select-control div {
@@ -75,7 +75,7 @@ body .form .Select-control .Select-placeholder,
 body .select-2TCrqx .Select-control .Select-value>.Select-value-label,
 body .form .Select-control .Select-value>.Select-value-label,
 .theme-dark .ui-select>.Select .Select-control .Select-value>.Select-value-label {
-  color:#ffffff;
+  color:var(--nox-light-fg);
   font-weight:500;
   font-size:15px;
 }
