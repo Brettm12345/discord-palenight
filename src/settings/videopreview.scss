@@ -1,12 +1,13 @@
 .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC img {
-    filter: grayscale(100%)brightness(110%);
+  filter: grayscale(100%) brightness(110%);
 }
 
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
-    background: var(--nox-level1);
-    border: none;
-    box-shadow: 0 5px 10px rgba(0,0,0,.2), 0 1px 0 rgba(255,255,255,.03) inset;
-    border-radius: 3px;
+  background: $nox-level1;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.03) inset;
 }
 
 // .notches-1sAcEM,
@@ -22,9 +23,9 @@
 // }
 
 .container-3PXSwK .progress-1IcQ3A {
-    background: var(--nox-level1);
+  background: $nox-level1;
 }
 
 .container-3PXSwK .notches-1sAcEM {
-    background: none;
+  background: none;
 }

@@ -1,28 +1,31 @@
+@import '../../node_modules/sass-mediaqueries/*';
+
 .content-3dzVd8 .attachment-33OFj0 {
-  background: var(--nox-level2);
-  border: none;
+  background: $nox-level4;
+  border: 0;
 }
 
 .container-1YxwTf .applicationTile-1Goy1W {
-  background: var(--nox-level2);
+  background: $nox-level4;
   border-radius: 3px !important;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .container-1YxwTf .applicationTile-1Goy1W:hover {
-  background: var(--nox-level4);
+  background: $nox-level4;
 }
 
 .containerCompact-3bB5aN {
   .attachment-33OFj0 {
-      @include respond-below(xs) {
-          width: 30vw;
-      }
-      min-width: max-content;
-      margin: 35px 8ch;
-      width: 15vw;
+    margin: 35px 8ch;
+    min-width: max-content;
+    width: 15vw;
+    @include mq($max-width: 600px) {
+      width: 30vw;
+    }
   }
-  .embedSpotify-tvxDCr.da-embedSpotify.embedWrapper-3AbfJJ.da-embedWrapper {
+
+  .embedSpotify-tvxDCr .da-embedSpotify .embedWrapper-3AbfJJ .da-embedWrapper {
     margin: 30px 0 0 8ch;
   }
 }

@@ -4,7 +4,7 @@
 
 // .slider .slider-handle {
 //     border: 0px;
-//     background: var(--nox-accent);
+//     background: $nox-accent;
 //     -ms-transform: scale(0.6);
 //     transform: scale(0.6);
 //     border-radius: 50%;
@@ -17,7 +17,7 @@
 //     content: "";
 //     width: 50px;
 //     height: 50px;
-//     background: var(--nox-accent);
+//     background: $nox-accent;
 //     display: block;
 //     opacity: 0;
 //     border-radius: 50%;
@@ -40,14 +40,12 @@
 //     -ms-transform: scale(1.2);
 //     transform: scale(1.2);
 //     z-index: 100000;
-//     background: var(--nox-accent);
-//     color: var(--nox-white);
+//     background: $nox-accent;
+//     color: $nox-white;
 //     border-radius: 100px;
-//     border: none;
+//     border: 0;
 //     transition: all 100ms ease;
 // }
-
-
 
 // .slider-handle span::before,
 // .slider-handle span::after {
@@ -72,44 +70,48 @@
 //     margin-left: -13px;
 // }
 
-
-
-
-
-.barFill-23-gu-{
-    background:var(--nox-accent);
+.barFill-23-gu- {
+  background: $nox-accent;
 }
-.theme-dark .bar-2Qqk5Z{
-    background:var(--nox-white2);
+
+.theme-dark .bar-2Qqk5Z {
+  background: $nox-white2;
 }
+
 .slider-1PF9SW .grabber-3mFHz2,
-.ui-slider .slider-grabber{
-    height:20px;
-    width:20px;
-    border-radius:50%;
-    margin-left:-10px;
-    margin-top:-10px;
-    background:var(--nox-accent);
-    border:none;
-    cursor:pointer;
+.ui-slider .slider-grabber {
+  background: $nox-accent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 20px;
+  margin-left: -10px;
+  margin-top: -10px;
+  width: 20px;
 }
-.userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o.manual-36Evg9 .microphone-2rtdHw,
+
+.userSettingsVoice-iwdUCU
+  .inputSensitivityToggle-2LKb8o.manual-36Evg9
+  .microphone-2rtdHw,
 .slider-1PF9SW .bar-2Qqk5Z,
-.ui-slider .slider-bar{
-    height:5px;
-    top:18px;
+.ui-slider .slider-bar {
+  height: 5px;
+  top: 18px;
 }
+
 .track-11EASc,
-.slider-handle-track{
-    margin-left:0;
-    margin-right:0;
+.slider-handle-track {
+  margin-left: 0;
+  margin-right: 0;
 }
+
 .slider-1PF9SW .bubble-3we2di,
-.ui-slider .slider-grabber .bubble{
-    left:-16px;
-    background:var(--nox-level0);
+.ui-slider .slider-grabber .bubble {
+  background: $nox-level0;
+  left: -16px;
 }
+
 .slider-1PF9SW .bubble-3we2di::before,
-.theme-dark .ui-slider .slider-grabber .bubble::before{
-    display:none;
+.theme-dark .ui-slider .slider-grabber .bubble::before {
+  display: none;
 }

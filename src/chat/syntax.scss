@@ -1,17 +1,17 @@
 /* Syntax Highlighting */
 .hljs {
+  background: $nox-level0 !important;
   display: block;
-  padding: 0.5em !important;
   overflow-x: auto;
-  background: var(--message-color) !important;
+  padding: 0.5em !important;
 }
 
 .hljs ol li::before {
-  color: var(--nox-level0) !important;
+  color: $nox-level0 !important;
 }
 
 .hljs-comment {
-  color: var(--comment) !important;
+  color: $comment !important;
 }
 
 .hljs-built_in,
@@ -20,22 +20,22 @@
 .hljs-selector-id,
 .hljs-section,
 .hljs-link {
-  color: var(--blue) !important;
+  color: $blue !important;
 }
 
 .hljs-keyword {
-  color: var(--magenta) !important;
+  color: $magenta !important;
 }
 
 .hljs,
 .hljs-subst {
-  color: var(--nox-light-fg) !important;
+  color: $nox-light-fg !important;
 }
 
 .hljs-attribute,
 .hljs-string,
 .hljs-title {
-  color: var(--green) !important;
+  color: $green !important;
 }
 
 .hljs-meta,
@@ -48,12 +48,12 @@
 .hljs-variable,
 .hljs-template-tag,
 .hljs-template-variable {
-  color: var(--yellow) !important;
+  color: $yellow !important;
 }
 
 .hljs-quote,
 .hljs-deletion {
-  color: var(--yellow) !important;
+  color: $yellow !important;
 }
 
 .hljs-keyword,
@@ -71,7 +71,7 @@
 .hljs-literal,
 .hljs-number,
 .hljs-selector-pseudo {
-  color: var(--orange) !important;
+  color: $orange !important;
 }
 
 .hljs-emphasis {

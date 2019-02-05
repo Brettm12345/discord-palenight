@@ -1,23 +1,23 @@
 .reply-list {
-    background: var(--nox-level2);
-    z-index: 10;
+  background: $nox-level2;
+  z-index: 10;
 }
 
 .reply-item {
-    background: var(--nox-level1);
+  background: $nox-level1;
 }
 
 .containerCompact-3V0ioj .reply-button {
-    position: relative;
-    padding: 2px;
-    top: 2px;
-    margin-left: -6px;
+  margin-left: -6px;
+  padding: 2px;
+  position: relative;
+  top: 2px;
 }
 
-.containerCompact-3V0ioj .reply-button+.contentCompact-1QLHBj time {
-    display: inline-block;
-    font-size: 0.6875rem;
-    margin-right: .3rem;
-    position: relative;
-    text-align: right;
+.containerCompact-3V0ioj .reply-button + .contentCompact-1QLHBj time {
+  display: inline-block;
+  font-size: 0.6875rem;
+  margin-right: 0.3rem;
+  position: relative;
+  text-align: right;
 }

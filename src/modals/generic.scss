@@ -1,91 +1,96 @@
-.close-3RZM3j{
-    color:var(--nox-white6);
-    background:transparent; /* Previous:  white1; */
-    position: relative;
-    border-radius:50%;
-    box-shadow: none; /* Previous: 0 0 0 13px var(--nox-level3) inset; */
-  }
-  .theme-dark .close-3RZM3j:hover{
-    color:var(--nox-white);
-    background:transparent;
-  }
-
-  .modal-3HD5ck .footer-2yfCgX {
-    background-color: var(--nox-level2);
-    border-top: 0 !important
+.close-3RZM3j {
+  background: transparent;
+  border-radius: 50%; /* Previous:  white1; */
+  box-shadow: none;
+  color: $nox-white6;
+  position: relative; /* Previous: 0 0 0 13px $nox-level3 inset; */
 }
+
+.theme-dark .close-3RZM3j:hover {
+  background: transparent;
+  color: $nox-white;
+}
+
+.modal-3HD5ck .footer-2yfCgX {
+  background-color: $nox-level2;
+  border-top: 0;
+}
+
 .modal-3HD5ck .header-1R_AjF .close-2znR7j {
-    background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDYuNDFMMTcuNTkgNSAxMiAxMC41OSA2LjQxIDUgNSA2LjQxIDEwLjU5IDEyIDUgMTcuNTkgNi40MSAxOSAxMiAxMy40MSAxNy41OSAxOSAxOSAxNy41OSAxMy40MSAxMnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==);
-    background-size: 100%;
-    position: absolute;
-    top: 0;
-    right: 15px;
-    zoom: 1.8
-}
-.modal-3HD5ck .header-1R_AjF .close-2znR7j{
-    top: 10px;
+  background: url('data: image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDYuNDFMMTcuNTkgNSAxMiAxMC41OSA2LjQxIDUgNSA2LjQxIDEwLjU5IDEyIDUgMTcuNTkgNi40MSAxOSAxMiAxMy40MSAxNy41OSAxOSAxOSAxNy41OSAxMy40MSAxMnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==');
+  background-size: 100%;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  zoom: 1.8;
 }
 
+.modal-3HD5ck .header-1R_AjF .close-2znR7j {
+  top: 10px;
+}
 
 .modal-3HD5ck .message-group .comment {
-    background: rgba(0, 0, 0, .08);
+  background: rgba(0, 0, 0, 0.08);
 }
+
 .modal-3HD5ck .message-group .comment::before {
-    border-color: transparent rgba(0, 0, 0, .08) transparent transparent;
+  border-color: transparent rgba(0, 0, 0, 0.08) transparent transparent;
 }
+
 .modal-3HD5ck .message-group .comment code {
-    background: rgba(0, 0, 0, .0) !important;
-    border: none !important;
+  background: rgba(0, 0, 0, 0) !important;
+  border: 0;
 }
+
 .modal-3HD5ck .message-group .comment pre {
-    background: rgba(0, 0, 0, .05) !important;
-    border: none !important;
-    border-radius: 3px !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  border: 0;
+  border-radius: 3px !important;
 }
+
 .modal-3HD5ck .message-group .comment code.inline {
-    background: rgba(0, 0, 0, .08) !important;
+  background: rgba(0, 0, 0, 0.08) !important;
 }
-
-
 
 .modal-1UGdnR .modal-3HD5ck {
-  background: var(--nox-level1);
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, .5);
+  background: $nox-level1;
   border-radius: 3px;
-  color: var(--nox-white6);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  color: $nox-white6;
 }
+
 .modal-3HD5ck .header-1R_AjF {
-  border-bottom: 0px;
-  color: var(--nox-white8);
-  background: var(--nox-level4);
-  box-shadow: 0 0px 10px rgba(0, 0, 0, .3), 0 2px 2px rgba(255, 255, 255, 0.04) inset;
-}    
+  background: $nox-level4;
+  border-bottom: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(255, 255, 255, 0.04) inset;
+  color: $nox-white8;
+}
+
 .content-2BXhLs {
   padding-top: 15px;
 }
 
-
 .theme-dark .message-2qRu38 {
-  box-shadow: none;
   background: none;
+  box-shadow: none;
 }
 
-
-.maxLength-39QFBo{
-  color:var(--nox-white2);
+.maxLength-39QFBo {
+  color: $nox-white2;
   transition: 200ms ease;
 }
-textarea:focus + .maxLength-39QFBo{
-  color:var(--nox-white3);
+
+textarea:focus + .maxLength-39QFBo {
+  color: $nox-white3;
 }
 
 .theme-brand .content-Qb0rXO {
   color: #f6f6f7;
 }
 
-
 .header-1R_AjF .searchBar-2_Yu-C {
-  background: var(--nox-level1);
+  background: $nox-level1;
 }
 
 .header-1R_AjF .searchBarInner-1_Tg2R {
@@ -93,7 +98,7 @@ textarea:focus + .maxLength-39QFBo{
 }
 
 .header-1R_AjF .searchBarTag-2xRzm8 {
-  background: var(--nox-level2);
+  background: $nox-level2;
 }
 
 .modal-3HD5ck.popout-3Nppv9.sizeSmall-Sf4iOi {

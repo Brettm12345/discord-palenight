@@ -1,26 +1,26 @@
 /* Activity Feed */
 #app-mount .activityFeed-28jde9,
 .activityFeed-28jde9 .feed-1o0xmF {
-    background: var(--nox-level1);
+  background: $nox-level1;
 }
 
 .card-7JP0BX {
-    box-shadow: 0 5px 5px var(--nox-black4);
+  box-shadow: 0 5px 5px $nox-black4;
 }
 
 .card-7JP0BX .cardBody-3kgGGF,
 .card-7JP0BX .cardBody-3_HhbX {
-    background: var(--nox-level2);
+  background: $nox-level2;
 }
 
 .card-7JP0BX .cardHeader-ey0m8X,
 .card-7JP0BX .cardHeader-3nTWsD {
-    background: var(--nox-level4);
+  background: $nox-level4;
 }
 
 .card-7JP0BX .cardHeader-ey0m8X:hover,
 .card-7JP0BX .cardHeader-3nTWsD:hover {
-    background: var(--nox-level2);
+  background: $nox-level2;
 }
 
 // .card-7JP0BX .cardHeader-ey0m8X::after,
@@ -35,38 +35,39 @@
 
 // .card-7JP0BX .cardHeader-ey0m8X:hover::after,
 // .card-7JP0BX .cardHeader-3nTWsD:hover::after {
-//     background: var(--nox-accent);
+//     background: $nox-accent;
 //     opacity: 0.05;
 // }
 
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
-    background: var(--nox-level1);
+  background: $nox-level1;
 }
 
 .card-7JP0BX .button-38aScr {
-    margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .dock-1-sUKH {
-    margin-top: 5px;
-    padding-bottom: 5px;
+  margin-top: 5px;
+  padding-bottom: 5px;
 }
+
 .overflowMenu-3mlkvt,
 .dock-1-sUKH .dockItem-2kQDqg button {
-    margin: 0;
+  margin: 0;
 }
 
 .dock-1-sUKH .dockItem-2kQDqg:hover {
-    background: var(--nox-level2);
-    box-shadow: 0 5px 5px var(--nox-black4);
+  background: $nox-level2;
+  box-shadow: 0 5px 5px $nox-black4;
 }
 
 .overflowMenu-3mlkvt {
-    opacity: 1;
+  opacity: 1;
 }
 
 .buttonText-13IoY7 {
-    padding: 0;
+  padding: 0;
 }
 
 .card-7JP0BX .lookBlank-3eh9lL,
@@ -75,78 +76,77 @@
 .overflowMenu-npo2XH,
 .overflowMenu-npo2XH:hover,
 .overflowMenu-npo2XH:active {
-    background: none !important;
-    transform: none !important;
-    box-shadow: none !important;
-    filter: none !important;
-    padding: 0;
-    min-height: unset;
-    color: white !important;
+  background: none !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  filter: none !important;
+  min-height: unset;
+  padding: 0;
+  transform: none !important;
 }
 
 .card-7JP0BX .lookBlank-3eh9lL::after,
 .overflowMenu-npo2XH::after {
-    content:"";
-    background:var(--nox-white);
-    border-radius:50%;
-    display:block;
-    width:100%;
-    padding-top:100%;
-    height:0;
-    position:absolute;
-    opacity:0;
-    transform:scale(1.4);
-    transition:all 300ms ease, visibility 0ms 300ms;
-    animation-fill-mode: forwards;
-    visibility: hidden;
-    pointer-events: none;
-    top: 0;
+  animation-fill-mode: forwards;
+  background: $nox-white;
+  border-radius: 50%;
+  content: '';
+  display: block;
+  height: 0;
+  opacity: 0;
+  padding-top: 100%;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transform: scale(1.4);
+  transition: all 300ms ease, visibility 0ms 300ms;
+  visibility: hidden;
+  width: 100%;
 }
 
 .card-7JP0BX .lookBlank-3eh9lL:active::after,
 .overflowMenu-npo2XH:active::after {
-    opacity:0.1;
-    transition:all 300ms ease, visibility 0ms;
-    visibility: visible;
-    animation:scale 100ms cubic-bezier(.2,0,0,1),opacity 50ms ease;
+  animation: scale 100ms cubic-bezier(0.2, 0, 0, 1), opacity 50ms ease;
+  opacity: 0.1;
+  transition: all 300ms ease, visibility 0ms;
+  visibility: visible;
 }
+
 /* /Activity Feed */
 .pagination-1GYdtQ .paginationItem-2lUq0s {
-    box-shadow: 0 5px 5px var(--nox-black4);
+  box-shadow: 0 5px 5px $nox-black4;
 }
 
 .pagination-1GYdtQ .paginationItem-2lUq0s::after {
-    background: linear-gradient(270deg,transparent 0, var(--nox-level4));
+  background: linear-gradient(270deg, transparent 0, $nox-level4);
 }
 
 .pagination-1GYdtQ .scroller-2FKFPG {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .carousel-2WxMes {
-    box-shadow: 0 5px 5px var(--nox-black4);
+  box-shadow: 0 5px 5px $nox-black4;
 }
 
 .news-1uHrMX,
 .carousel-JbsNzL,
 .article-3kb3qm {
-    background: var(--nox-level4);
+  background: $nox-level4;
 }
 
 .news-1uHrMX:hover {
-    background: var(--nox-level4);
+  background: $nox-level4;
 }
 
 .news-1uHrMX:hover .background-3zYSQO {
-    filter: brightness(125%);
+  filter: brightness(125%);
 }
 
-
 .popouts-3dRSmE .gamePreview-9weYR2 {
-    background: var(--nox-level2);
+  background: $nox-level2;
 }
 
 .gamePreview-9weYR2 .body-1SVoBw {
-    background: var(--nox-level1);
+  background: $nox-level1;
 }
-
