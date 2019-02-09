@@ -65,7 +65,7 @@
 
 .bda-dark #bda-qem {
   background-color: $palenight-level1 !important;
-  height: 36px;
+  height: 40px;
 }
 
 #bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar,
@@ -116,15 +116,9 @@
   z-index: 1000;
 }
 
-.noShadow-321ZPm #bda-qem-favourite-container,
-.noShadow-321ZPm #bda-qem-twitch-container {
-  padding-top: 44px;
-}
-
 .noShadow-321ZPm #bda-qem ~ .emojiPicker-3m1S-j {
   border-radius: 0 0 3px 3px !important;
   padding-left: 2px;
-  padding-top: 32px;
 }
 
 #bda-qem-twitch::after {
@@ -238,7 +232,7 @@
 .bda-dark #bda-qem {
   background: $palenight-level3 !important;
   border-bottom: 1px solid $palenight-level4 !important;
-  height: 36px;
+  height: 40px;
   padding-right: 0 !important;
   width: 348px;
 }

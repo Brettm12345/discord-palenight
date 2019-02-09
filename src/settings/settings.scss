@@ -3,7 +3,7 @@
   background-image: url('data: image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDYuNDFMMTcuNTkgNSAxMiAxMC41OSA2LjQxIDUgNSA2LjQxIDEwLjU5IDEyIDUgMTcuNTkgNi40MSAxOSAxMiAxMy40MSAxNy41OSAxOSAxOSAxNy41OSAxMy40MSAxMnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==');
   background-position: 50%;
   background-repeat: no-repeat;
-  border: 0;
+  border-color: $palenight-white;
   opacity: 0.8;
   position: relative;
 }
@@ -153,4 +153,16 @@
 
 .foreground-2aE44H {
   stroke: $palenight-accent;
+}
+
+.theme-dark .button-mM-y8i {
+  background-color: $palenight-level1;
+}
+
+.theme-dark .button-mM-y8i:hover {
+  background-color: $palenight-level0;
+}
+
+.theme-dark .select-2TCrqx .Select-control .Select-arrow {
+  display: none;
 }

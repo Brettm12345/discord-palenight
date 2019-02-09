@@ -29,8 +29,14 @@
   position: relative;
 }
 
+.theme-dark .embedPill-1Zntps {
+  background-color: $palenight-accent !important;
+}
+
 .theme-dark .container-1YxwTf .embedPill-1Zntps[style] + .embedInner-1-fpTo {
+  @include box-shadow(1);
   border: 0;
+  border-radius: 3px;
   padding-left: 16px;
   padding-right: 12px;
 }

@@ -8,14 +8,20 @@
   z-index: 0;
 }
 
+.theme-dark
+  .cardPrimaryEditable-3KtE4g[style*='background-color']
+  .desc-2Dttbk {
+  color: rgba($palenight-light-fg, 0.6) !important;
+}
+
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:not(:last-of-type) {
   box-shadow: 0 3px 10px rgba($palenight-black, 0),
     0 -2px 0 rgba($palenight-white, 0.02) inset;
 }
 
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:hover {
+  @include box-shadow(5);
   background: $palenight-level1;
-  box-shadow: 0 5px 10px rgba($palenight-black, 0.1);
   transition: all 100ms ease, z-index 0ms;
   z-index: 2;
 }
@@ -43,8 +49,8 @@
 }
 
 .radioGroup-1GBvlr {
+  @include box-shadow(3);
   border-radius: 3px;
-  box-shadow: 0 2px 10px rgba($palenight-black, 0.1);
 }
 
 .theme-dark .inner-zqa7da {

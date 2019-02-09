@@ -10,6 +10,7 @@
   background-image: linear-gradient(
     0deg,
     transparent 0,
+    unquote(map-get($palenight-easing, 'easeIn')),
     $palenight-level1 100%
   );
 }
@@ -18,6 +19,7 @@
   background-image: linear-gradient(
     180deg,
     transparent 0,
+    unquote(map-get($palenight-easing, 'easeOut')),
     $palenight-level2 100%
   );
 }
