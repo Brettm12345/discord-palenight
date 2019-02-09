@@ -1,18 +1,31 @@
 @import '~sass-mediaqueries/media-queries';
 
 .content-3dzVd8 .attachment-33OFj0 {
-  background: $nox-level4;
+  @include box-shadow(1);
+  @include transition('easeInOut', 'standard', all);
+  background: $palenight-level4;
   border: 0;
+  border-radius: 6px;
+}
+
+.content-3dzVd8 .attachment-33OFj0:hover {
+  @include box-shadow(3);
+  background: $palenight-level1;
+  transform: translateY(-3px);
+}
+
+.anchor-3Z-8Bb {
+  color: $blue !important;
 }
 
 .container-1YxwTf .applicationTile-1Goy1W {
-  background: $nox-level4;
+  background: $palenight-level4;
   border-radius: 3px !important;
-  box-shadow: 0 2px 5px rgba($nox-black, 0.1);
+  box-shadow: 0 2px 5px rgba($palenight-black, 0.1);
 }
 
 .container-1YxwTf .applicationTile-1Goy1W:hover {
-  background: $nox-level4;
+  background: $palenight-level4;
 }
 
 .containerCompact-3bB5aN .attachment-33OFj0 {
@@ -22,6 +35,17 @@
   @include mq($max-width: 600px) {
     width: 30vw;
   }
+}
+
+.cancelButton-3hVEV6,
+.downloadButton-23tKQp {
+  @include transition('easeInOut', 'complex', color);
+  color: rgba($palenight-white, 0.8);
+}
+
+.cancelButton-3hVEV6:hover,
+.downloadButton-23tKQp:hover {
+  color: $palenight-light-fg;
 }
 
 .containerCompact-3bB5aN

@@ -58,14 +58,14 @@
 
 .item-1GzJrl:hover .label-1Y-LW5,
 .item-1GzJrl .label-1Y-LW5 {
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 .popoutBottom-1YbShG
   .menu-Sp6bN1
   .item-1GzJrl.leave-1DRJfn:hover
   .label-1Y-LW5 {
-  color: $nox-error;
+  color: $palenight-error;
 }
 
 .menu-Sp6bN1 .separator-2zcjq8 {
@@ -76,13 +76,10 @@
   animation: popoutanim-inner 300ms cubic-bezier(0.4, 0, 0, 1),
     opacity 100ms ease 100ms backwards;
   background: transparent;
-  background: $nox-level1 !important;
+  background: $palenight-level1 !important;
   border-radius: 0;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column !important;
   flex-direction: column !important;
-  -ms-flex-pack: start;
   justify-content: flex-start;
   left: 0 !important;
   overflow: visible;
@@ -124,17 +121,16 @@ body:active .popoutBottom-1YbShG:not(:active) .menu-Sp6bN1:not(:active) {
 
 .popoutBottom-1YbShG[style*='overflow: hidden; visibility: visible;'] {
   animation: popoutanim 300ms cubic-bezier(0.4, 0, 0, 1);
-  background: $nox-level1;
+  background: $palenight-level1;
   border-radius: 4px;
   box-shadow: none !important;
-  box-shadow: 0 5px 15px rgba($nox-black, 0.5) !important;
+  box-shadow: 0 5px 15px rgba($palenight-black, 0.5) !important;
   height: auto !important;
   left: 75px !important;
   margin: 0;
   pointer-events: none;
   position: absolute;
   top: 61px !important;
-  -ms-transform: none !important;
   transform: none !important;
   transform-origin: 50% -10%;
   width: 230px !important;
@@ -155,7 +151,7 @@ body:active
 
 .popoutBottom-1YbShG .menu-Sp6bN1 .label-1Y-LW5 {
   border-radius: 3px;
-  color: $nox-white;
+  color: $palenight-white;
   font-size: 15px;
   padding: 5px 10px;
   padding: 0;
@@ -171,7 +167,7 @@ body:active
 }
 
 .popoutBottom-1YbShG .menu-Sp6bN1 .item-1GzJrl:hover {
-  background-color: rgba($nox-white, 0.03);
+  background-color: rgba($palenight-white, 0.03);
 }
 
 .popoutBottom-1YbShG .menu-Sp6bN1 .icon-2doZ3q {
@@ -189,5 +185,5 @@ body:active
 }
 
 .popoutBottom-1YbShG .menu-Sp6bN1 {
-  background: $nox-level4;
+  background: $palenight-level4;
 }

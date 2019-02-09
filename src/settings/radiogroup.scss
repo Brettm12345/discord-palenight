@@ -1,7 +1,7 @@
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g {
-  background: $nox-level1;
+  background: $palenight-level1;
   border-radius: 0;
-  box-shadow: 0 3px 10px rgba($nox-black, 0);
+  box-shadow: 0 3px 10px rgba($palenight-black, 0);
   margin-bottom: 0;
   position: relative;
   transition: all 100ms ease, z-index 0ms 100ms;
@@ -9,20 +9,20 @@
 }
 
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:not(:last-of-type) {
-  box-shadow: 0 3px 10px rgba($nox-black, 0),
-    0 -2px 0 rgba($nox-white, 0.02) inset;
+  box-shadow: 0 3px 10px rgba($palenight-black, 0),
+    0 -2px 0 rgba($palenight-white, 0.02) inset;
 }
 
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:hover {
-  background: #2e2e2e;
-  box-shadow: 0 5px 10px rgba($nox-black, 0.1);
+  background: $palenight-level1;
+  box-shadow: 0 5px 10px rgba($palenight-black, 0.1);
   transition: all 100ms ease, z-index 0ms;
   z-index: 2;
 }
 
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:active {
-  background: $nox-accent;
-  box-shadow: 0 0 10px rgba($nox-black, 0.2);
+  background: $palenight-accent;
+  box-shadow: 0 0 10px rgba($palenight-black, 0.2);
   transition: all 50ms ease, z-index 0ms;
   z-index: 2000;
 }
@@ -44,7 +44,7 @@
 
 .radioGroup-1GBvlr {
   border-radius: 3px;
-  box-shadow: 0 2px 10px rgba($nox-black, 0.1);
+  box-shadow: 0 2px 10px rgba($palenight-black, 0.1);
 }
 
 .theme-dark .inner-zqa7da {
@@ -60,8 +60,8 @@
 
 /* Animated checkboxes */
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g .checkbox-1ix_J3::after {
-  border-bottom: 20px solid $nox-level1;
-  border-right: 20px solid $nox-level1;
+  border-bottom: 20px solid $palenight-level1;
+  border-right: 20px solid $palenight-level1;
   content: '';
   display: block;
   height: 0;
@@ -75,11 +75,11 @@
 .radioGroup-1GBvlr
   .cardPrimaryEditable-3KtE4g
   .checkbox-1ix_J3.checked-3_4uQ9::after {
-  border-bottom: 20px solid $nox-accent;
-  border-right: 20px solid $nox-accent;
+  border-bottom: 20px solid $palenight-accent;
+  border-right: 20px solid $palenight-accent;
   height: 110px;
-  transform: translate(0, -1.5px) scale(0.1) rotate(45deg); //border-bottom:20px solid $nox-accent;
-  transition: all 300ms cubic-bezier(0.2, 0, 0, 1) 200ms; //border-right:20px solid $nox-accent;
+  transform: translate(0, -1.5px) scale(0.1) rotate(45deg); //border-bottom:20px solid $palenight-accent;
+  transition: all 300ms cubic-bezier(0.2, 0, 0, 1) 200ms; //border-right:20px solid $palenight-accent;
   visibility: visible;
   width: 50px;
 }
@@ -94,20 +94,20 @@
 
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g .checkbox-1ix_J3 {
   animation: checkbx 500ms ease;
-  background: $nox-white2;
+  background: rgba($palenight-white, 0.2);
   border-color: transparent !important;
   transition: all 300ms cubic-bezier(0.2, 0, 0, 1) 200ms;
 }
 
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g .checkbox-1ix_J3.checked-3_4uQ9 {
   animation: checkbx2 500ms ease;
-  background: $nox-light-fg;
-  border-color: $nox-light-fg !important;
+  background: $palenight-light-fg;
+  border-color: $palenight-light-fg !important;
   transition: all 200ms cubic-bezier(0.6, 0, 0, 0.7);
 }
 
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g .checkbox-1ix_J3::before {
-  background: $nox-level1;
+  background: $palenight-level1;
   content: '';
   height: 100%;
   left: 0;
@@ -117,18 +117,18 @@
 }
 
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:hover .checkbox-1ix_J3::before {
-  background: #2e2e2e;
+  background: $palenight-level1;
 }
 
 .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:active .checkbox-1ix_J3::before {
-  background: $nox-accent;
+  background: $palenight-accent;
   transition: all 300ms cubic-bezier(0.2, 0, 0, 1) 200ms, background 50ms ease;
 }
 
 .radioGroup-1GBvlr
   .cardPrimaryEditable-3KtE4g
   .checkbox-1ix_J3.checked-3_4uQ9::before {
-  background: $nox-accent;
+  background: $palenight-accent;
   transform: scale(0);
   transition: all 200ms cubic-bezier(0.6, 0, 0, 0.7), background 0ms ease;
 }
@@ -162,33 +162,33 @@
 }
 
 .cardPrimaryEditable-3KtE4g[style*='background-color: rgb(114, 137, 218);'] {
-  background: $nox-accent !important;
+  background: $palenight-accent !important;
 }
 
 .theme-dark .cardPrimaryEditable-3KtE4g,
 .theme-dark .cardPrimaryOutline-29Ujqw,
 .theme-dark .cardPrimary-1Hv-to {
-  background: $nox-level1;
+  background: $palenight-level1;
   border: 0;
   border-radius: 3px;
-  box-shadow: 0 5px 10px rgba($nox-black, 0.2),
-    0 1px 0 rgba($nox-white, 0.03) inset;
+  box-shadow: 0 5px 10px rgba($palenight-black, 0.2),
+    0 1px 0 rgba($palenight-white, 0.03) inset;
 }
 
 .checkbox-1ix_J3[style*='border-color: rgb(114, 137, 218);'] {
-  border-color: $nox-white !important;
+  border-color: $palenight-white !important;
 }
 
 .theme-dark .checkbox-1ix_J3[style*='background-color: rgb(114, 137, 218);'] {
-  background-color: $nox-accent !important;
+  background-color: $palenight-accent !important;
 }
 
 .checkbox-1ix_J3 polyline[stroke='#43b581'] {
-  stroke: $nox-light-fg !important;
+  stroke: $palenight-light-fg !important;
 }
 
 .checkbox-1ix_J3 polyline[stroke='#7289da'] {
-  stroke: $nox-accent !important;
+  stroke: $palenight-accent !important;
 }
 
 .checkbox-1ix_J3 polyline[stroke='transparent'] {
@@ -196,21 +196,21 @@
 }
 
 .theme-dark .checkbox-1ix_J3.checked-3_4uQ9.round-2jCFai {
-  background-color: $nox-accent !important;
-  border-color: $nox-accent !important;
+  background-color: $palenight-accent !important;
+  border-color: $palenight-accent !important;
 }
 
 .theme-dark
   .cardPrimaryEditable-3KtE4g[style*='border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);'] {
-  background: $nox-accent !important;
+  background: $palenight-accent !important;
 }
 
 .theme-dark .desc-2Dttbk {
-  color: $nox-white3;
+  color: rgba($palenight-white, 0.3);
 }
 
 .theme-dark
   .cardPrimaryEditable-3KtE4g[style*='background-color']
   .desc-2Dttbk {
-  color: $nox-white8;
+  color: rgba($palenight-white, 0.8);
 }

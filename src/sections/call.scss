@@ -7,13 +7,12 @@
 
 .call-avatar .avatar-xxlarge:hover {
   opacity: 0.8;
-  -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
 .call-avatar .avatar-xxlarge.speaking {
   border: 0;
-  box-shadow: 0 0 0 3px $nox-level4 inset, 0 0 0 5px #43b581,
+  box-shadow: 0 0 0 3px $palenight-level4 inset, 0 0 0 5px #43b581,
     0 0 10px 5px rgba(67, 181, 129, 0.2) !important;
   transition: transform 400ms cubic-bezier(0, 0, 0, 1),
     opacity 300ms cubic-bezier(0, 0, 0, 1),
@@ -21,15 +20,15 @@
 }
 
 .incomingCall-14zLcL .incomingCallInner-2VmFiR {
-  background: $nox-level4;
+  background: $palenight-level4;
   border: 0;
   border-radius: 2px;
-  box-shadow: 0 10px 20px rgba($nox-black, 0.6),
-    0 1px 2px rgba($nox-white, 0.05) inset;
+  box-shadow: 0 10px 20px rgba($palenight-black, 0.6),
+    0 1px 2px rgba($palenight-white, 0.05) inset;
 }
 
 .incomingCallInner-2VmFiR .subtitle-1H8FPn {
-  color: $nox-white4;
+  color: rgba($palenight-white, 0.4);
 }
 
 // .incomingCall-14zLcL .button-38aScr .actionIcon--D_WrW {
@@ -49,12 +48,12 @@
   .private-channel-call.minimum
   .private-channel-call-actions
   .center {
-  background: $nox-level2;
-  border-color: $nox-level2;
+  background: $palenight-level2;
+  border-color: $palenight-level2;
 }
 
 .connecting {
-  background: #2b2b2b;
+  background: $palenight-level2;
   z-index: 10000000;
 }
 

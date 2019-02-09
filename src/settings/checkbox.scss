@@ -1,3 +1,8 @@
+.theme-dark .checkbox-1ix_J3 {
+  border-color: $palenight-white !important;
+  border-radius: 0 !important;
+}
+
 .checkbox-3kaeSU .checkboxInner-3yjcPe input:checked + span::after,
 .checkbox-3kaeSU .checkboxInner-3yjcPe input + span::after {
   display: none;
@@ -6,7 +11,7 @@
 .checkbox-3kaeSU .checkboxInner-3yjcPe input + span::before {
   animation: check-anim- 200ms linear 200ms,
     check-anim2- 200ms cubic-bezier(0.49, 0, 0, 1);
-  border: 20px solid $nox-level2;
+  border: 20px solid $palenight-level2;
   border-left: 0;
   border-top: 0;
   bottom: 2px;
@@ -15,9 +20,7 @@
   height: 1px;
   position: absolute;
   right: 9px;
-  -ms-transform: scale(0.65) rotate(0deg) translate(13.5px, 3px);
   transform: scale(0.65) rotate(0deg) translate(13.5px, 3px);
-  -ms-transform-origin: bottom right;
   transform-origin: bottom right;
   width: 1px;
 }
@@ -72,7 +75,6 @@
   animation: check-anim 100ms,
     check-anim2 300ms cubic-bezier(0.49, 0, 0, 1) 100ms;
   height: 100px;
-  -ms-transform: scale(0.1) rotate(45deg) translate(0, 0);
   transform: scale(0.1) rotate(45deg) translate(0, 0);
   width: 40px;
 }
@@ -125,15 +127,15 @@
 
 .checkbox-3kaeSU .checkboxInner-3yjcPe input + span {
   animation: box-check2 400ms cubic-bezier(0.52, 0.01, 0, 1);
-  background: $nox-accent;
-  border-color: $nox-accent !important;
+  background: $palenight-accent;
+  border-color: $palenight-accent !important;
   transition: all 0s;
 }
 
 .checkbox-3kaeSU .checkboxInner-3yjcPe input:checked + span {
   animation: box-check1 400ms cubic-bezier(0.52, 0.01, 0, 1);
-  background: $nox-accent !important;
-  border-color: $nox-accent !important;
+  background: $palenight-accent !important;
+  border-color: $palenight-accent !important;
   transition: all 0s;
 }
 
@@ -166,7 +168,7 @@
 }
 
 .checkbox-3kaeSU .checkboxInner-3yjcPe::after {
-  background: $nox-accent;
+  background: $palenight-accent;
   border-radius: 50%;
   content: '';
   height: 100%;
@@ -186,7 +188,6 @@
 }
 
 .checkbox-3kaeSU:active .checkboxInner-3yjcPe input:checked + span {
-  -ms-transform: scale(1);
+  @include transition('easeInOut', 'shortest', all);
   transform: scale(1);
-  transition: all 100ms ease;
 }

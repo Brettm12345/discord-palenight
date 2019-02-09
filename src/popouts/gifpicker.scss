@@ -1,13 +1,14 @@
 .container-3ISnnM {
-  box-shadow: 0 0 0 1px $nox-level4, 0 5px 10px rgba($nox-black, 0.3);
+  box-shadow: 0 0 0 1px $palenight-level4,
+    0 5px 10px rgba($palenight-black, 0.3);
 }
 
 .container-3ISnnM .header-1TOWci {
-  background: $nox-level4;
+  background: $palenight-level4;
 }
 
 .container-3ISnnM .content-ySCtCx {
-  background: $nox-level2;
+  background: $palenight-level2;
 }
 
 .container-3ISnnM .searchBar-1MOL6S {
@@ -16,24 +17,24 @@
 
 .container-3ISnnM .focused-1En8bG::after,
 .container-3ISnnM .result-3w1ZcL:hover::after {
-  box-shadow: inset 0 0 0 2px $nox-accent, inset 0 0 0 3px #2f3136;
+  box-shadow: inset 0 0 0 2px $palenight-accent, inset 0 0 0 3px #2f3136;
 }
 
 .container-3ISnnM .searchSuggestion-2K8OBX.searchSuggestion-2K8OBX:hover {
-  background-color: $nox-accent;
-  border-color: $nox-accent;
+  background-color: $palenight-accent;
+  border-color: $palenight-accent;
 }
 
 .result-3w1ZcL {
-  background-color: $nox-level1;
+  background-color: $palenight-level1;
 }
 
 .result-3w1ZcL[style*='background-color'] {
-  background-color: $nox-accent !important;
+  background-color: $palenight-accent !important;
 }
 
 .result-3w1ZcL[style*='background-color: rgb(24, 25, 28);'] {
-  background-color: $nox-level1 !important;
+  background-color: $palenight-level1 !important;
 }
 
 .container-3ISnnM .categoryFadeBlurple-1j72_A {
@@ -42,7 +43,7 @@
 }
 
 .categoryFadeBlurple-1j72_A::after {
-  background: $nox-accent;
+  background: $palenight-accent;
   content: '';
   display: block;
   height: 100%;
@@ -50,7 +51,7 @@
 }
 
 .emptyHint-2ZHXNQ .emptyHintCard-2mUdMe {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 //backButton-JyKGC1 da-backButton
@@ -81,7 +82,7 @@
 }
 
 .backButton-JyKGC1::after {
-  background: $nox-white;
+  background: $palenight-white;
   border-radius: 50%;
   content: '';
   display: block;

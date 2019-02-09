@@ -1,0 +1,4 @@
+@mixin transition($easing, $duration, $properties...) {
+  transition: $properties unquote(map-get($palenight-durations, $duration))
+    unquote(map-get($palenight-easing, $easing));
+}

@@ -1,26 +1,26 @@
 /* Activity Feed */
 #app-mount .activityFeed-28jde9,
 .activityFeed-28jde9 .feed-1o0xmF {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 .card-7JP0BX {
-  box-shadow: 0 5px 5px $nox-black4;
+  box-shadow: 0 5px 5px rgba($palenight-black, 0.4);
 }
 
 .card-7JP0BX .cardBody-3kgGGF,
 .card-7JP0BX .cardBody-3_HhbX {
-  background: $nox-level2;
+  background: $palenight-level2;
 }
 
 .card-7JP0BX .cardHeader-ey0m8X,
 .card-7JP0BX .cardHeader-3nTWsD {
-  background: $nox-level4;
+  background: $palenight-level4;
 }
 
 .card-7JP0BX .cardHeader-ey0m8X:hover,
 .card-7JP0BX .cardHeader-3nTWsD:hover {
-  background: $nox-level2;
+  background: $palenight-level2;
 }
 
 // .card-7JP0BX .cardHeader-ey0m8X::after,
@@ -35,12 +35,12 @@
 
 // .card-7JP0BX .cardHeader-ey0m8X:hover::after,
 // .card-7JP0BX .cardHeader-3nTWsD:hover::after {
-//     background: $nox-accent;
+//     background: $palenight-accent;
 //     opacity: 0.05;
 // }
 
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 .card-7JP0BX .button-38aScr {
@@ -58,8 +58,8 @@
 }
 
 .dock-1-sUKH .dockItem-2kQDqg:hover {
-  background: $nox-level2;
-  box-shadow: 0 5px 5px $nox-black4;
+  background: $palenight-level2;
+  box-shadow: 0 5px 5px rgba($palenight-black, 0.4);
 }
 
 .overflowMenu-3mlkvt {
@@ -88,7 +88,7 @@
 .card-7JP0BX .lookBlank-3eh9lL::after,
 .overflowMenu-npo2XH::after {
   animation-fill-mode: forwards;
-  background: $nox-white;
+  background: $palenight-white;
   border-radius: 50%;
   content: '';
   display: block;
@@ -114,11 +114,11 @@
 
 /* /Activity Feed */
 .pagination-1GYdtQ .paginationItem-2lUq0s {
-  box-shadow: 0 5px 5px $nox-black4;
+  box-shadow: 0 5px 5px rgba($palenight-black, 0.4);
 }
 
 .pagination-1GYdtQ .paginationItem-2lUq0s::after {
-  background: linear-gradient(270deg, transparent 0, $nox-level4);
+  background: linear-gradient(270deg, transparent 0, $palenight-level4);
 }
 
 .pagination-1GYdtQ .scroller-2FKFPG {
@@ -126,17 +126,17 @@
 }
 
 .carousel-2WxMes {
-  box-shadow: 0 5px 5px $nox-black4;
+  box-shadow: 0 5px 5px rgba($palenight-black, 0.4);
 }
 
 .news-1uHrMX,
 .carousel-JbsNzL,
 .article-3kb3qm {
-  background: $nox-level4;
+  background: $palenight-level4;
 }
 
 .news-1uHrMX:hover {
-  background: $nox-level4;
+  background: $palenight-level4;
 }
 
 .news-1uHrMX:hover .background-3zYSQO {
@@ -144,9 +144,9 @@
 }
 
 .popouts-3dRSmE .gamePreview-9weYR2 {
-  background: $nox-level2;
+  background: $palenight-level2;
 }
 
 .gamePreview-9weYR2 .body-1SVoBw {
-  background: $nox-level1;
+  background: $palenight-level1;
 }

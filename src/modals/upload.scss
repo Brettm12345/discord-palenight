@@ -33,12 +33,13 @@
 
 .modal-1UGdnR .message-2qRu38 .comment,
 .uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf {
-  background: rgba($nox-white, 0.05);
+  background: rgba($palenight-white, 0.05);
 }
 
 .modal-1UGdnR .message-2qRu38 .comment::before,
 .uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf::before {
-  border-color: transparent rgba($nox-white, 0.05) transparent transparent;
+  @include transition('easeInOut', 'shorter', all);
+  border-color: transparent rgba($palenight-white, 0.05) transparent transparent;
   border-style: solid;
   border-width: 0 10px 10px 0;
   content: '';
@@ -47,32 +48,31 @@
   left: -20px;
   position: relative;
   top: 0;
-  transition: all 200ms ease;
   width: 0;
 }
 
 .buttonPrimaryLinkDefault-1PQflF,
 .uploadModal-2ifh8j .footer-3mqk7D .button {
-  background: $nox-level0;
+  background: $palenight-level0;
   margin-right: 5px;
   transition: 150ms ease;
 }
 
 .buttonPrimaryLinkDefault-1PQflF:hover,
 .uploadModal-2ifh8j .footer-3mqk7D .button:hover {
-  background: $nox-level0;
-  color: $nox-white;
+  background: $palenight-level0;
+  color: $palenight-white;
   text-decoration: none !important;
   transform: translate(0, -1px);
 }
 
 .uploadModal-2ifh8j .footer-3mqk7D .button-primary {
-  background: $nox-accent;
-  color: $nox-white;
+  background: $palenight-accent;
+  color: $palenight-white;
 }
 
 .uploadModal-2ifh8j .footer-3mqk7D .button-primary:hover {
-  background: $nox-accent;
+  background: $palenight-accent;
   filter: brightness(1.1);
   opacity: 1;
 }
@@ -80,7 +80,7 @@
 .buttonPrimaryLinkDefault-1PQflF:active,
 .uploadModal-2ifh8j .footer-3mqk7D .button:active {
   background: #d4d4d4;
-  color: $nox-level2;
+  color: $palenight-level2;
   filter: brightness(1);
   text-decoration: none;
   transform: translate(0, 2px);
@@ -138,7 +138,7 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
-  border: 2px solid $nox-accent;
+  border: 2px solid $palenight-accent;
   border-radius: 6px;
   content: '';
   height: 100px;
@@ -149,7 +149,7 @@
 
 .uploadModal-2ifh8j .textArea-2Spzkt {
   margin-right: 38px;
-  padding: 10px 0 10px 10px;
+  padding: 12px 0 10px 10px;
 }
 
 .uploadModal-2ifh8j .inner-zqa7da {
@@ -165,7 +165,7 @@
 }
 
 .uploadModal-2ifh8j .comment-4IWttf {
-  background: rgba($nox-black, 0.1);
+  background: rgba($palenight-black, 0.1);
   border-radius: 0 3px 3px !important;
   padding: 0 7px 1px 10px;
 }
@@ -181,12 +181,11 @@
   .channelTextArea-1LDbYG
   .inner-zqa7da
   textarea {
-  background: rgba($nox-white, 0.1) !important;
+  background: rgba($palenight-white, 0.1) !important;
   border-radius: 5px !important;
 }
 
 .uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf .channelTextArea-1LDbYG {
-  border-radius: 5px !important;
   box-shadow: none;
   width: 448px;
 }
@@ -265,20 +264,20 @@
 
 .uploadModal-2ifh8j .footer-3mqk7D,
 .uploadModal-2ifh8j {
-  background: $nox-level2;
+  background: $palenight-level2;
 }
 
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
-  border-color: $nox-accent;
+  border-color: $palenight-accent;
 }
 
 /*File upload and icons*/
 .attachmentInner-3vEpKt .progress-2XXRYo {
-  background: $nox-level1 !important;
+  background: $palenight-level1 !important;
 }
 
 .progress-2XXRYo .progressBar-3u8FBM {
-  background-color: $nox-accent !important;
+  background-color: $palenight-accent !important;
 }
 
 .icon-1kp3fr {

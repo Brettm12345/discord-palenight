@@ -1,78 +1,80 @@
 /* Region Selection */
 .regionSelectModal-12e-57 {
-  background: $nox-level2;
+  background: $palenight-level2;
   border-radius: 4px;
-  box-shadow: 0 5px 20px rgba($nox-black, 0.3);
+  box-shadow: 0 5px 20px rgba($palenight-black, 0.3);
 }
 
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
-  background: $nox-level1;
+  background: $palenight-level1;
   border: 0;
   border-color: transparent;
   border-radius: 3px;
-  box-shadow: 0 5px 10px rgba($nox-black, 0.3), 0 0 0 2px transparent inset;
+  box-shadow: 0 5px 10px rgba($palenight-black, 0.3),
+    0 0 0 2px transparent inset;
   transition: 300ms ease;
 }
 
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
-  background: $nox-level0;
+  background: $palenight-level0;
   border-color: transparent;
-  box-shadow: 0 5px 5px rgba($nox-black, 0.3), 0 0 0 2px transparent inset;
+  box-shadow: 0 5px 5px rgba($palenight-black, 0.3), 0 0 0 2px transparent inset;
 }
 
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:active {
-  background: $nox-level0;
-  box-shadow: 0 5px 5px rgba($nox-black, 0.3), 0 0 0 2px $nox-accent inset;
+  background: $palenight-level0;
+  box-shadow: 0 5px 5px rgba($palenight-black, 0.3),
+    0 0 0 2px $palenight-accent inset;
   transition: 0ms;
 }
 
 .theme-dark .regionSelectName-2-2FWh {
-  color: $nox-white4;
+  color: rgba($palenight-white, 0.4);
   transition: 200ms ease !important;
 }
 
 .theme-dark .regionSelectModalOption-2DSIZ3:hover .regionSelectName-2-2FWh {
-  color: $nox-white9;
+  color: rgba($palenight-white, 0.9);
 }
 
 .regionSelectModal-12e-57 .regionSelectModalFooter-20C5iA {
-  color: $nox-white3;
+  color: rgba($palenight-white, 0.3);
 }
 
 .regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
-  color: $nox-accent;
+  color: $palenight-accent;
 }
 
 .regionSelect-3lf4eE:hover button {
-  background: $nox-accent !important;
-  border-color: $nox-accent !important;
+  background: $palenight-accent !important;
+  border-color: $palenight-accent !important;
 }
 
 .regionSelect-3lf4eE .regionSelectInner-24f4Ce {
-  background: $nox-level1;
+  background: $palenight-level1;
   border-color: transparent;
   transition: 300ms ease;
 }
 
 .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce {
-  background: $nox-level0;
+  background: $palenight-level0;
   border-color: transparent !important;
 }
 
 .regionSelect-3lf4eE button {
-  background: $nox-level0;
+  background: $palenight-level0;
   border-color: transparent;
-  color: $nox-accent;
+  color: $palenight-accent;
 }
 
 .regionSelectName-2-2FWh {
-  color: $nox-white8;
+  color: rgba($palenight-white, 0.8);
   transition: 50ms ease;
 }
 
 .regionSelect-3lf4eE:active button {
-  background: $nox-accent;
-  color: $nox-white;
+  background: $palenight-accent;
+  color: $palenight-white;
 }
 
 /* End Region Selection */

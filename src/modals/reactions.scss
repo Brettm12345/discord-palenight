@@ -1,18 +1,18 @@
 .theme-dark .container-1If-HZ,
 .theme-dark .reactors-Blmlhw {
-  background: $nox-level2;
+  background: $palenight-level2;
 }
 
 .reactionDefault-GBA58K .count-1vzEyg {
-  color: rgba($nox-white, 0.3);
+  color: rgba($palenight-white, 0.3);
 }
 
 .reactionSelected-1pqISm .count-1vzEyg {
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 .reactionDefault-GBA58K:hover .count-1vzEyg {
-  color: rgba($nox-white, 0.8);
+  color: rgba($palenight-white, 0.8);
 }
 
 .modal-3HD5ck {
@@ -20,9 +20,9 @@
 }
 
 .theme-dark .modal-3HD5ck {
-  background: $nox-level1;
+  background: $palenight-level1;
   border-radius: 4px;
-  box-shadow: 0 5px 20px rgba($nox-black, 0.3);
+  box-shadow: 0 5px 20px rgba($palenight-black, 0.3);
   overflow: hidden;
 }
 
@@ -35,17 +35,17 @@
 }
 
 .theme-dark .primary-jw0I4K {
-  color: $nox-white8;
+  color: rgba($palenight-white, 0.8);
 }
 
 .theme-dark .sidebar-1-SQro {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 .reactionSelected-1pqISm {
-  background: $nox-white1 !important;
+  background: rgba($palenight-white, 0.1) !important;
 }
 
 .reactionDefault-GBA58K:hover {
-  background: rgba($nox-white, 0.04) !important;
+  background: rgba($palenight-white, 0.04) !important;
 }

@@ -10,11 +10,11 @@
 }
 
 .bd-blue .layer-3QrUeG:first-of-type::before {
-  background: $nox-level1;
-  border: 3px solid $nox-important-notification;
+  background: $palenight-level1;
+  border: 3px solid $palenight-important-notification;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(240, 71, 71, 0.3);
-  color: $nox-white;
+  color: $palenight-white;
   content: 'You need to have the "BetterDiscord blue" disabled for this theme to work properly. To disable it, go in settings > betterdiscord > core.';
   display: block;
   height: 30px;
@@ -23,7 +23,6 @@
   position: fixed;
   text-align: center;
   top: 50%;
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 450px;
 }
@@ -33,8 +32,8 @@
   border-radius: 100px;
   bottom: 100px;
   box-shadow: 0 0 0 2px #3a71c1, 0 0 10px rgba(58, 113, 193, 0.5),
-    0 2px 10px rgba($nox-black, 0.3);
-  color: $nox-white;
+    0 2px 10px rgba($palenight-black, 0.3);
+  color: $palenight-white;
   content: 'Tip: if you want to have this blue as the accent color for the theme, go in "custom css" and set the accent color to #3A71C1 .';
   display: block;
   font-size: 15px;
@@ -66,16 +65,15 @@
   > .noWrap-3jynv6
   > .button-2b6hmh {
   animation: flash 1s ease infinite;
-  background: $nox-important-notification !important;
+  background: $palenight-important-notification !important;
   border-radius: 5px;
-  box-shadow: 0 2px 10px rgba(240, 71, 71, 0.3);
+  box-shadow: 0 2px 10px rgba($palenight-error, 0.3);
   height: 40px;
   left: 50%;
   margin-top: 75px;
   opacity: 1;
   position: fixed;
   top: 50%;
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   visibility: visible !important;
   width: 230px;
@@ -87,7 +85,7 @@
   > .noWrap-3jynv6
   > .button-2b6hmh::before {
   border-radius: 5px;
-  color: $nox-white;
+  color: $palenight-white;
   content: 'GO TO SETTINGS';
   display: block;
   font-size: 17px;
@@ -97,7 +95,6 @@
   position: absolute;
   text-align: center;
   top: 50%;
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   visibility: visible !important;
   width: 230px;
@@ -105,23 +102,26 @@
 }
 
 .bd-blue #bd-settings-sidebar .ui-tab-bar-item:nth-of-type(3) {
-  box-shadow: 0 0 0 4px $nox-level4, 0 0 0 6px $nox-important-notification;
-  transition: 200ms cubic-bezier(0, 0, 0, 1);
+  @include transition('easeInOut', 'standard', all);
+  box-shadow: 0 0 0 4px $palenight-level4,
+    0 0 0 6px $palenight-important-notification;
 }
 
 .bd-blue #bd-settings-sidebar .ui-tab-bar-item.selected:nth-of-type(3) {
-  background: $nox-important-notification;
-  box-shadow: 0 0 0 0 $nox-level4, 0 0 0 3px $nox-important-notification;
+  background: $palenight-important-notification;
+  box-shadow: 0 0 0 0 $palenight-level4,
+    0 0 0 3px $palenight-important-notification;
   transition: 300ms cubic-bezier(0, 0, 0, 1) !important;
 }
 
 .bd-blue #bd-settings-sidebar .ui-tab-bar-item:nth-of-type(3):active {
-  background: $nox-important-notification;
+  background: $palenight-important-notification;
 }
 
 .bd-blue #bd-settings-sidebar .ui-tab-bar-item:nth-of-type(3):hover {
-  box-shadow: 0 0 0 0 $nox-level4, 0 0 0 3px $nox-important-notification;
-  transition: 100ms cubic-bezier(0, 0, 0, 1) !important;
+  @include transition('easeInOut', 'shortest', all);
+  box-shadow: 0 0 0 0 $palenight-level4,
+    0 0 0 3px $palenight-important-notification;
 }
 
 .bd-blue .app-2rEoOp.vertical-V37hAW .layer-3QrUeG:first-of-type {
@@ -135,7 +135,7 @@
 //     border-radius:4px;
 //     margin: 0 -5px;
 //     padding: 0 5px;
-//     background:$nox-level1;
+//     background:$palenight-level1;
 // }
 
 // .bd-blue .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .discord-tag .discriminator{
@@ -151,22 +151,22 @@
 // }
 
 // .bd-blue .tab-bar-item#bd-settings-new {
-//     color: $nox-important-notification!important;
+//     color: $palenight-important-notification!important;
 //     opacity: 1!important;
 //     font-weight: 700!important;
-//     box-shadow: -20px 0 0 2px $nox-important-notification inset, -15px 0 0 -2px $nox-level4, -20px 0 0 $nox-important-notification;
+//     box-shadow: -20px 0 0 2px $palenight-important-notification inset, -15px 0 0 -2px $palenight-level4, -20px 0 0 $palenight-important-notification;
 //     transition: 100ms ease!important
 // }
 
 // .bd-blue .tab-bar-item.selected#bd-settings-new{
-//     background: $nox-important-notification;
-//     color: $nox-white!important;
-//     box-shadow: -20px 0 0 4px $nox-important-notification inset, -15px 0 0 $nox-important-notification;
+//     background: $palenight-important-notification;
+//     color: $palenight-white!important;
+//     box-shadow: -20px 0 0 4px $palenight-important-notification inset, -15px 0 0 $palenight-important-notification;
 //     transition: 0ms ease!important
 // }
 
 // .bd-blue .tab-bar-item#bd-settings-new:hover{
-//     box-shadow: -20px 0 0 4px $nox-important-notification inset, -15px 0 0 -4px $nox-level4, -18px 0 0 $nox-important-notification;
+//     box-shadow: -20px 0 0 4px $palenight-important-notification inset, -15px 0 0 -4px $palenight-level4, -18px 0 0 $palenight-important-notification;
 // }
 
 // .bd-blue .tab-bar-item#bd-settings-new:not(.selected)::before{

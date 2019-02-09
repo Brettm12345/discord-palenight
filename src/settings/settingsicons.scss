@@ -10,6 +10,7 @@
 
 #user-settings #bd-settings-sidebar .ui-tab-bar-item::before,
 #user-settings .item-PXvHYJ::before {
+  @include transition('easeInOut', 'shortest', all);
   content: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTkuNDMgMTIuOThjLjA0LS4zMi4wNy0uNjQuMDctLjk4cy0uMDMtLjY2LS4wNy0uOThsMi4xMS0xLjY1Yy4xOS0uMTUuMjQtLjQyLjEyLS42NGwtMi0zLjQ2Yy0uMTItLjIyLS4zOS0uMy0uNjEtLjIybC0yLjQ5IDFjLS41Mi0uNC0xLjA4LS43My0xLjY5LS45OGwtLjM4LTIuNjVDMTQuNDYgMi4xOCAxNC4yNSAyIDE0IDJoLTRjLS4yNSAwLS40Ni4xOC0uNDkuNDJsLS4zOCAyLjY1Yy0uNjEuMjUtMS4xNy41OS0xLjY5Ljk4bC0yLjQ5LTFjLS4yMy0uMDktLjQ5IDAtLjYxLjIybC0yIDMuNDZjLS4xMy4yMi0uMDcuNDkuMTIuNjRsMi4xMSAxLjY1Yy0uMDQuMzItLjA3LjY1LS4wNy45OHMuMDMuNjYuMDcuOThsLTIuMTEgMS42NWMtLjE5LjE1LS4yNC40Mi0uMTIuNjRsMiAzLjQ2Yy4xMi4yMi4zOS4zLjYxLjIybDIuNDktMWMuNTIuNCAxLjA4LjczIDEuNjkuOThsLjM4IDIuNjVjLjAzLjI0LjI0LjQyLjQ5LjQyaDRjLjI1IDAgLjQ2LS4xOC40OS0uNDJsLjM4LTIuNjVjLjYxLS4yNSAxLjE3LS41OSAxLjY5LS45OGwyLjQ5IDFjLjIzLjA5LjQ5IDAgLjYxLS4yMmwyLTMuNDZjLjEyLS4yMi4wNy0uNDktLjEyLS42NGwtMi4xMS0xLjY1ek0xMiAxNS41Yy0xLjkzIDAtMy41LTEuNTctMy41LTMuNXMxLjU3LTMuNSAzLjUtMy41IDMuNSAxLjU3IDMuNSAzLjUtMS41NyAzLjUtMy41IDMuNXoiLz48L3N2Zz4=');
   display: block;
   height: 0;
@@ -17,9 +18,7 @@
   opacity: 0.7;
   position: relative;
   top: -4px;
-  -ms-transform: translate(0, 2px);
   transform: translate(0, 2px);
-  transition: all 100ms ease;
 }
 
 #user-settings #bd-settings-sidebar .ui-tab-bar-item.selected::before,
@@ -42,14 +41,13 @@
 // .layer-3QrUeG[layer-id="server-settings"] .item-PXvHYJ::before,
 // #user-settings .item-PXvHYJ::before,
 // .layer-3QrUeG[layer-id="server-settings"] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .ui-tab-bar.SIDE .ui-tab-bar-item::before {
-//     transition: all 100ms ease;
+//     @include transition('easeInOut', 'shortest', all);
 //     content: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTkuNDMgMTIuOThjLjA0LS4zMi4wNy0uNjQuMDctLjk4cy0uMDMtLjY2LS4wNy0uOThsMi4xMS0xLjY1Yy4xOS0uMTUuMjQtLjQyLjEyLS42NGwtMi0zLjQ2Yy0uMTItLjIyLS4zOS0uMy0uNjEtLjIybC0yLjQ5IDFjLS41Mi0uNC0xLjA4LS43My0xLjY5LS45OGwtLjM4LTIuNjVDMTQuNDYgMi4xOCAxNC4yNSAyIDE0IDJoLTRjLS4yNSAwLS40Ni4xOC0uNDkuNDJsLS4zOCAyLjY1Yy0uNjEuMjUtMS4xNy41OS0xLjY5Ljk4bC0yLjQ5LTFjLS4yMy0uMDktLjQ5IDAtLjYxLjIybC0yIDMuNDZjLS4xMy4yMi0uMDcuNDkuMTIuNjRsMi4xMSAxLjY1Yy0uMDQuMzItLjA3LjY1LS4wNy45OHMuMDMuNjYuMDcuOThsLTIuMTEgMS42NWMtLjE5LjE1LS4yNC40Mi0uMTIuNjRsMiAzLjQ2Yy4xMi4yMi4zOS4zLjYxLjIybDIuNDktMWMuNTIuNCAxLjA4LjczIDEuNjkuOThsLjM4IDIuNjVjLjAzLjI0LjI0LjQyLjQ5LjQyaDRjLjI1IDAgLjQ2LS4xOC40OS0uNDJsLjM4LTIuNjVjLjYxLS4yNSAxLjE3LS41OSAxLjY5LS45OGwyLjQ5IDFjLjIzLjA5LjQ5IDAgLjYxLS4yMmwyLTMuNDZjLjEyLS4yMi4wNy0uNDktLjEyLS42NGwtMi4xMS0xLjY1ek0xMiAxNS41Yy0xLjkzIDAtMy41LTEuNTctMy41LTMuNXMxLjU3LTMuNSAzLjUtMy41IDMuNSAxLjU3IDMuNSAzLjUtMS41NyAzLjUtMy41IDMuNXoiLz48L3N2Zz4=);
 //     display:block;
 //     height:0px;
 //     top:-4px;
 //     margin-right:5px;
 //     position:relative;
-//     -ms-transform: translate(0, 2px);
 //     transform: translate(0, 2px);
 //     opacity:0.7;
 // }
@@ -101,12 +99,12 @@
 
 /* Nitro */
 #user-settings .item-PXvHYJ:nth-of-type(8) {
-  color: $nox-accent !important;
+  color: $palenight-accent !important;
 }
 
 #user-settings .item-PXvHYJ:nth-of-type(8).selected-3s45Ha {
-  background: $nox-accent !important;
-  color: $nox-light-fg !important;
+  background: $palenight-accent !important;
+  color: $palenight-light-fg !important;
 }
 
 #user-settings .item-PXvHYJ:nth-of-type(8)::before,
@@ -115,9 +113,10 @@
   .sidebarRegion-VFTUkN
   .ui-tab-bar.SIDE
   .ui-tab-bar-item:nth-of-type(8)::before {
-  color: $nox-accent;
+  color: $palenight-accent;
   content: '|';
-  font-family: NoxIcons, Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: PalenightIcons, Whitney, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
   font-size: 23px;
   height: 0;
   transform: translate(0, 4px);
@@ -125,7 +124,7 @@
 }
 
 .itemBrand-mC9YR4 {
-  color: $nox-accent;
+  color: $palenight-accent;
 }
 
 #user-settings .item-PXvHYJ:active:nth-of-type(8)::before,
@@ -140,8 +139,9 @@
   .sidebarRegion-VFTUkN
   .ui-tab-bar.SIDE
   .ui-tab-bar-item.selected:nth-of-type(8)::before {
-  color: $nox-white;
-  font-family: NoxIcons, Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: $palenight-white;
+  font-family: PalenightIcons, Whitney, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
   font-size: 23px;
   height: 0;
   transform: translate(0, 4px);
@@ -329,7 +329,7 @@ div.platform-win #user-settings .item-PXvHYJ:nth-of-type(21)::before {
   .sidebarRegion-VFTUkN
   .ui-tab-bar.SIDE
   .ui-tab-bar-item:nth-last-of-type(3):not([data-reactid]):active {
-  background: $nox-white;
+  background: $palenight-white;
 }
 
 #user-settings
@@ -356,7 +356,7 @@ div.platform-win #user-settings .item-PXvHYJ:nth-of-type(21)::before {
   .ui-tab-bar.SIDE
   #bd-settings-sidebar
   .ui-tab-bar-item:nth-last-of-type(3):not([data-reactid]):active {
-  background: $nox-accent;
+  background: $palenight-accent;
 }
 
 // /*-SERVER SETTINGS-*/

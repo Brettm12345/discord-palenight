@@ -1,11 +1,11 @@
 body .quote-close {
-  background: $nox-level2
+  background: $palenight-level2
     url('data: image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDYuNDFMMTcuNTkgNSAxMiAxMC41OSA2LjQxIDUgNSA2LjQxIDEwLjU5IDEyIDUgMTcuNTkgNi40MSAxOSAxMiAxMy40MSAxNy41OSAxOSAxOSAxNy41OSAxMy40MSAxMnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==') !important;
   background-position: 50% !important;
   background-repeat: no-repeat !important;
   background-size: 60% !important;
   border-radius: 50%;
-  box-shadow: 0 5px 10px rgba($nox-black, 0.1);
+  box-shadow: 0 5px 10px rgba($palenight-black, 0.1);
   height: 30px;
   position: absolute;
   right: 0;
@@ -14,7 +14,7 @@ body .quote-close {
 }
 
 body .quote-close::after {
-  background: $nox-white;
+  background: $palenight-white;
   border-radius: 50%;
   content: '';
   display: block;
@@ -68,7 +68,7 @@ body .citar-btn {
 .replyer:hover,
 .quoter:hover,
 body .citar-btn:hover {
-  background-color: $nox-level0 !important;
+  background-color: $palenight-level0 !important;
   opacity: 1 !important;
   transition: 0ms !important;
 }
@@ -76,7 +76,7 @@ body .citar-btn:hover {
 .replyer:active,
 .quoter:active,
 body .citar-btn:active {
-  background-color: $nox-level4 !important;
+  background-color: $palenight-level4 !important;
   opacity: 1 !important;
   transition: 0ms !important;
 }

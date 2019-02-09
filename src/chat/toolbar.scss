@@ -17,7 +17,7 @@
 }
 
 .title-3qD0b- .iconBadge-2dji3k {
-  border-color: $nox-level4;
+  border-color: $palenight-level4;
 }
 
 .title-3qD0b- .icon-1R19_H[name*='NotificationBell'] path,
@@ -74,20 +74,18 @@
 
 /* Private */
 .channelName-3stJzi.private-26pLvW:hover + .status-oxiHuE {
-  -ms-transform: scale(0.9) translate(-2px);
   transform: scale(0.9) translate(-2px);
 }
 
 .channelName-3stJzi.private-26pLvW:hover + .status-oxiHuE {
-  transition: all 200ms ease;
+  @include transition('easeInOut', 'shorter', all);
 }
 
 .channelName-3stJzi.private-26pLvW {
-  transition: all 200ms ease;
+  @include transition('easeInOut', 'shorter', all);
 }
 
 .channelName-3stJzi.private-26pLvW:hover {
-  -ms-transform: scale(0.98);
   transform: scale(0.98);
 }
 
@@ -112,23 +110,23 @@
 .chat-3bRxxu > .titleWrapper-1l0xT9,
 .chat-3bRxxu > .titleWrapper-1l0xT9 > .title-3qD0b-,
 .chat-3bRxxu .titleWrapper-1l0xT9 {
-  background-color: $nox-level4 !important;
+  background-color: $palenight-level4 !important;
 }
 
 .chat-3bRxxu .titleWrapper-1l0xT9 .topic {
+  @include transition('easeInOut', 'standard', all);
   color: rgba(225, 225, 225, 0.3) !important;
-  transition: all 300ms ease;
 }
 
 .chat-3bRxxu .titleWrapper-1l0xT9 .topic:hover {
+  @include transition('easeInOut', 'standard', all);
   color: rgba(225, 225, 225, 0.7) !important;
-  transition: all 300ms ease;
 }
 
 .theme-dark .chat-3bRxxu .titleWrapper-1l0xT9 .topic a {
+  @include transition('easeInOut', 'standard', all);
   border-bottom: 2px solid transparent;
-  color: #2196f3 !important;
-  transition: all 300ms ease;
+  color: $blue !important;
 }
 
 .theme-dark .chat-3bRxxu .titleWrapper-1l0xT9 .topic a:hover {
@@ -137,7 +135,7 @@
 }
 
 .chat-3bRxxu .titleWrapper-1l0xT9 {
-  box-shadow: 0 2px 20px rgba($nox-black, 0.4);
+  box-shadow: 0 2px 20px rgba($palenight-black, 0.4);
 }
 
 .chat-3bRxxu .titleWrapper-1l0xT9 {
@@ -146,7 +144,7 @@
 
 .chat-3bRxxu > .titleWrapper-1l0xT9.call {
   background: transparent !important;
-  box-shadow: 0 60px 56px -56px $nox-black inset !important;
+  box-shadow: 0 60px 56px -56px $palenight-black inset !important;
 }
 
 .chat-3bRxxu > .titleWrapper-1l0xT9.call > .title-3qD0b- {
@@ -181,7 +179,7 @@
   > .titleWrapper-1l0xT9.theme-dark
   .title-3qD0b-.channel-group-dm
   .channel-name:hover {
-  border-bottom: 2px solid $nox-white1;
+  border-bottom: 2px solid rgba($palenight-white, 0.1);
   transition: 200ms ease;
 }
 
@@ -189,7 +187,7 @@
   > .titleWrapper-1l0xT9.theme-dark
   .title-3qD0b-.channel-group-dm
   .channel-name.focus {
-  border-bottom: 2px solid $nox-accent;
+  border-bottom: 2px solid $palenight-accent;
   transition: 0ms;
 }
 
@@ -226,7 +224,7 @@
   > .title-wrap.title-wrap-dark
   .title.channel-group-dm
   .channel-name:hover {
-  border-bottom: 2px solid $nox-white1;
+  border-bottom: 2px solid rgba($palenight-white, 0.1);
   transition: 200ms ease;
 }
 
@@ -234,7 +232,7 @@
   > .title-wrap.title-wrap-dark
   .title.channel-group-dm
   .channel-name.focus {
-  border-bottom: 2px solid $nox-accent;
+  border-bottom: 2px solid $palenight-accent;
   transition: 0ms;
 }
 

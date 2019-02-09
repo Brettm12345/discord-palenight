@@ -1,33 +1,33 @@
 /* Autocomplete modal */
 .theme-dark #autocomplete-popout section {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 #autocomplete-popout {
-  background: $nox-level2;
+  background: $palenight-level2;
   border-radius: 4px;
-  box-shadow: 0 5px 20px rgba($nox-black, 0.3);
+  box-shadow: 0 5px 20px rgba($palenight-black, 0.3);
 }
 
 #autocomplete-popout header {
-  background: $nox-level4;
+  background: $palenight-level4;
 }
 
 .theme-dark #autocomplete-popout .row.selected {
-  background: $nox-level2;
+  background: $palenight-level2;
 }
 
 .theme-dark #autocomplete-popout .row {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 #autocomplete-popout .empty h4 {
-  color: $nox-accent;
+  color: $palenight-accent;
 }
 
 #autocomplete-popout .row.selected,
 #autocomplete-popout .row:hover {
-  background: #181818;
+  background: $palenight-level0;
 }
 
 #autocomplete-popout .row {
@@ -40,12 +40,12 @@
 
 #autocomplete-popout .empty p,
 #autocomplete-popout .row a {
-  color: $nox-white3;
+  color: rgba($palenight-white, 0.3);
 }
 
 #autocomplete-popout .row.selected a,
 #autocomplete-popout .row:hover a {
-  color: $nox-white4;
+  color: rgba($palenight-white, 0.4);
 }
 
 #autocomplete-popout .empty:hover {

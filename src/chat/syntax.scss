@@ -1,14 +1,14 @@
 /* Syntax Highlighting */
 .hljs {
-  background: $nox-level0 !important;
-  color: $nox-white !important;
+  background: $palenight-level0 !important;
+  color: $palenight-white !important;
   display: block;
   overflow-x: auto;
   padding: 0.5em !important;
 }
 
 .hljs ol li::before {
-  color: $nox-level0 !important;
+  color: $palenight-level0 !important;
 }
 
 .hljs-comment {
@@ -31,7 +31,7 @@
 
 .hljs-attribute,
 .hljs-subst {
-  color: $nox-light-fg !important;
+  color: $palenight-light-fg !important;
 }
 
 .hljs-string,

@@ -3,15 +3,15 @@
 /* ================= */
 
 .contextMenu-HLZMGh {
-  animation: opacity 50ms ease, context-open-new 150ms cubic-bezier(0, 0, 0, 1);
-  background: $nox-level2 !important;
-  border: 1px solid $nox-level2;
+  @include animation(sub-contextmenu-anim 200ms ease-in-out);
+  @include box-shadow(4);
+  background: $palenight-level2 !important;
+  border: 1px solid $palenight-level2;
   border-radius: 2px;
-  box-shadow: 0 2px 25px rgba($nox-black, 0.4) !important;
   padding: 0;
   padding-bottom: 15px;
   padding-top: 15px;
-  transform-origin: top;
+  transform-origin: top left;
 }
 
 .theme-dark.contextMenu-HLZMGh .contextMenu-HLZMGh {
@@ -39,7 +39,7 @@
 }
 
 .contextMenu-HLZMGh .itemGroup-1tL0uz:not(:first-child):not(:empty) {
-  border-color: $nox-level3 !important;
+  border-color: $palenight-level3 !important;
 }
 
 @keyframes context-open-invertY {
@@ -51,14 +51,14 @@
 }
 
 .theme-dark.contextMenu-HLZMGh .itemGroup-1tL0uz {
-  border-color: rgba($nox-white, 0.03) !important;
+  border-color: rgba($palenight-white, 0.03) !important;
 }
 
 .contextMenu-HLZMGh .item-1Yvehc {
   animation: opacity 200ms 100ms backwards;
   background: transparent !important;
   border-radius: 0;
-  color: $nox-white6;
+  color: rgba($palenight-white, 0.6);
   cursor: pointer;
   margin: 0;
   padding: 9px 15px;
@@ -67,12 +67,12 @@
 
 .contextMenu-HLZMGh .item-1Yvehc:hover {
   background: rgba(225, 225, 225, 0.03) !important;
-  color: $nox-white8;
+  color: rgba($palenight-white, 0.8);
   transition: all 0ms;
 }
 
 .contextMenu-HLZMGh .item-1Yvehc.brand-3igrJY {
-  color: $nox-accent !important;
+  color: $palenight-accent !important;
 }
 
 // .contextMenu-HLZMGh {
@@ -83,26 +83,26 @@
 .contextMenu-HLZMGh .item-1Yvehc:active .slider .slider-handle span,
 .contextMenu-HLZMGh .item-1Yvehc:active .slider .slider-handle,
 .contextMenu-HLZMGh .item-1Yvehc:active .slider-bar-fill {
-  background: $nox-white;
-  color: $nox-accent;
+  background: $palenight-white;
+  color: $palenight-accent;
 }
 
 .contextMenu-HLZMGh .item-1Yvehc.danger-2dXSTE:hover {
-  color: $nox-important-notification !important;
+  color: $palenight-important-notification !important;
 }
 
 .contextMenu-HLZMGh .item-1Yvehc:active .checkbox-3kaeSU span {
-  background: $nox-white !important;
-  border-color: $nox-white !important;
+  background: $palenight-white !important;
+  border-color: $palenight-white !important;
 }
 
 .contextMenu-HLZMGh .item-1Yvehc:active .checkbox-3kaeSU span::before {
-  border-color: $nox-accent !important;
+  border-color: $palenight-accent !important;
 }
 
 .contextMenu-HLZMGh .item-1Yvehc.danger-2dXSTE:active {
-  background: $nox-important-notification !important;
-  color: $nox-white !important;
+  background: $palenight-important-notification !important;
+  color: $palenight-white !important;
 }
 
 .contextMenu-HLZMGh .contextMenu-HLZMGh {
@@ -124,7 +124,7 @@
 }
 
 .contextMenu-HLZMGh .slider-1PF9SW .grabber-3mFHz2 {
-  background: $nox-accent;
+  background: $palenight-accent;
   height: 12px;
   margin-left: -7px;
   margin-top: 3px;
@@ -136,24 +136,24 @@
 }
 
 .contextMenu-HLZMGh .item-1Yvehc:hover .checkbox-3kaeSU span::before {
-  border-color: $nox-level1 !important;
+  border-color: $palenight-level1 !important;
 }
 
 .contextMenu-HLZMGh .item-1Yvehc:active .checkbox-3kaeSU span::before {
-  border-color: $nox-level0 !important;
+  border-color: $palenight-level0 !important;
 }
 
 .contextMenu-HLZMGh .item-1Yvehc .checkbox-3kaeSU span::before {
-  border-color: $nox-level2 !important;
+  border-color: $palenight-level2 !important;
 }
 
 .item-1Yvehc.itemSubMenu-1vN_Yn::after {
+  @include animation(sub-contextmenu-anim 200ms ease-in-out);
   content: url('data: image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTguNTkgMTYuMzRsNC41OC00LjU5LTQuNTgtNC41OUwxMCA1Ljc1bDYgNi02IDZ6Ii8+ICAgIDxwYXRoIGQ9Ik0wLS4yNWgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==');
   opacity: 0.6;
   position: absolute;
   right: 5px;
   top: 5px;
-  transition: all 100ms ease;
 }
 
 .item-1Yvehc.itemSubMenu-1vN_Yn:hover::after {
@@ -161,7 +161,7 @@
 }
 
 .contextMenu-HLZMGh ::-webkit-scrollbar-thumb {
-  border: 2px solid $nox-white0 !important;
+  border: 2px solid rgba($palenight-white, 0) !important;
 }
 
 /* ================= */

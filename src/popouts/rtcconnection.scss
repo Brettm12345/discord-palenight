@@ -1,8 +1,8 @@
 .popout-3sVMXz section {
-  background: $nox-level2 !important;
-  transition: all 100ms ease;
+  @include transition('easeInOut', 'shortest', all);
+  background: $palenight-level2 !important;
 }
 
 .popout-3sVMXz .container-2x5lvQ header {
-  background: $nox-accent;
+  background: $palenight-accent;
 }

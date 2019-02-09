@@ -1,10 +1,10 @@
 .serverfolders-modal .form-header,
 .serverfolders-modal .form-actions {
-  background: #141414 !important;
+  background: $palenight-level0 !important;
 }
 
 .serverfolders-modal .modal-inner {
-  background: $nox-level3 !important;
+  background: $palenight-level3 !important;
 }
 
 .serverfolders-modal .form-tab {
@@ -20,7 +20,7 @@
 .serverfolders-modal .form-tab button {
   background: transparent !important;
   border-bottom: 2px solid transparent;
-  color: $nox-white2 !important;
+  color: rgba($palenight-white, 0.2) !important;
   cursor: pointer !important;
   margin-right: 5px;
   padding: 0 8px !important;
@@ -28,13 +28,13 @@
 }
 
 .serverfolders-modal .form-tab button:hover {
-  border-bottom: 2px solid $nox-white4;
-  color: $nox-white4 !important;
+  border-bottom: 2px solid rgba($palenight-white, 0.4);
+  color: rgba($palenight-white, 0.4) !important;
 }
 
 .serverfolders-modal .form-tab button.active {
-  border-bottom: 2px solid $nox-white;
-  color: $nox-white !important;
+  border-bottom: 2px solid $palenight-white;
+  color: $palenight-white !important;
 }
 
 .serverfolders-modal .form-tabcontent {
@@ -69,11 +69,11 @@
   > .guild-1EfMGQ:first-of-type
   .guildInner-3DSoA4
   a::after {
-  background: $nox-white1;
+  background: rgba($palenight-white, 0.1);
 }
 
 .guilds-1q_RqH .foldercontainer + div.guild-1EfMGQ .guildInner-3DSoA4 a::after {
-  background-color: $nox-white1;
+  background-color: rgba($palenight-white, 0.1);
 }
 
 .guilds-1q_RqH .foldercontainer + div.guild-1EfMGQ:hover {
@@ -81,7 +81,7 @@
 }
 
 .guild-1EfMGQ.folder .badge-1GsMF2.folder.count {
-  background: $nox-accent;
+  background: $palenight-accent;
   bottom: unset;
   left: unset;
   right: -2px;
@@ -97,11 +97,11 @@
 }
 
 .serverfolders-modal .da-inner .horizontal-1ae9ci {
-  background: $nox-level4;
+  background: $palenight-level4;
   box-shadow: none !important;
 }
 
 .serverfolders-modal .da-flex .da-horizontal {
-  background-color: $nox-level0;
+  background-color: $palenight-level0;
   box-shadow: none !important;
 }

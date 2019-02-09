@@ -2,20 +2,28 @@
 
 .searchResultsWrap-2DKFzt,
 .searchResultsWrap-2DKFzt .searchHeader-1l-wpR {
-  background: $nox-level2 !important;
+  background: $palenight-level2 !important;
   box-shadow: none;
 }
 
 .theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB::before {
-  background-image: linear-gradient(0deg, transparent 0, $nox-level2) 100%;
+  background-image: linear-gradient(
+    0deg,
+    transparent 0,
+    $palenight-level1 100%
+  );
 }
 
 .theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB::after {
-  background-image: linear-gradient(180deg, transparent 0, $nox-level2) 100%;
+  background-image: linear-gradient(
+    180deg,
+    transparent 0,
+    $palenight-level2 100%
+  );
 }
 
 .theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .hit-NLlWXA {
-  box-shadow: 0 0 10px 6px $nox-level2;
+  box-shadow: 0 0 10px 6px $palenight-level2;
 }
 
 .theme-dark
@@ -33,14 +41,14 @@
 }
 
 .theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .hit-NLlWXA {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 .theme-dark
   .searchResultsWrap-2DKFzt
   .searchResult-3pzFAB.expanded-v2Szsz
   .searchResultMessage-2VxO12.hit-NLlWXA {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 .searchResultsWrap-2DKFzt
@@ -113,5 +121,5 @@
 }
 
 .actionButtons-14P9IC .jumpButton-Ia2hRJ {
-  background: $nox-level2;
+  background: $palenight-level2;
 }

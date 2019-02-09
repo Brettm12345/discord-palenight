@@ -1,19 +1,19 @@
 .popout-3sVMXz {
-  box-shadow: 0 5px 15px rgba($nox-black, 0.3) !important;
+  box-shadow: 0 5px 15px rgba($palenight-black, 0.3) !important;
 }
 
 // .popout-3sVMXz section {
-//     background: $nox-level2!important;
-//     transition: all 100ms ease;
+//     background: $palenight-level2!important;
+//     @include transition('easeInOut', 'shortest', all);
 // }
 
 .popout-3sVMXz header {
-  background: $nox-accent;
+  background: $palenight-accent;
 }
 
 .popout-3sVMXz.popoutBottomRight-2JrySt header::before,
 .popout-3sVMXz.popoutBottom-1YbShG header::before {
-  border-bottom-color: $nox-accent;
+  border-bottom-color: $palenight-accent;
 }
 
 @keyframes bottompopout {

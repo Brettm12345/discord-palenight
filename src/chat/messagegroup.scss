@@ -3,7 +3,7 @@
 // TODO: background-image: url("/assets/f78426a064bc9dd24847519259bc42af.png"); on empty messages/system messages
 
 .container-1YxwTf {
-  background: $nox-level2;
+  background: $palenight-level2;
   margin: 20px 10px 20px 80px;
   overflow: visible;
   padding: 0 7px 10px 10px;
@@ -15,7 +15,8 @@
 }
 
 .container-1YxwTf::before {
-  border-color: transparent $nox-level2 transparent transparent;
+  @include transition('easeInOut', 'shorter', all);
+  border-color: transparent $palenight-level2 transparent transparent;
   border-style: solid;
   border-width: 0 10px 10px 0;
   content: '';
@@ -24,11 +25,11 @@
   left: -20px;
   position: relative;
   top: 0;
-  transition: all 200ms ease;
   width: 0;
 }
 
 .container-1YxwTf .avatar-17mtNa {
+  @include transition('easeInOut', 'shorter', all);
   left: -70px;
   margin: 0;
   opacity: 1;
@@ -66,16 +67,21 @@
 .theme-dark {
   .embedTitleLink-1Zla9e,
   .markup-2BOw-j a {
+    @include transition('easeInOut', 'standard', color);
     color: $blue !important;
   }
+}
+
+.markup-2BOw-j a:hover {
+  color: lighten($blue, map-get($palenight-states, 'hover')) !important;
 }
 
 /* Mentioned */
 .container-1YxwTf .isMentioned-N-h9aa {
   background: none;
   .markup-2BOw-j {
-    background: rgba($nox-warning, 0.1);
-    border-left: 4px solid rgba($nox-warning, 0.1);
+    background: rgba($palenight-warning, 0.1);
+    border-left: 4px solid rgba($palenight-warning, 0.1);
     border-radius: 2px 3px 3px 2px;
     margin-left: -4px;
     padding-left: 3px;
@@ -95,8 +101,8 @@
   padding-right: 2px;
   transition: 0ms ease;
   &:hover {
-    background: $nox-accent !important;
-    color: $nox-white !important;
+    background: $palenight-accent !important;
+    color: $palenight-white !important;
     text-decoration: none;
   }
 }
@@ -107,19 +113,19 @@
 .markup-2BOw-j .mention,
 .markup-2BOw-j .wrapper-3WhCwL {
   background: transparent !important;
-  color: $nox-accent;
+  color: $palenight-accent;
   position: relative;
   z-index: 1;
 }
 
 .markup-2BOw-j .mention:hover,
 .markup-2BOw-j .wrapper-3WhCwL:hover {
-  color: $nox-white !important;
+  color: $palenight-light-fg !important;
 }
 
 .markup-2BOw-j .mention::after,
 .markup-2BOw-j .wrapper-3WhCwL::after {
-  background: $nox-accent;
+  background: $palenight-accent;
   content: '';
   height: 100%;
   left: 0;
@@ -135,7 +141,7 @@
 }
 
 .markup-2BOw-j .mention:hover::after {
-  background: $nox-accent;
+  background: $palenight-accent;
   opacity: 1;
 }
 // END MENTIONS
@@ -154,7 +160,6 @@
   height: 18px !important;
   margin-top: 3px;
   opacity: 0;
-  -ms-transform: scale(1);
   transform: scale(1);
   transition: all 200ms ease !important;
   width: 18px !important;
@@ -165,7 +170,6 @@
   height: 18px !important;
   margin-top: 3px;
   opacity: 0;
-  -ms-transform: scale(1);
   transform: scale(1);
   transition: all 200ms ease !important;
   width: 18px !important;
@@ -192,7 +196,7 @@
 .container-1YxwTf .button-3Jq0g9::after,
 .container-1YxwTf .avatar-17mtNa::after {
   animation-fill-mode: forwards;
-  background: $nox-white;
+  background: $palenight-white;
   border-radius: 50%;
   content: '';
   display: block;
@@ -222,7 +226,7 @@
 // Code blocks
 .container-1YxwTf .markup-2BOw-j code.inline,
 .container-1YxwTf .markup-2BOw-j pre code {
-  background: $nox-level4 !important;
+  background: $palenight-level4 !important;
 }
 
 .container-1YxwTf .markup-2BOw-j pre {
@@ -231,7 +235,7 @@
 }
 
 .container-1YxwTf .markup-2BOw-j pre code {
-  border: 2px solid $nox-level4 !important;
+  border: 2px solid $palenight-level4 !important;
   border-radius: 5px;
   margin-bottom: 5px;
   margin-top: 5px;
@@ -254,7 +258,7 @@
 
 .container-1YxwTf .message-1PNnaP textarea {
   border-radius: 6px;
-  color: rgba($nox-white, 0.6);
+  color: rgba($palenight-white, 0.6);
   font-size: 0.9375rem;
   line-height: 1.1em;
   margin-bottom: 0;
@@ -265,11 +269,11 @@
 }
 
 .container-1YxwTf .message-1PNnaP textarea:hover {
-  color: rgba($nox-white, 0.8);
+  color: rgba($palenight-white, 0.8);
 }
 
 .container-1YxwTf .message-1PNnaP textarea:focus {
-  color: rgba($nox-white, 1);
+  color: rgba($palenight-white, 1);
 }
 
 .container-1YxwTf .channelTextArea-1LDbYG .emojiButton-2wRZts {
@@ -285,28 +289,28 @@
 }
 
 .operations-36ENbA > a {
-  color: $nox-accent;
+  color: $palenight-accent;
 }
 // End Edit Message
 
 // Blocked Messages
 .messageGroupBlocked-3wrQQX {
-  background: $nox-level1 !important;
-  border: 1px solid rgba($nox-black, 0.1) !important;
+  background: $palenight-level1 !important;
+  border: 1px solid rgba($palenight-black, 0.1) !important;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba($nox-black, 0.1);
+  box-shadow: 0 2px 5px rgba($palenight-black, 0.1);
   margin: 20px 6px 20px 19px;
   transition: 300ms ease;
 }
 
 .messageGroupBlocked-3wrQQX:hover {
-  box-shadow: 0 2px 5px rgba($nox-black, 0.2) !important;
+  box-shadow: 0 2px 5px rgba($palenight-black, 0.2) !important;
 }
 
 .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlockedBtn-1PBBh- {
-  background: $nox-level2 !important;
+  background: $palenight-level2 !important;
   border-radius: 3px;
-  color: $nox-white5 !important;
+  color: rgba($palenight-white, 0.5) !important;
   opacity: 0.6;
 }
 
@@ -327,7 +331,7 @@
 }
 
 .container-1YxwTf.isLocalBot-38G0P0 {
-  background: rgba($nox-black, 0.2);
+  background: rgba($palenight-black, 0.2);
   border-radius: 3px !important;
 }
 
@@ -347,7 +351,7 @@
 }
 
 .containerCompact-3V0ioj.container-1YxwTf .isMentioned-N-h9aa .markup-2BOw-j {
-  border-left: 4px solid $nox-warning;
+  border-left: 4px solid $palenight-warning;
   margin-left: calc(9ch - 10px);
   padding-left: 6px;
 }
@@ -355,11 +359,11 @@
 
 // POPOUT OPEN
 .message-1PNnaP .usernameWrapper-1S-G5O.popout-open {
-  background: $nox-accent;
+  background: $palenight-accent;
 }
 
 .message-1PNnaP .usernameWrapper-1S-G5O.popout-open .username-_4ZSMR {
-  color: $nox-white !important;
+  color: $palenight-white !important;
 }
 
 .message-1PNnaP .usernameWrapper-1S-G5O .username-_4ZSMR {

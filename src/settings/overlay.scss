@@ -1,17 +1,17 @@
 .notificationSettings-1NQKPR .wrapper-3jrx9n {
-  border-color: $nox-accent;
+  border-color: $palenight-accent;
 }
 
 .notificationSettings-1NQKPR .option-n0icdO.selected-mKYnfr {
-  background-color: $nox-accent;
+  background-color: $palenight-accent;
 }
 
 .notificationSettings-1NQKPR .option-n0icdO7 {
-  transition: all 200ms ease;
+  @include transition('easeInOut', 'shorter', all);
 }
 
 .notificationSettings-1NQKPR .option-n0icdO:hover {
-  background: $nox-accent;
+  background: $palenight-accent;
   filter: brightness(93%) contrast(110%);
   transform: translate(0, -1px);
   transition: all 100ms ease, transform 150ms cubic-bezier(0, 0, 0, 1);
@@ -19,7 +19,7 @@
 
 .notificationSettings-1NQKPR .option-n0icdO:active {
   background: rgb(220, 220, 220);
-  color: rgba($nox-black, 0.7);
+  color: rgba($palenight-black, 0.7);
   transform: translate(0, 2px);
   transition: all 50ms ease;
 }

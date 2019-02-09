@@ -1,12 +1,12 @@
 .modal-3HD5ck a,
 .messages-wrapper .messages .message-group a {
   border-bottom: 2px solid transparent;
-  color: #2196f3 !important;
+  color: $blue !important;
   transition: color 300ms ease;
 }
 
 .modal-3HD5ck a:hover,
 .messages-wrapper .messages .message-group a:hover {
-  color: #90caf9 !important;
+  color: lighten($blue, 10%) !important;
   text-decoration: none;
 }

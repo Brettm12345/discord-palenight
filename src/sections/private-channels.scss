@@ -6,7 +6,7 @@
 }
 
 .privateChannels-1nO12o .channel-2QD9_O a .close::after {
-  background: $nox-white;
+  background: $palenight-white;
   border-radius: 50%;
   content: '';
   display: block;
@@ -36,12 +36,6 @@
 .privateChannels-1nO12o .channel-2QD9_O a {
   padding: 6px;
   padding-left: 10px;
-  transition: 0ms;
-}
-
-.privateChannels-1nO12o .channel-2QD9_O,
-.privateChannels-1nO12o .channel-2QD9_O a {
-  overflow: visible;
 }
 
 .privateChannels-1nO12o .channel-2QD9_O .icon-friends {
@@ -52,7 +46,7 @@
 }
 
 .name-2WpE7M {
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 .channel-2QD9_O.btn-friends .name-2WpE7M {
@@ -60,22 +54,20 @@
 }
 
 .privateChannels-1nO12o .channel-2QD9_O.selected .icon-friends {
-  background-color: rgba($nox-black, 0);
+  background-color: rgba($palenight-black, 0);
   opacity: 1 !important;
-  -ms-transform: scale(1);
   transform: scale(1);
 }
 
 .privateChannels-1nO12o .channel-2QD9_O .icon-friends {
-  background-color: rgba($nox-black, 0);
+  @include transition('easeInOut', 'shortest', all);
+  background-color: rgba($palenight-black, 0);
   opacity: 0.8 !important;
-  transition: all 100ms ease;
 }
 
 .privateChannels-1nO12o .channel-2QD9_O:hover .icon-friends {
-  background-color: rgba($nox-black, 0);
+  background-color: rgba($palenight-black, 0);
   opacity: 1 !important;
-  -ms-transform: scale(1);
   transform: scale(1);
 }
 
@@ -85,13 +77,13 @@
 
 .privateChannels-1nO12o .channel-2QD9_O:hover.channel-muted::before,
 .privateChannels-1nO12o .channel-2QD9_O:hover:not(.unread)::before {
-  border-left: 4px solid $nox-white;
-  transition: all 100ms ease;
+  @include transition('easeInOut', 'shortest', all);
+  border-left: 4px solid $palenight-white;
 }
 
 .privateChannels-1nO12o .channel-2QD9_O.selected::before {
-  border-left: 2px solid $nox-white;
-  transition: all 100ms ease;
+  @include transition('easeInOut', 'shortest', all);
+  border-left: 2px solid $palenight-white;
 }
 
 .privateChannels-1nO12o .channel-2QD9_O .close {
@@ -100,7 +92,6 @@
 
 .stop-animations .privateChannels-1nO12o .channel-2QD9_O .badge,
 .privateChannels-1nO12o .channel-2QD9_O .badge {
-  -ms-transform: translate(-15px) !important;
   transform: translate(-15px) !important;
 }
 
@@ -115,14 +106,16 @@
   margin: 0 4px;
   overflow: hidden;
   // height: 50px;
-  transition: all 200ms ease-in-out;
   width: calc(25% - 8px);
 }
 
 .privateChannels-1nO12o
   .channel-2QD9_O:not([style='height: 42px; opacity: 1;'])
   a {
+  @include transition('easeInOut', 'complex', background, color);
   align-items: center;
+  border-left: 0 !important;
+  border-radius: 4px !important;
   flex-direction: column;
   height: 100%;
   justify-content: center;
@@ -135,10 +128,22 @@
 .privateChannels-1nO12o
   .channel-2QD9_O.selected-1HYmZZ:not([style='height: 42px; opacity: 1;'])
   a {
-  background: $nox-level4;
+  @include states($palenight-accent, 'selected');
+  color: $palenight-accent !important;
+}
+
+.privateChannels-1nO12o
+  .channel-2QD9_O.selected-1HYmZZ:not([style='height: 42px; opacity: 1;'])
+  a.name-2wpe7m {
+  color: $palenight-accent !important;
+}
+
+.channel-2QD9_O.selected-1HYmZZ .activity-525YDR {
+  color: $palenight-accent;
 }
 
 .channel-2QD9_O:not([style='height: 42px; opacity: 1;']) a .name-2WpE7M {
+  @include transition('easeInOut', 'complex', opacity, color);
   box-sizing: border-box;
   font-size: 12px;
   opacity: 0;
@@ -148,7 +153,6 @@
   text-overflow: ellipsis;
   width: 100%;
 }
-
 .channel-2QD9_O.selected-1HYmZZ:not([style='height: 42px; opacity: 1;'])
   a
   .name-2WpE7M,
@@ -192,5 +196,5 @@
 }
 
 .circleBackground-OqqxHM {
-  fill: $nox-level1;
+  fill: $palenight-level1;
 }

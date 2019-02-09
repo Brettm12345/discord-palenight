@@ -1,26 +1,26 @@
 #EditUploadsEditButton {
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 #EditUploadsModal {
-  background: $nox-level2;
+  background: $palenight-level2;
 }
 
 #EditUploadsToolbar {
-  background: $nox-level4;
+  background: $palenight-level4;
 }
 
 #EditUploadsToolbar .tool:hover {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 #EditUploadsToolbar .tool:active {
-  background: $nox-level2;
+  background: $palenight-level2;
 }
 
 #EditUploadsModal > span {
   align-items: center;
-  color: $nox-white7;
+  color: rgba($palenight-white, 0.7);
   display: flex;
   height: 28px;
   justify-content: center;
@@ -30,11 +30,11 @@
 }
 
 #EditUploadsModal > span:hover {
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 #EditUploadsModal > span::after {
-  background: $nox-white;
+  background: $palenight-white;
   border-radius: 50%;
   content: '';
   display: block;

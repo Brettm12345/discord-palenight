@@ -15,10 +15,10 @@ body #files_directDownload {
 
 body #files_directDownload .file {
   animation: height 300ms cubic-bezier(0.4, 0, 0, 1);
-  background: $nox-level1;
+  background: $palenight-level1;
   border: 0;
   border-radius: 0 !important;
-  box-shadow: 0 -2px 15px rgba($nox-black, 0.2) !important;
+  box-shadow: 0 -2px 15px rgba($palenight-black, 0.2) !important;
   height: 40px;
   margin: 0;
   max-width: 240px;
@@ -32,45 +32,45 @@ body #files_directDownload .file {
 }
 
 body #files_directDownload .file:not(:first-of-type) {
-  box-shadow: 0 -32px 10px -30px rgba($nox-black, 0.1) inset !important;
+  box-shadow: 0 -32px 10px -30px rgba($palenight-black, 0.1) inset !important;
 }
 
 body #files_directDownload .file:first-of-type:not(:last-of-type) {
-  box-shadow: 0 -32px 10px -30px rgba($nox-black, 0.1) inset,
-    0 -2px 15px rgba($nox-black, 0.2) !important;
+  box-shadow: 0 -32px 10px -30px rgba($palenight-black, 0.1) inset,
+    0 -2px 15px rgba($palenight-black, 0.2) !important;
 }
 
 body #files_directDownload .file.done:hover {
-  background: $nox-level1;
-  box-shadow: 0 2px 15px rgba($nox-black, 0.2) !important;
+  background: $palenight-level1;
+  box-shadow: 0 2px 15px rgba($palenight-black, 0.2) !important;
   transition: all 100ms ease, z-index 0ms;
   z-index: 2;
 }
 
 body #files_directDownload .file.done:active {
-  background: $nox-accent;
+  background: $palenight-accent;
   transition: 0ms;
 }
 
 body #files_directDownload .file span {
-  color: $nox-white6;
+  @include transition('easeInOut', 'shortest', all);
+  color: rgba($palenight-white, 0.6);
   left: 10px;
   line-height: 30px;
   max-width: 200px;
   padding: 0;
   position: absolute;
   top: 4px;
-  transition: all 100ms ease;
   z-index: 1;
 }
 
 body #files_directDownload .file:active span,
 body #files_directDownload .file:hover span {
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 body #files_directDownload .file .progress-bar {
-  background: $nox-accent;
+  background: $palenight-accent;
   z-index: 0;
 }
 
@@ -102,30 +102,30 @@ body #files_directDownload .file.done span {
 
 @keyframes text-progress-finished {
   15% {
-    color: $nox-white6;
+    color: rgba($palenight-white, 0.6);
   }
 
   30% {
-    color: $nox-white;
+    color: $palenight-white;
   }
 
   55% {
-    color: $nox-white6;
+    color: rgba($palenight-white, 0.6);
   }
 
   80% {
-    color: $nox-white;
+    color: $palenight-white;
   }
 
   100% {
-    color: $nox-white6;
+    color: rgba($palenight-white, 0.6);
   }
 }
 
 body #files_directDownload .file svg {
   border-radius: 50%;
-  box-shadow: 0 0 0 18px $nox-white0;
-  fill: $nox-white4;
+  box-shadow: 0 0 0 18px rgba($palenight-white, 0);
+  fill: rgba($palenight-white, 0.4);
   height: 20px;
   right: 10px;
   top: 50%;
@@ -136,20 +136,20 @@ body #files_directDownload .file svg {
 }
 
 body #files_directDownload .file svg:hover {
-  fill: $nox-white;
+  fill: $palenight-white;
 }
 
 body #files_directDownload .file svg:active {
   animation: box-shadow-ripple 150ms cubic-bezier(0, 0, 0, 1);
-  background: $nox-white3;
-  box-shadow: 0 0 0 18px $nox-white3;
-  fill: $nox-white;
+  background: rgba($palenight-white, 0.3);
+  box-shadow: 0 0 0 18px rgba($palenight-white, 0.3);
+  fill: $palenight-white;
   transition: all 100ms ease, background 150ms cubic-bezier(0, 0, 0, 1);
 }
 
 @keyframes box-shadow-ripple {
   from {
-    box-shadow: 0 0 0 0 $nox-white0;
+    box-shadow: 0 0 0 0 rgba($palenight-white, 0);
   }
 }
 

@@ -1,35 +1,36 @@
 /* Messages Popouts */
 
 .messagesPopoutWrap-1MQ1bW {
+  @include animation(popout-content 400ms ease-in-out);
   margin-right: -10px;
   margin-top: 10px;
 }
 
 .messagesPopoutWrap-1MQ1bW .comment {
-  background: rgba($nox-black, 0.3);
+  background: rgba($palenight-black, 0.3);
   border-radius: 0 3px 3px !important;
   margin-right: 0;
   padding: 0 7px 10px 10px !important;
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .has-more button {
-  background: $nox-level1;
+  background: $palenight-level1;
   border: 0;
-  box-shadow: 0 5px 10px rgba($nox-black, 0.1);
-  color: $nox-white5;
+  box-shadow: 0 5px 10px rgba($palenight-black, 0.1);
+  color: rgba($palenight-white, 0.5);
   transition: 100ms ease;
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .has-more button:hover {
-  background: $nox-level0;
-  box-shadow: 0 5px 10px rgba($nox-black, 0.3);
-  color: $nox-white6;
+  background: $palenight-level0;
+  box-shadow: 0 5px 10px rgba($palenight-black, 0.3);
+  color: rgba($palenight-white, 0.6);
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .has-more button:active {
-  background: $nox-accent;
-  box-shadow: 0 5px 10px rgba($nox-black, 0.1);
-  color: $nox-white;
+  background: $palenight-accent;
+  box-shadow: 0 5px 10px rgba($palenight-black, 0.1);
+  color: $palenight-white;
   transition: 0ms;
 }
 
@@ -44,13 +45,14 @@
 
 body:active .private-channel-recipients-invite:not(:active),
 body:active .messagesPopoutWrap-1MQ1bW:not(:active) {
+  @include transition('easeInOut', 'shortest', all);
   opacity: 0;
-  transition: all 100ms ease;
 }
 
 .messagesPopoutWrap-1MQ1bW {
-  background: $nox-level4 !important;
-  box-shadow: 0 0 0 1px $nox-level4, 0 5px 10px rgba($nox-black, 0.3) !important;
+  background: $palenight-level4 !important;
+  box-shadow: 0 0 0 1px $palenight-level4,
+    0 5px 10px rgba($palenight-black, 0.3) !important;
   max-height: 541px !important;
 }
 
@@ -70,7 +72,7 @@ body:active .messagesPopoutWrap-1MQ1bW:not(:active) {
 }
 
 .messagesPopoutWrap-1MQ1bW .comment::before {
-  border-color: transparent rgba($nox-black, 0.3) transparent transparent;
+  border-color: transparent rgba($palenight-black, 0.3) transparent transparent;
   left: -20px;
   top: 0;
 }
@@ -79,7 +81,7 @@ body:active .messagesPopoutWrap-1MQ1bW:not(:active) {
 .private-channel-recipients-invite .header,
 .messagesPopoutWrap-1MQ1bW .footer-SRC48P,
 .messagesPopoutWrap-1MQ1bW .header-ykumBX {
-  background: $nox-level4 !important;
+  background: $palenight-level4 !important;
 }
 
 .sink-interactions .clickable,
@@ -98,7 +100,7 @@ body:active .messagesPopoutWrap-1MQ1bW:not(:active) {
 }
 
 .jumpButton-3DTcS_ {
-  background: $nox-level2 !important;
+  background: $palenight-level2 !important;
   border-radius: 100px !important;
 }
 
@@ -146,7 +148,7 @@ body:active .messagesPopoutWrap-1MQ1bW:not(:active) {
   .actionButtons-1sUUug
   .closeButton-17RIVZ::after {
   animation-fill-mode: forwards;
-  background: $nox-white;
+  background: $palenight-white;
   border-radius: 50%;
   content: '';
   display: block;
@@ -185,7 +187,7 @@ body:active .messagesPopoutWrap-1MQ1bW:not(:active) {
 }
 
 .themedPopout-25DgLi .header-SsaQ8X .title-23FrqZ {
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 .messageGroupWrapper-o-Zw7G .button-38aScr {

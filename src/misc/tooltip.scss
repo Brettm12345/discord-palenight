@@ -1,12 +1,23 @@
 .tooltip-1OS-Ti {
-  animation: opacity 80ms ease;
-  background-color: $nox-level1 !important;
+  background-color: $palenight-level1 !important;
   border-radius: 3px;
-  box-shadow: 0 5px 15px rgba($nox-black, 0.2) !important;
+  box-shadow: 0 5px 15px rgba($palenight-black, 0.2) !important;
   font-size: 13px;
   padding: 6px 10px;
   pointer-events: none;
   z-index: 1000000000000000000;
+  &[class*='top-'] {
+    @include animation(tooltip-top-anim 200ms ease-in-out);
+  }
+  &[class*='bottom-'] {
+    @include animation(tooltip-bottom-anim 200ms ease-in-out);
+  }
+  &[class*='right-'] {
+    @include animation(tooltip-right-anim 200ms ease-in-out);
+  }
+  &[class*='left-'] {
+    @include animation(tooltip-left-anim 200ms ease-in-out);
+  }
 }
 
 .tooltip-1OS-Ti::after {

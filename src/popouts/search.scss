@@ -1,15 +1,15 @@
 /* Search Popout */
 .popout-3sVMXz .container-3ayLPN {
   animation: searchpopout 300ms cubic-bezier(0.49, 0.33, 0, 1);
-  background: $nox-level2;
+  background: $palenight-level2;
   border: 0;
   border-radius: 3px !important;
-  box-shadow: 0 10px 20px rgba($nox-black, 0.2),
-    0 0 1px 1px rgba($nox-white, 0.02) inset !important;
+  box-shadow: 0 10px 20px rgba($palenight-black, 0.2),
+    0 0 1px 1px rgba($palenight-white, 0.02) inset !important;
 }
 
 .container-3ayLPN .queryContainer-RKFJW- {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 @keyframes searchpopout {
@@ -20,19 +20,27 @@
 }
 
 .container-3ayLPN .option-96V44q::after {
-  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0) 0, $nox-level2) 80%;
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 0) 0,
+    $palenight-level2 80%
+  );
 }
 
 .container-3ayLPN .option-96V44q.selected-rZcOL- {
-  background: $nox-level2;
+  background: $palenight-level2;
 }
 
 .container-3ayLPN .option-96V44q:active {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 .container-3ayLPN .option-96V44q.selected-rZcOL-::after {
-  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0) 0, $nox-level2) 80%;
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 0) 0,
+    $palenight-level2 80%
+  );
 }
 
 .container-3ayLPN .option-96V44q.selected-rZcOL-::after {
@@ -40,9 +48,9 @@
 }
 
 .container-3ayLPN .searchOption-zQ-1l6 .filter-3Y_im- {
-  background: $nox-level1;
+  background: $palenight-level1;
   border-radius: 2px;
-  color: $nox-white;
+  color: $palenight-white;
   margin-bottom: -4px;
   margin-left: -4px;
   margin-right: 1px;
@@ -54,7 +62,7 @@
 }
 
 .container-3ayLPN .searchOption-zQ-1l6.selected-rZcOL- .filter-3Y_im- {
-  background: $nox-level0;
+  background: $palenight-level0;
 }
 
 .container-3ayLPN .resultsGroup-r_nuzN::before {
@@ -67,32 +75,32 @@
 
 .container-3ayLPN .option-96V44q strong,
 .container-3ayLPN .option-96V44q.user-O3Czj0 .displayedNick-3xxvzU {
-  background: $nox-level1;
+  background: $palenight-level1;
   border-radius: 2px;
-  color: $nox-white;
+  color: $palenight-white;
   margin-right: 2px;
   padding: 4px 5px;
 }
 
 .container-3ayLPN .option-96V44q:active strong,
 .container-3ayLPN .option-96V44q.user-O3Czj0:active .displayedNick-3xxvzU {
-  background: $nox-accent;
+  background: $palenight-accent;
   border-radius: 2px;
-  color: $nox-white;
+  color: $palenight-white;
   margin-right: 2px;
   padding: 4px 5px;
 }
 
 .container-3ayLPN .searchOption-zQ-1l6:active .filter-3Y_im- {
-  background: $nox-accent;
+  background: $palenight-accent;
 }
 
 .container-3ayLPN .option-96V44q .nonText-3CRkO0 {
-  color: $nox-white7;
+  color: rgba($palenight-white, 0.7);
 }
 
 .container-3ayLPN .option-96V44q .answer-1n6g43 {
-  color: $nox-white7;
+  color: rgba($palenight-white, 0.7);
 }
 
 .resultsGroup-r_nuzN .searchClearHistory-2cSSMO {
@@ -127,7 +135,7 @@
 .container-3ayLPN .option-96V44q.selected-rZcOL- .plusIcon-v0BTrL {
   background: #fff;
   border-radius: 3px;
-  color: $nox-level4;
+  color: $palenight-level4;
   height: 14px;
   opacity: 0.4;
   padding: 2px;
@@ -135,13 +143,13 @@
 }
 
 .container-3ayLPN .option-96V44q.selected-rZcOL-:active .plusIcon-v0BTrL {
-  background: $nox-accent;
+  background: $palenight-accent;
   opacity: 1;
 }
 
 .container-3ayLPN .searchQuery-1B7rtx .searchFor-3W5Vad strong {
   border-radius: 2px !important;
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 .container-3ayLPN .datePicker--XZbmJ {
@@ -154,7 +162,7 @@
 }
 
 .container-3ayLPN .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z {
-  background-color: $nox-accent !important;
+  background-color: $palenight-accent !important;
 }
 
 /* End Search Popout */

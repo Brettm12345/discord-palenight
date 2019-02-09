@@ -1,12 +1,12 @@
 #bd-customcss-detach-container {
-  background: $nox-level4;
+  background: $palenight-level4;
 }
 
 .contentRegion-3nDuYy #bd-customcss-attach-controls::after {
-  background: $nox-level2;
+  background: $palenight-level2;
   border-radius: 2px;
-  color: $nox-white;
-  content: "To add custom settings to the theme, copy the following\A code in your custom CSS and replace the things you want\A to change:\A \A :root {\A\9 --nox-accent: #7289DA !important;\A\9 --nox-notification-color: $NOX-LIGHT-FG) !important;\A\9 --nox-important-notification: var(--nox-important-notification !important;\A}\A\A Don't forget to save/update when you're done!\A\A To see all the variables in the theme, just go to bit.ly/NoxTheme. ";
+  color: $palenight-white;
+  content: "To add custom settings to the theme, copy the following\A code in your custom CSS and replace the things you want\A to change:\A \A :root {\A\9 --palenight-accent: #7289DA !important;\A\9 --palenight-notification-color: $PALENIGHT-LIGHT-FG) !important;\A\9 --palenight-important-notification: var(--palenight-important-notification !important;\A}\A\A Don't forget to save/update when you're done!\A\A To see all the variables in the theme, just go to bit.ly/PalenightTheme. ";
   display: block;
   font-family: Consolas, Liberation Mono, Menlo, Courier, monospace;
   margin-bottom: 0;
@@ -18,10 +18,12 @@
 }
 
 #bd-customcss-detach-controls-buttons button:last-of-type::after {
-  background: $nox-accent;
+  @include transition('easeInOut', 'shortest', all);
+  background: $palenight-accent;
   border-radius: 50%;
-  box-shadow: 0 2px 10px rgba($nox-black, 0.3), 40px 0 $nox-notification-color,
-    40px 2px 10px rgba($nox-black, 0.3);
+  box-shadow: 0 2px 10px rgba($palenight-black, 0.3),
+    40px 0 $palenight-notification-color,
+    40px 2px 10px rgba($palenight-black, 0.3);
   content: '';
   display: block;
   height: 30px;
@@ -29,18 +31,15 @@
   margin-top: -23px;
   pointer-events: none;
   position: absolute;
-  transition: all 100ms ease;
   width: 30px;
 }
 
 #bd-customcss-detach-controls-buttons button:hover:last-of-type::after {
-  -ms-transform: translate(0, 1px);
+  @include transition('easeInOut', 'shortest', all);
   transform: translate(0, 1px);
-  transition: all 150ms ease-in-out;
 }
 
 #bd-customcss-detach-controls-buttons button:active:last-of-type::after {
-  -ms-transform: translate(0, -2px);
   transform: translate(0, -2px);
   transition: all 50ms ease;
 }
@@ -52,13 +51,14 @@
 }
 
 .contentRegion-3nDuYy #bd-customcss-attach-controls::before {
-  background: $nox-accent;
+  background: $palenight-accent;
   border-radius: 50%;
-  box-shadow: 0 2px 15px rgba($nox-black, 0.3),
-    65px -12px 0 -10px $nox-important-notification,
-    65px -10px 15px -8px rgba($nox-black, 0.2), 50px 0 0 $nox-notification-color,
-    50px 2px 15px rgba($nox-black, 0.3);
-  color: $nox-white;
+  box-shadow: 0 2px 15px rgba($palenight-black, 0.3),
+    65px -12px 0 -10px $palenight-important-notification,
+    65px -10px 15px -8px rgba($palenight-black, 0.2),
+    50px 0 0 $palenight-notification-color,
+    50px 2px 15px rgba($palenight-black, 0.3);
+  color: $palenight-white;
   content: '';
   display: block;
   height: 40px;
@@ -83,7 +83,7 @@
   .checkboxInner-3yjcPe
   input
   + span::before {
-  border-color: $nox-level4 !important;
+  border-color: $palenight-level4 !important;
 }
 
 /*cuscomcss*/
@@ -92,41 +92,41 @@
 .contentRegion-3nDuYy .cm-s-material .CodeMirror-gutters,
 #bd-customcss-detach-container .CodeMirror,
 #bd-customcss-detach-container .cm-s-material .CodeMirror-gutters {
-  background: $nox-level4 !important;
+  background: $palenight-level4 !important;
 }
 
 .contentRegion-3nDuYy #bd-customcss-attach-controls,
 #bd-customcss-detach-container #bd-customcss-attach-controls {
-  background: $nox-level4 !important;
-  box-shadow: 0 1px rgba($nox-white, 0.05) inset;
+  background: $palenight-level4 !important;
+  box-shadow: 0 1px rgba($palenight-white, 0.05) inset;
   margin-bottom: 0 !important;
 }
 
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button,
 .bd-detached-css-editor #bd-customcss-attach-controls button {
-  background: $nox-level2 !important;
+  background: $palenight-level2 !important;
   border: 0;
 }
 
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover,
 .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
-  background: $nox-level1 !important;
+  background: $palenight-level1 !important;
 }
 
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:active,
 .bd-detached-css-editor #bd-customcss-attach-controls button:active {
-  background: #101010 !important;
+  background: $palenight-level4 !important;
   transition: 0ms;
 }
 
 .standardSidebarView-3F1I7i #editor-detached h3 {
-  color: $nox-white3;
+  color: rgba($palenight-white, 0.3);
 }
 
 .cm-s-material .CodeMirror-guttermarker,
 .cm-s-material .CodeMirror-guttermarker-subtle,
 .cm-s-material .CodeMirror-linenumber {
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button,
@@ -139,7 +139,10 @@
   font-size: 12px !important;
 }
 
-#bd-customcss-editor,
-#bd-customcss-editor .ace-monokai .ace_gutter {
-  background: $nox-level4;
+#bd-customcss-editor {
+  background: $palenight-level4;
+}
+
+.ace-monokai .ace_gutter {
+  background: $palenight-level3 !important;
 }

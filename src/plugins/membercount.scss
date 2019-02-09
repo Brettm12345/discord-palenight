@@ -1,10 +1,11 @@
 /* Member Count Plugin */
 #memberCount {
-  background: $nox-level2 !important;
+  background: $palenight-level2 !important;
 }
 
-#MemberCount {
-  background: $nox-level2 !important;
+.theme-dark #MemberCount {
+  background: $palenight-level2 !important;
+  border-bottom: 1px solid;
 }
 
 /* End Member Count Plugin */

@@ -8,14 +8,14 @@
 }
 
 .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi span {
-  background: $nox-level2 !important;
+  background: $palenight-level2 !important;
 }
 
 .messagesWrapper-3lZDfY
   .messages-3amgkR
   .divider-3gKybi:not(.dividerRed-MKoLlr)
   div {
-  background: $nox-white1 !important;
+  background: rgba($palenight-white, 0.1) !important;
   height: 2px;
 }
 
@@ -23,14 +23,14 @@
   .messages-3amgkR
   .divider-3gKybi:not(.dividerRed-MKoLlr)
   span {
-  color: $nox-white5 !important;
+  color: rgba($palenight-white, 0.5) !important;
 }
 
 .messagesWrapper-3lZDfY
   .messages-3amgkR
   .divider-3gKybi.dividerRed-MKoLlr
   > div {
-  background: $nox-error !important;
+  background: $palenight-error !important;
   opacity: 0.2 !important;
 }
 
@@ -38,18 +38,18 @@
   .messages-3amgkR
   .divider-3gKybi.dividerRed-MKoLlr
   > span {
-  color: $nox-error !important;
+  color: $palenight-error !important;
 }
 
 .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi span {
-  background: rgba($nox-black, 0) !important;
+  background: rgba($palenight-black, 0) !important;
   border-radius: 5px;
   padding: 3px 10px;
 }
 
 .theme-dark .divider-3gKybi::after,
 .theme-dark .divider-3gKybi::before {
-  border-color: rgba($nox-error, 0.4);
+  border-color: rgba($palenight-error, 0.4);
 }
 
 .divider-3gKybi::before {
@@ -59,9 +59,7 @@
 .divider-3gKybi::after,
 .divider-3gKybi::before {
   border-bottom: 1px solid;
-  -webkit-box-flex: 1;
   content: '';
-  -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   height: 1px;
 }
@@ -74,17 +72,25 @@
 // END DIVIDERS
 
 .chat-3bRxxu .hasMore-3e72_v button {
-  background: rgba($nox-black, 0.1) !important;
+  background: rgba($palenight-black, 0.1) !important;
   border-radius: 100px;
-  color: $nox-white5 !important;
+  color: rgba($palenight-white, 0.5) !important;
 }
 
 .theme-dark .timestampCozy-2hLAPV {
-  color: $nox-white5;
+  color: rgba($palenight-white, 0.5);
 }
 
 .jumpToPresentBar-9P20AM button:first-of-type {
   display: none;
+}
+
+.theme-dark .jumpToPresentBar-9P20AM {
+  background-color: $palenight-level4;
+}
+
+.theme-dark .jumpToPresentBar-9P20AM:hover {
+  background-color: $palenight-level0;
 }
 
 .jumpToPresentBar-9P20AM {
@@ -97,7 +103,7 @@
 .chat-3bRxxu .jumpToPresentBar-9P20AM {
   border-radius: 20px;
   bottom: 15px;
-  box-shadow: 0 2px 20px rgba($nox-black, 0.1);
+  box-shadow: 0 2px 20px rgba($palenight-black, 0.1);
   right: 50px !important;
   width: auto !important;
 }
@@ -106,7 +112,6 @@
   margin-bottom: 10px;
   margin-left: 50px;
   margin-top: 10px;
-  -ms-transform: scale(1.3);
   transform: scale(1.3);
 }
 
@@ -143,20 +148,20 @@
 }
 
 .chat-3bRxxu .newMessagesBar-mujexs {
-  background-color: $nox-accent;
+  background-color: $palenight-accent;
   z-index: 3;
 }
 
 .chat-3bRxxu .newMessagesBar-mujexs:hover {
-  background-color: $nox-accent;
+  background-color: $palenight-accent;
 }
 
 .chat-3bRxxu .newMessagesBar-mujexs button:last-child {
-  color: $nox-white6;
+  color: rgba($palenight-white, 0.6);
 }
 
 .chat-3bRxxu .messages-3amgkR {
-  background: $nox-level1 !important;
+  background: $palenight-level1 !important;
 }
 
 .chat-3bRxxu {
@@ -165,8 +170,8 @@
 }
 
 .chat-3bRxxu .messagesWrapper-3lZDfY::after {
-  background: $nox-white;
-  box-shadow: 0 5px 10px rgba($nox-black, 0.1);
+  background: $palenight-white;
+  box-shadow: 0 5px 10px rgba($palenight-black, 0.1);
   content: '';
   height: 100px;
   left: -15px;
@@ -176,7 +181,7 @@
 }
 
 .chat-3bRxxu .username-_4ZSMR {
-  transition: all 200ms ease;
+  @include transition('easeInOut', 'shorter', all);
 }
 
 .chat-3bRxxu .username-_4ZSMR:hover {
@@ -185,10 +190,10 @@
 
 .container-1e22Ot .wrapper-35wsBm,
 .theme-dark .invite-18yqGF {
-  background-color: $nox-level2 !important;
+  background-color: $palenight-level2 !important;
   border: 0;
   border-radius: 3px !important;
-  box-shadow: 0 2px 5px rgba($nox-black, 0.1);
+  box-shadow: 0 2px 5px rgba($palenight-black, 0.1);
 }
 
 .chat-3bRxxu .wrapper-2F3Zv8 {
@@ -201,7 +206,7 @@
 }
 
 .noTextChannels-23tpIF {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 .chat-3bRxxu,
@@ -210,11 +215,11 @@
 }
 
 .container-2lgZY8 {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 .chat-3bRxxu form .wrapper-39oAo3 {
-  background: $nox-level4;
+  background: $palenight-level4;
   border-radius: 0;
   height: 70px;
   margin: 0;
@@ -222,7 +227,7 @@
 }
 
 .theme-dark .noChannel-Z1DQK7 {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 .messageCompact-kQa7ES {

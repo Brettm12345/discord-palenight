@@ -135,10 +135,10 @@ $classes: (
   'ContextMenu': (
     'darkBackgroundColor': '.#18191c',
     'darkBoxShadow': '.0',
-    'darkItemColor': '.rgba($nox-light-fg,',
-    'darkHoverItemColor': '.$nox-light-fg',
+    'darkItemColor': '.rgba($palenight-light-fg,',
+    'darkHoverItemColor': '.$palenight-light-fg',
     'darkHoverItemBackgroundColor': '.#040405',
-    'lightBackgroundColor': '.$nox-light-fg',
+    'lightBackgroundColor': '.$palenight-light-fg',
     'lightBoxShadow': '.0',
     'lightItemColor': '.#9099a4',
     'lightHoverItemColor': '.#747f8d',
@@ -676,5 +676,5 @@ $classes: (
 );
 
 @function get-class($component, $class) {
-  @return map-get(map-get($Classes, $component), $class);
+  @return map-get(map-get($classes, $component), $class);
 }

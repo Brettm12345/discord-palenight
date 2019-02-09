@@ -1,23 +1,23 @@
 # Discord Palenight
 
-A customization of nox material discord theme
+A customization of palenight material discord theme
 
 # Variables
 
 These variables allow you to customize the theme to your preferences.
 
-- `--nox-accent` - The accent color you want for the theme. Default: `#3F85FF`
-- `--nox-notification-color` - Color for the unread indicator in guilds list. Default: `#bfc7d5`
-- `--nox-notification-width` - Width of the circle around guilds. Default: `3px`
-- `--nox-important-notification` - Background color for mention/ping badges. Default: `#ff5370`
-- `--nox-channels-scrollbar` - Set this to `none` to remove the scrollbar in the channel list.
-- `--nox-settings-scrollbar` - Set this to `none` to remove the scrollbar in settings.
-- `--nox-settings-time` - Length of the animation to open settings. Default: `500ms`
-- `--nox-level0` - One of the main grays used throughout the theme. Default: `#3c435e`
-- `--nox-level1` - One of the main grays used throughout the theme. Default: `#292d3e`
-- `--nox-level2` - One of the main grays used throughout the theme. Default: `#242837`
-- `--nox-level3` - One of the main grays used throughout the theme. Default: `#232635`
-- `--nox-level3` - One of the main grays used throughout the theme. Default: `#1e212e`
+- `--palenight-accent` - The accent color you want for the theme. Default: `#3F85FF`
+- `--palenight-notification-color` - Color for the unread indicator in guilds list. Default: `#bfc7d5`
+- `--palenight-notification-width` - Width of the circle around guilds. Default: `3px`
+- `--palenight-important-notification` - Background color for mention/ping badges. Default: `#ff5370`
+- `--palenight-channels-scrollbar` - Set this to `none` to remove the scrollbar in the channel list.
+- `--palenight-settings-scrollbar` - Set this to `none` to remove the scrollbar in settings.
+- `--palenight-settings-time` - Length of the animation to open settings. Default: `500ms`
+- `--palenight-level0` - One of the main grays used throughout the theme. Default: `#3c435e`
+- `--palenight-level1` - One of the main grays used throughout the theme. Default: `#292d3e`
+- `--palenight-level2` - One of the main grays used throughout the theme. Default: `#242837`
+- `--palenight-level3` - One of the main grays used throughout the theme. Default: `#232635`
+- `--palenight-level3` - One of the main grays used throughout the theme. Default: `#1e212e`
 
 # Addons
 

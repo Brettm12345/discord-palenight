@@ -2,17 +2,17 @@
 
 .form .Select-control,
 .theme-dark .select-2TCrqx .Select-control {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 .has-value > .Select-control > .Select-placeholder {
-  color: $nox-white !important;
+  color: $palenight-white !important;
   opacity: 0.8;
 }
 
 .form .Select-control:hover,
 .theme-dark .select-2TCrqx .Select-control:hover {
-  background: $nox-level0;
+  background: $palenight-level0;
 }
 
 /* select-3JqNgs */
@@ -22,10 +22,10 @@
 body .form-deprecated .Select-control,
 body .form .Select-control,
 body .select-2TCrqx .Select-control {
-  background: $nox-level0;
-  border: 1px solid $nox-level1;
+  background: $palenight-level0;
+  border: 1px solid $palenight-level1;
   border-radius: 2px;
-  box-shadow: 0 3px 10px rgba($nox-black, 0.2);
+  box-shadow: 0 3px 10px rgba($palenight-black, 0.2);
   cursor: pointer;
   transition: 100ms ease;
 }
@@ -35,7 +35,7 @@ body .select-2TCrqx .Select-control {
   .Select-value
   .Select-value-label,
 .has-value.Select--single > .Select-control .Select-value .Select-value-label {
-  color: $nox-light-fg;
+  color: $palenight-light-fg;
 }
 
 // .Select .Select-control div {
@@ -61,8 +61,8 @@ body .select-2TCrqx .Select-control {
 .theme-dark .ui-select > .Select .Select-control:hover,
 .form-deprecated .Select-control:hover,
 .select-2TCrqx .Select-control:hover {
-  border-color: $nox-level1;
-  box-shadow: 0 2px 10px rgba($nox-black, 0.5);
+  border-color: $palenight-level1;
+  box-shadow: 0 2px 10px rgba($palenight-black, 0.5);
 }
 
 // .theme-dark .ui-select>.Select .Select-control .Select-arrow,
@@ -73,7 +73,7 @@ body .select-2TCrqx .Select-control {
 
 body .form .Select-control .Select-placeholder,
 .theme-dark .ui-select > .Select .Select-control .Select-placeholder {
-  color: $nox-white;
+  color: $palenight-white;
   line-height: 48px;
 }
 
@@ -85,7 +85,7 @@ body .form .Select-control .Select-value > .Select-value-label,
   .Select-control
   .Select-value
   > .Select-value-label {
-  color: $nox-light-fg;
+  color: $palenight-light-fg;
   font-size: 15px;
   font-weight: 500;
 }
@@ -93,10 +93,10 @@ body .form .Select-control .Select-value > .Select-value-label,
 .theme-dark .select-2TCrqx .Select-menu-outer,
 .theme-dark .ui-select > .Select .Select-menu-outer {
   animation: selectmenu-anim 300ms cubic-bezier(0.2, 0, 0, 1) backwards;
-  background: $nox-level1 !important;
-  border: 1px solid $nox-level0;
+  background: $palenight-level1 !important;
+  border: 1px solid $palenight-level0;
   border-radius: 2px;
-  box-shadow: 0 2px 5px 0 rgba($nox-black, 0.26);
+  box-shadow: 0 2px 5px 0 rgba($palenight-black, 0.26);
   top: 0;
   transform-origin: top;
   z-index: 10;
@@ -132,7 +132,7 @@ body .Select-option,
 .theme-dark .ui-select > .Select .Select-option {
   animation: opacity 300ms ease 100ms backwards;
   border-radius: 0 !important;
-  color: $nox-white8 !important;
+  color: rgba($palenight-white, 0.8) !important;
   font-size: 15px;
   font-weight: 500;
   opacity: 1;
@@ -141,20 +141,20 @@ body .Select-option,
 
 body .Select-option:hover,
 .theme-dark .ui-select > .Select .Select-option:hover {
-  background: rgba($nox-white, 0.02) !important;
-  color: $nox-white !important;
+  background: rgba($palenight-white, 0.02) !important;
+  color: $palenight-white !important;
 }
 
 body .Select-option.is-selected,
 .theme-dark .ui-select > .Select .Select-option.is-selected {
-  background: $nox-accent !important;
-  color: $nox-light-fg !important;
+  background: $palenight-accent !important;
+  color: $palenight-light-fg !important;
 }
 
 body .Select-option.is-selected:hover,
 .theme-dark .ui-select > .Select .Select-option.is-selected:hover {
-  background: $nox-accent !important;
-  color: $nox-light-fg;
+  background: $palenight-accent !important;
+  color: $palenight-light-fg;
   filter: none;
 }
 
@@ -162,7 +162,7 @@ body .Select-option.is-selected.primary,
 body .Select-option.is-selected.localized,
 .theme-dark .ui-select > .Select .Select-option.is-selected .primary,
 .theme-dark .ui-select > .Select .Select-option.is-selected .localized {
-  color: $nox-white !important;
+  color: $palenight-white !important;
 }
 
 .Select--single > .Select-control .Select-value,

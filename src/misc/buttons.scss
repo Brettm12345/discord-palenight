@@ -12,7 +12,7 @@
 .lookFilled-1Gx00P.colorGreen-29iAKY,
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover,
 .button-38aScr.lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
-  background: $nox-accent;
+  background: $palenight-accent;
 }
 
 .bd-pluginrepobutton,
@@ -26,7 +26,9 @@
 }
 
 .button-38aScr.lookOutlined-3sRXeN {
-  border: 1px solid $nox-light-fg;
+  background-color: rgba($palenight-accent, 0.12);
+  border: 1px solid $palenight-accent;
+  border-radius: 0;
 }
 
 .button-38aScr.lookOutlined-3sRXeN:hover,
@@ -35,8 +37,8 @@
 }
 
 .button-38aScr.lookOutlined-3sRXeN.colorBrand-3pXr91 {
-  border: 1px solid $nox-accent;
-  color: $nox-accent;
+  border: 1px solid $palenight-accent;
+  color: $palenight-accent;
 }
 
 .button-38aScr.lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
@@ -46,8 +48,8 @@
 
 .lookOutlined-3sRXeN.colorGreen-29iAKY {
   background: none;
-  border: 1px solid $nox-accent;
-  color: $nox-accent;
+  border: 1px solid $palenight-accent;
+  color: $palenight-accent;
 }
 
 .lookOutlined-3sRXeN.colorGreen-29iAKY:hover,
@@ -62,13 +64,13 @@
 }
 
 .buttonBrandGhostDefault-2JCnWW {
-  background: rgba($nox-white, 0.05) !important;
-  color: $nox-accent !important;
+  background: rgba($palenight-white, 0.05) !important;
+  color: $palenight-accent !important;
 }
 
 .lookGhost-2Fn_0-.colorBrand-3pXr91 {
-  background: rgba($nox-white, 0.05);
-  color: $nox-accent;
+  background: rgba($palenight-white, 0.05);
+  color: $palenight-accent;
   margin: 3px;
 }
 
@@ -77,7 +79,7 @@
 }
 
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
-  color: $nox-light-fg;
+  color: $palenight-light-fg;
 }
 
 .button-38aScr,
@@ -91,10 +93,10 @@
 .button-38aScr.lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV,
 ._2t3of887,
 #app-mount .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV {
+  @include transition('easeInOut', 'shorter', all);
   // margin-bottom: 5px;
   border-radius: 3px;
-  box-shadow: 0 6px 10px rgba($nox-black, 0);
-  transition: all 200ms ease;
+  box-shadow: 0 6px 10px rgba($palenight-black, 0);
 }
 
 .button-38aScr:hover,
@@ -108,8 +110,8 @@
 .button-38aScr.lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover,
 ._2t3of887:hover,
 #app-mount .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
-  background: $nox-accent;
-  box-shadow: 0 6px 15px rgba($nox-black, 0.2);
+  background: $palenight-accent;
+  box-shadow: 0 6px 15px rgba($palenight-black, 0.2);
   transform: translate(0, -1px);
   transition: all 100ms ease, transform 150ms cubic-bezier(0, 0, 0, 1);
 }
@@ -131,9 +133,8 @@
 #app-mount .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:active {
   background: rgb(220, 220, 220);
   border-radius: 4px;
-  box-shadow: 0 0 0 rgba($nox-black, 0.5);
-  color: rgba($nox-black, 0.7);
-  -ms-transform: translate(0, 2px);
+  box-shadow: 0 0 0 rgba($palenight-black, 0.5);
+  color: rgba($palenight-black, 0.7);
   transform: translate(0, 2px);
   transition: all 50ms ease;
 }
@@ -153,14 +154,14 @@
 }
 
 ._2t3of887._1VCgwLw2 {
-  background: $nox-level0;
+  background: $palenight-level0;
 }
 
 .buttonWhiteOutlinedDefault-3gEfoF,
 .theme-dark .buttonPrimaryOutlinedDefault--H0hhk,
 .theme-dark .buttonPrimaryOutlinedSubmitting-3m3eFx,
 .theme-dark .-H0hhksL {
-  background: $nox-level0;
+  background: $palenight-level0;
   border: 0;
 }
 
@@ -168,32 +169,32 @@
 .theme-dark .buttonPrimaryOutlinedDefault--H0hhk:hover,
 .theme-dark .buttonPrimaryOutlinedSubmitting-3m3eFx:hover,
 .theme-dark .-H0hhksL:hover {
-  background: $nox-level1;
+  background: $palenight-level1;
   border: 0;
-  color: $nox-white;
+  color: $palenight-white;
   filter: none !important;
 }
 
 ._2t3of887._1VCgwLw2 {
-  background: $nox-level0;
+  background: $palenight-level0;
   border: 0;
-  color: $nox-important-notification;
+  color: $palenight-important-notification;
 }
 
 ._2t3of887._1VCgwLw2:hover {
-  background: $nox-important-notification;
+  background: $palenight-important-notification;
   border: 0;
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 ._2t3of887._1VCgwLw2:active {
   background: rgb(220, 220, 220);
   border-color: transparent;
-  color: rgba($nox-black, 0.7);
+  color: rgba($palenight-black, 0.7);
 }
 
 .lookLink-9FtZy-.colorBrand-3pXr91 {
-  color: $nox-accent;
+  color: $palenight-accent;
 }
 
 .lookLink-9FtZy- .contents-18-Yxp {
@@ -206,11 +207,11 @@
 }
 
 .buttonGreyLinkDefault-3eCAFJ {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 .buttonGreyLinkDefault-3eCAFJ:hover {
-  background: $nox-level0;
+  background: $palenight-level0;
   filter: none !important;
 }
 
@@ -225,23 +226,23 @@
 }
 
 .buttonBrandLink-3csEAP {
-  color: #2196f3;
+  color: $blue;
 }
 
 // .lookFilled-1Gx00P.colorGreen-29iAKY{
-//     color:$nox-white;
-//     background:$nox-accent;
+//     color:$palenight-white;
+//     background:$palenight-accent;
 // }
 
 // .lookFilled-1Gx00P.colorGreen-29iAKY:hover{
-//     background:$nox-accent;
-//     color:$nox-white;
+//     background:$palenight-accent;
+//     color:$palenight-white;
 // }
 
 .theme-dark .buttonPrimaryLinkDefault-1PQflF,
 .theme-dark .buttonPrimaryLinkDisabled-3Ey7-S,
 .theme-dark .buttonPrimaryLinkSubmitting-RbBzR4 {
-  color: $nox-white9;
+  color: rgba($palenight-white, 0.9);
 }
 
 .button-38aScr.lookLink-9FtZy- {
@@ -249,7 +250,7 @@
 }
 
 .button-38aScr.lookLink-9FtZy-:hover {
-  background: $nox-level0;
+  background: $palenight-level0;
 }
 
 .button-38aScr.lookLink-9FtZy-:active {
@@ -257,12 +258,12 @@
 }
 
 .lookGhost-2Fn_0-.colorGrey-2DXtkV {
-  color: $nox-white;
+  color: $palenight-white;
   margin: 3px;
 }
 
 .lookGhost-2Fn_0-.colorGrey-2DXtkV:hover {
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 .lookGhost-2Fn_0-.colorGrey-2DXtkV:active {
@@ -284,7 +285,7 @@
 
 .button-38aScr.close-18n9bP::after {
   animation-fill-mode: forwards;
-  background: $nox-white;
+  background: $palenight-white;
   border-radius: 50%;
   content: '';
   display: block;
@@ -316,32 +317,32 @@
 
 .button-38aScr.lookBlank-3eh9lL:active {
   box-shadow: none;
-  color: $nox-white;
+  color: $palenight-white;
   filter: none;
   transform: none;
 }
 
 .button-38aScr.actionRed-gYn8D3 {
   background: #a33030;
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 .lookOutlined-3sRXeN.colorRed-1TFJan {
   background: none;
-  border-color: $nox-important-notification;
-  color: $nox-important-notification;
+  border-color: $palenight-important-notification;
+  color: $palenight-important-notification;
 }
 
 .lookOutlined-3sRXeN.colorRed-1TFJan:hover {
-  background: $nox-important-notification;
+  background: $palenight-important-notification;
   border-color: transparent;
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 .lookOutlined-3sRXeN.colorRed-1TFJan:active {
   background: rgb(220, 220, 220);
   border-color: transparent;
-  color: rgba($nox-black, 0.7);
+  color: rgba($palenight-black, 0.7);
 }
 
 span + button {
@@ -356,7 +357,7 @@ span + button {
 .theme-dark .mobileIndicator-U-7hTl,
 .theme-dark .mobileIndicator-329Gd6,
 .theme-dark .mobileIndicatorPrimary-2viufb {
-  color: $nox-accent;
+  color: $palenight-accent;
   cursor: pointer;
   opacity: 0.8;
 }

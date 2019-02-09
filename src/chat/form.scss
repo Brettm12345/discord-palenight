@@ -1,5 +1,5 @@
 .chat-3bRxxu .content-yTz4x3 form {
-  background: $nox-level1;
+  background: $palenight-level1;
   margin: 0;
 }
 
@@ -8,23 +8,24 @@
 }
 
 .emojiButton-3uL3Aw {
+  @include transition('easeInOut', 'shortest', all);
   background-color: transparent !important;
   background-image: url('data: image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTEuOTkgMkM2LjQ3IDIgMiA2LjQ4IDIgMTJzNC40NyAxMCA5Ljk5IDEwQzE3LjUyIDIyIDIyIDE3LjUyIDIyIDEyUzE3LjUyIDIgMTEuOTkgMnpNMTIgMjBjLTQuNDIgMC04LTMuNTgtOC04czMuNTgtOCA4LTggOCAzLjU4IDggOC0zLjU4IDgtOCA4em0zLjUtOWMuODMgMCAxLjUtLjY3IDEuNS0xLjVTMTYuMzMgOCAxNS41IDggMTQgOC42NyAxNCA5LjVzLjY3IDEuNSAxLjUgMS41em0tNyAwYy44MyAwIDEuNS0uNjcgMS41LTEuNVM5LjMzIDggOC41IDggNyA4LjY3IDcgOS41IDcuNjcgMTEgOC41IDExem0zLjUgNi41YzIuMzMgMCA0LjMxLTEuNDYgNS4xMS0zLjVINi44OWMuOCAyLjA0IDIuNzggMy41IDUuMTEgMy41eiIvPjwvc3ZnPg==') !important;
   background-position: 50% !important;
   background-repeat: no-repeat !important;
-  transition: all 100ms ease;
   width: 50px;
 }
 
 form .channelTextArea-rNsIhG {
-  background: $nox-level3;
+  background: $palenight-level3;
   border: 0;
   margin: 0;
   padding: 0;
 }
 
 .textArea-2Spzkt {
-  color: rgba($nox-white, 0.7);
+  @include transition('easeInOut', 'shorter', all);
+  color: rgba($palenight-white, 0.7);
   font-size: 0.875rem;
   letter-spacing: normal;
   line-height: 1.125rem;
@@ -38,19 +39,18 @@ form .channelTextArea-rNsIhG {
   overflow-y: scroll !important;
   padding: 26px 0;
   padding-right: 10px;
-  transition: all 200ms ease;
 }
 
 .inner-zqa7da:hover .textArea-2Spzkt {
-  color: rgba($nox-white, 0.8);
+  @include transition('easeInOut', 'shorter', all);
+  color: rgba($palenight-white, 0.8);
   opacity: 1 !important;
-  transition: all 200ms ease;
 }
 
 .inner-zqa7da .textArea-2Spzkt:focus {
-  color: rgba($nox-white, 1);
+  @include transition('easeInOut', 'shorter', all);
+  color: rgba($palenight-white, 1);
   opacity: 1 !important;
-  transition: all 200ms ease;
 }
 
 .inner-zqa7da {
@@ -63,6 +63,7 @@ form .channelTextArea-rNsIhG {
 }
 
 .attachButton-1UjEWA {
+  @include transition('easeInOut', 'shorter', all);
   background-color: transparent !important;
   background-image: url('data: image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTIgMTIuNUMyIDkuNDYgNC40NiA3IDcuNSA3SDE4YzIuMjEgMCA0IDEuNzkgNCA0cy0xLjc5IDQtNCA0SDkuNUM4LjEyIDE1IDcgMTMuODggNyAxMi41UzguMTIgMTAgOS41IDEwSDE3djJIOS40MWMtLjU1IDAtLjU1IDEgMCAxSDE4YzEuMSAwIDItLjkgMi0ycy0uOS0yLTItMkg3LjVDNS41NyA5IDQgMTAuNTcgNCAxMi41UzUuNTcgMTYgNy41IDE2SDE3djJINy41QzQuNDYgMTggMiAxNS41NCAyIDEyLjV6Ii8+ICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==') !important;
   background-position: 50% !important;
@@ -78,13 +79,12 @@ form .channelTextArea-rNsIhG {
   position: absolute;
   top: 0;
   transform: none !important;
-  transition: all 200ms ease;
   width: 100%;
 }
 
 .inner-zqa7da:hover .attachButton-1UjEWA {
+  @include transition('easeInOut', 'shorter', all);
   opacity: 0.3;
-  transition: all 200ms ease;
 }
 
 .attachButton-1UjEWA * {
@@ -92,14 +92,14 @@ form .channelTextArea-rNsIhG {
 }
 
 .inner-zqa7da .attachButton-1UjEWA:hover {
+  @include transition('easeInOut', 'shortest', all);
   opacity: 0.9 !important;
   transform: none;
-  transition: all 100ms ease;
 }
 .channelTextArea-1LDbYG
   .inner-zqa7da
   > .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 {
-  border-right-color: $nox-white0 !important;
+  border-right-color: rgba($palenight-white, 0) !important;
   display: block !important;
   height: 100%;
   position: absolute;
@@ -109,8 +109,8 @@ form .channelTextArea-rNsIhG {
 }
 
 .theme-dark .inner-zqa7da {
-  background-color: $nox-level4;
-  transition: all 200ms ease;
+  @include transition('easeInOut', 'shorter', all);
+  background-color: $palenight-level4;
 }
 
 .theme-dark .channel-textarea-emoji {
@@ -120,15 +120,15 @@ form .channelTextArea-rNsIhG {
 }
 
 .theme-dark .emojiButton-3uL3Aw {
+  @include transition('easeInOut', 'shorter', all);
   opacity: 0.24;
   right: 0;
   top: 0;
-  transition: all 200ms ease;
 }
 
 //   .theme-dark .inner-zqa7da:hover .emojiButton-3uL3Aw{
 //       opacity:0.3;
-//       transition: all 200ms ease;
+//       @include transition('easeInOut', 'shorter', all);
 //   }
 
 .theme-dark .inner-zqa7da .emojiButton-3uL3Aw:hover,
@@ -137,8 +137,8 @@ form .channelTextArea-rNsIhG {
 .theme-dark .channel-textarea-emoji.popout-open,
 .theme-dark .channel-textarea-emoji:hover,
 .theme-dark .channel-textarea-emoji:active {
+  @include transition('easeInOut', 'shortest', all);
   opacity: 1;
-  transition: all 100ms ease;
 }
 
 .innerAutocomplete-1PN280 {
@@ -146,10 +146,10 @@ form .channelTextArea-rNsIhG {
 }
 
 .theme-dark .autocomplete-1vrmpx {
-  background-color: $nox-level2 !important;
+  background-color: $palenight-level2 !important;
   border-bottom: 0;
   border-radius: 0;
-  box-shadow: 0 -5px 10px rgba($nox-black, 0.1);
+  box-shadow: 0 -5px 10px rgba($palenight-black, 0.1);
   margin-bottom: 0;
   margin-right: 20px;
   margin-right: 0;
@@ -157,11 +157,11 @@ form .channelTextArea-rNsIhG {
 }
 
 .iconForeground-1w5n7R {
-  fill: $nox-white3;
+  fill: rgba($palenight-white, 0.3);
 }
 
 .theme-dark .selectorSelected-1_M1WV {
-  background-color: rgba($nox-white, 0.05) !important;
+  background-color: rgba($palenight-white, 0.05) !important;
   border-radius: 2px;
 }
 
@@ -181,23 +181,21 @@ form .channelTextArea-rNsIhG {
 }
 
 .chat-3bRxxu form .typing-2GQL18 {
+  @include transition('easeInOut', 'shorter', all);
   animation: opacity 300ms ease;
-  background: $nox-level1 !important;
+  background: $palenight-level1 !important;
   border-radius: 5px 5px 0 0;
   bottom: 100%;
-  box-shadow: 0 -3px 20px rgba($nox-black, 0.1);
-  color: $nox-white;
+  box-shadow: 0 -3px 20px rgba($palenight-black, 0.1);
+  color: $palenight-white;
   margin-left: 15px;
   opacity: 0.95;
   overflow-y: visible !important;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 0;
-  -ms-transform: scale(1);
   transform: scale(1);
-  -ms-transform-origin: bottom left;
   transform-origin: bottom left;
-  transition: all 200ms ease;
   width: auto;
   z-index: 0;
   z-index: 5;
@@ -217,19 +215,19 @@ form .channelTextArea-rNsIhG {
 
 .theme-dark .chat-3bRxxu form {
   border: 0;
-  box-shadow: rgba($nox-black, 0.1) 0 0 20px;
+  box-shadow: rgba($palenight-black, 0.1) 0 0 20px;
   margin: 0;
 }
 
 .listeningAlong-2UPsxf {
   background: linear-gradient(
     180deg,
-    rgba($nox-black, 0) 90%,
-    rgba($nox-black, 0.1)
+    rgba($palenight-black, 0) 90%,
+    rgba($palenight-black, 0.1)
   );
-  background-color: $nox-level4;
+  background-color: $palenight-level4;
   border: 0;
-  box-shadow: 0 2px 20px rgba($nox-black, 0.4);
+  box-shadow: 0 2px 20px rgba($palenight-black, 0.4);
   transition: all 500ms ease;
   z-index: 4;
 }

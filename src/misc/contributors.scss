@@ -27,7 +27,7 @@
 
 .image-33JSyf.profile-ZOdGIb[style*='avatars/249746236008169473']::after,
 .image-33JSyf.large-3ChYtB[style*='avatars/249746236008169473']:hover::before {
-  content: 'Nox Developer' !important;
+  content: 'Palenight Developer' !important;
   display: inline-block !important;
 }
 
@@ -104,7 +104,7 @@ $contributors: (
 
   .image-33JSyf.profile-ZOdGIb[style*='avatars/#{$c}']::after,
   .image-33JSyf.large-3ChYtB[style*='avatars/#{$c}']:hover::before {
-    content: 'Nox Contributor' !important;
+    content: 'Palenight Contributor' !important;
     display: inline-block !important;
   }
 }
@@ -114,9 +114,9 @@ $contributors: (
 .image-33JSyf.large-3ChYtB::before {
   border-radius: 2px;
   bottom: 0;
-  color: $nox-white3;
+  color: rgba($palenight-white, 0.3);
   cursor: pointer;
-  font-family: NoxIcons;
+  font-family: PalenightIcons;
   font-size: 13px;
   pointer-events: none;
   position: absolute;
@@ -125,16 +125,17 @@ $contributors: (
 }
 
 .image-33JSyf.large-3ChYtB:hover::before {
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 .image-33JSyf.large-3ChYtB:hover::before {
+  @include transition('easeInOut', 'shorter', all);
   animation: opacity 200ms ease;
-  background-color: $nox-level1 !important;
+  background-color: $palenight-level1 !important;
   border-radius: 3px;
   bottom: -6px;
-  box-shadow: 0 5px 15px rgba($nox-black, 0.2) !important;
-  color: $nox-white;
+  box-shadow: 0 5px 15px rgba($palenight-black, 0.2) !important;
+  color: $palenight-white;
   display: block;
   font-family: Whitney;
   left: calc(100% - 13px);
@@ -143,7 +144,6 @@ $contributors: (
   pointer-events: none;
   position: absolute;
   right: unset;
-  transition: all 200ms ease;
   white-space: nowrap;
   width: auto;
 }
@@ -160,9 +160,9 @@ $contributors: (
 .image-33JSyf.profile-ZOdGIb::before {
   background: transparent;
   border-radius: 50%;
-  color: $nox-white5;
+  color: rgba($palenight-white, 0.5);
   cursor: pointer;
-  font-family: NoxIcons;
+  font-family: PalenightIcons;
   font-size: 20px;
   padding: 0;
   pointer-events: initial !important;
@@ -174,16 +174,16 @@ $contributors: (
 }
 
 .image-33JSyf.profile-ZOdGIb:hover::before {
-  box-shadow: 0 5px 15px rgba($nox-black, 0.5);
-  color: $nox-accent;
+  box-shadow: 0 5px 15px rgba($palenight-black, 0.5);
+  color: $palenight-accent;
 }
 
 .image-33JSyf.profile-ZOdGIb::after {
-  background: $nox-accent;
+  background: $palenight-accent;
   border-radius: 40px;
-  box-shadow: 0 5px 15px rgba($nox-black, 0.5);
-  color: $nox-white4;
-  color: $nox-white;
+  box-shadow: 0 5px 15px rgba($palenight-black, 0.5);
+  color: rgba($palenight-white, 0.4);
+  color: $palenight-white;
   font-size: 14.4px;
   opacity: 0;
   padding: 3px 10px;
@@ -205,6 +205,5 @@ $contributors: (
 }
 
 .mask-3OgeRz {
-  -webkit-mask: none !important;
   mask: none !important;
 }

@@ -1,5 +1,5 @@
 .container-2Thooq .status-oxiHuE {
-  border-color: $nox-level4 !important;
+  border-color: $palenight-level4 !important;
   transition: all 200ms ease !important;
 }
 
@@ -47,12 +47,12 @@
   animation: strike-out 300ms cubic-bezier(0, 0, 0, 1);
   background: linear-gradient(
     to top,
-    $nox-white 0%,
-    $nox-white 50%,
-    $nox-level4 51%,
-    $nox-level4 100%
+    $palenight-white 0%,
+    $palenight-white 50%,
+    $palenight-level4 51%,
+    $palenight-level4 100%
   );
-  box-shadow: 0 -1.5px $nox-level4;
+  box-shadow: 0 -1.5px $palenight-level4;
   content: '';
   display: block;
   height: 4px;
@@ -71,10 +71,10 @@
   animation: strike-in 300ms cubic-bezier(0, 0, 0, 1);
   background: linear-gradient(
     to top,
-    $nox-white 0%,
-    $nox-white 50%,
-    $nox-level4 51%,
-    $nox-level4 100%
+    $palenight-white 0%,
+    $palenight-white 50%,
+    $palenight-level4 51%,
+    $palenight-level4 100%
   );
   content: '';
   display: block;
@@ -114,10 +114,10 @@
   animation: strike-out 300ms cubic-bezier(0, 0, 0, 1);
   background: linear-gradient(
     to top,
-    $nox-white 0%,
-    $nox-white 50%,
-    $nox-level4 51%,
-    $nox-level4 100%
+    $palenight-white 0%,
+    $palenight-white 50%,
+    $palenight-level4 51%,
+    $palenight-level4 100%
   );
   content: '';
   display: block;
@@ -137,10 +137,10 @@
   animation: strike-in 300ms cubic-bezier(0, 0, 0, 1);
   background: linear-gradient(
     to top,
-    $nox-white 0%,
-    $nox-white 50%,
-    $nox-level4 51%,
-    $nox-level4 100%
+    $palenight-white 0%,
+    $palenight-white 50%,
+    $palenight-level4 51%,
+    $palenight-level4 100%
   );
   content: '';
   display: block;
@@ -185,7 +185,7 @@
 }
 
 .container-2Thooq .horizontal-1ae9ci .button-2b6hmh::after {
-  background: $nox-white;
+  background: $palenight-white;
   border-radius: 50%;
   content: '';
   display: block;
@@ -195,7 +195,6 @@
   pointer-events: none;
   position: absolute;
   top: calc(50% + 0);
-  -ms-transform: translate(-50%, -50%) scale(1.3);
   transform: translate(-50%, -50%) scale(1.3);
   transition: 300ms ease;
   width: 100%;
@@ -204,7 +203,6 @@
 .container-2Thooq .horizontal-1ae9ci .button-2b6hmh:active::after {
   animation: scale-center 200ms cubic-bezier(0, 0, 0, 1);
   opacity: 0.1;
-  -ms-transform: translate(-50%, -50%) scale(1.3);
   transform: translate(-50%, -50%) scale(1.3);
   transition: 0ms ease;
 }
@@ -214,12 +212,12 @@
 }
 
 .container-2Thooq .accountDetails-3k9g4n .discriminator {
-  color: $nox-white !important;
+  color: $palenight-white !important;
   opacity: 0.3;
 }
 
 #app-mount .container-2Thooq {
-  background: $nox-level4;
+  background: $palenight-level4;
   height: 70px;
   margin-bottom: 0;
 }
@@ -239,7 +237,7 @@
 
 .container-2Thooq .inner-1W0Bkn::after {
   animation-fill-mode: forwards;
-  background: $nox-white;
+  background: $palenight-white;
   border-radius: 50%;
   content: '';
   display: block;

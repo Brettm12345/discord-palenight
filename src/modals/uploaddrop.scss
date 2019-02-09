@@ -5,10 +5,11 @@
 }
 
 .uploadDropModal-2kTwbc .bgScale-1otPtc {
-  background: $nox-accent;
+  background: $palenight-accent;
   border-radius: 50%;
-  box-shadow: 0 5px 20px rgba($nox-black, 0.4),
-    0 -2px 0 rgba($nox-black, 0.1) inset, 0 3px 1px $nox-white1 inset;
+  box-shadow: 0 5px 20px rgba($palenight-black, 0.4),
+    0 -2px 0 rgba($palenight-black, 0.1) inset,
+    0 3px 1px rgba($palenight-white, 0.1) inset;
   display: block;
   position: absolute;
   transform: scale(0) !important;
@@ -17,7 +18,7 @@
 
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
   animation: none;
-  background-color: $nox-level1;
+  background-color: $palenight-level1;
   transform: scale(1) !important;
   transition: 400ms cubic-bezier(0.3, 0, 0, 1) !important;
 }
@@ -168,7 +169,7 @@ html[lang='ko'] .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
 .uploadDropModal-2kTwbc .inner-3nWsbo .icons-1w691d .wrapTwo-mQGI3R {
   animation: none;
   animation: none;
-  background: $nox-accent;
+  background: $palenight-accent;
   display: block;
   height: 20px;
   left: 50%;
@@ -191,7 +192,7 @@ html[lang='ko'] .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
 
 .uploadDropModal-2kTwbc .inner-3nWsbo .icons-1w691d .wrapOne-14G98n {
   animation: none;
-  background: rgba($nox-black, 0.3);
+  background: rgba($palenight-black, 0.3);
   display: block;
   height: 10px;
   left: 50%;

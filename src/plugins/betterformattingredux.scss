@@ -1,6 +1,6 @@
 #bfredux::before {
-  background: $nox-level1 !important;
-  box-shadow: 0 2px 10px rgba($nox-black, 0.2);
+  background: $palenight-level4 !important;
+  box-shadow: 0 2px 10px rgba($palenight-black, 0.2);
 }
 
 #bfredux {
@@ -21,9 +21,9 @@
 }
 
 #bfredux div:not(.bf-arrow):hover {
-  background: $nox-white1 !important;
+  background: rgba($palenight-white, 0.1) !important;
 }
 
 #bfredux div:not(.bf-arrow):active {
-  background: rgba($nox-black, 0.2) !important;
+  background: rgba($palenight-black, 0.2) !important;
 }

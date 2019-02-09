@@ -1,11 +1,13 @@
 * {
-  font-family: 'Noto Sans ExtraCondensed Medium', sans-serif !important;
+  font-family: $palenight-font, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: geometricPrecision !important;
 }
 
 textarea::placeholder,
 input::placeholder {
-  font-family: 'Noto Sans ExtraCondensed Medium', sans-serif !important;
+  font-family: $palenight-font, sans-serif !important;
 }
 
 input,
@@ -13,11 +15,11 @@ textarea,
 keygen,
 select,
 button {
-  font-family: 'Noto Sans ExtraCondensed Medium', sans-serif !important;
+  font-family: $palenight-font, sans-serif !important;
 }
 
 .ace_editor * {
-  font-family: 'Iosevka Term Custom', Consolas, Menlo, Monaco, Lucida Console,
+  font-family: $palenight-code-font, Consolas, Menlo, Monaco, Lucida Console,
     Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
     monospace, serif !important;
 }
@@ -27,7 +29,7 @@ button {
 .markup-2BOw-j pre code,
 .markup-2BOw-j pre code *,
 .markup-2BOw-j code.inline {
-  font-family: 'Iosevka Term Custom', Consolas, Menlo, Monaco, Lucida Console,
+  font-family: $palenight-code-font, Consolas, Menlo, Monaco, Lucida Console,
     Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
     monospace, serif !important;
 }

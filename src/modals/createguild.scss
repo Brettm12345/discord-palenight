@@ -5,18 +5,18 @@
 }
 
 .animator-US5i9g .action-1lSjCi.join-33Tr-7 .actionButton-2PeQbJ {
-  background: #3ca374;
+  background: $green;
 }
 
 .animator-US5i9g .action-1lSjCi {
-  background: $nox-level2;
-  box-shadow: 0 5px 10px rgba($nox-black, 0.3);
+  background: $palenight-level2;
+  box-shadow: 0 5px 10px rgba($palenight-black, 0.3);
   transition: 200ms ease;
 }
 
 .animator-US5i9g .action-1lSjCi:hover {
-  background: $nox-level2;
-  box-shadow: 0 5px 5px rgba($nox-black, 0.3);
+  background: $palenight-level2;
+  box-shadow: 0 5px 5px rgba($palenight-black, 0.3);
 }
 
 .animator-US5i9g .action-1lSjCi .actionBody-1qj65C {
@@ -25,59 +25,59 @@
 
 .animator-US5i9g .action-1lSjCi:active .actionBody-1qj65C,
 .animator-US5i9g .action-1lSjCi:hover .actionBody-1qj65C {
-  color: $nox-white9;
+  color: rgba($palenight-white, 0.9);
 }
 
 .animator-US5i9g .action-1lSjCi:active {
-  box-shadow: 0 5px 15px rgba($nox-black, 0.8);
+  box-shadow: 0 5px 15px rgba($palenight-black, 0.8);
   transition: 50ms ease !important;
 }
 
 .animator-US5i9g .action-1lSjCi.create-3jownz .actionButton-2PeQbJ,
 .animator-US5i9g .action-1lSjCi.create-3jownz:active {
-  background: $nox-accent;
+  background: $palenight-accent;
 }
 
 .animator-US5i9g .action-1lSjCi.join-33Tr-7:active {
-  background: #3ca374;
+  background: $green;
 }
 
 .animator-US5i9g .action-1lSjCi .actionHeader-2CT5c7 {
-  transition: all 200ms ease;
+  @include transition('easeInOut', 'shorter', all);
 }
 
 .animator-US5i9g .action-1lSjCi.create-3jownz .actionHeader-2CT5c7 {
-  color: $nox-accent;
+  color: $palenight-accent;
 }
 
 .animator-US5i9g .action-1lSjCi:active .actionHeader-2CT5c7 {
-  color: $nox-white;
+  color: $palenight-white;
   transition: all 50ms ease;
 }
 
 body .animator-US5i9g .action-1lSjCi.join-33Tr-7:active .actionButton-2PeQbJ,
 body .animator-US5i9g .action-1lSjCi.create-3jownz:active .actionButton-2PeQbJ {
-  background: $nox-white !important;
+  background: $palenight-white !important;
 }
 
 body .animator-US5i9g .action-1lSjCi.create-3jownz:active .actionButton-2PeQbJ {
-  color: $nox-accent !important;
+  color: $palenight-accent !important;
 }
 
 body .animator-US5i9g .action-1lSjCi.join-33Tr-7:active .actionButton-2PeQbJ {
-  color: #3ca374 !important;
+  color: $green !important;
 }
 
 .animator-US5i9g p {
-  color: $nox-white5;
+  color: rgba($palenight-white, 0.5);
 }
 
 .animator-US5i9g .action-1lSjCi .actionBody-1qj65C {
-  color: $nox-white4;
+  color: rgba($palenight-white, 0.4);
 }
 
 .slide-2pHaq5 header {
-  color: $nox-accent !important;
+  color: $palenight-accent !important;
 }
 
 .animator-US5i9g {
@@ -87,7 +87,7 @@ body .animator-US5i9g .action-1lSjCi.join-33Tr-7:active .actionButton-2PeQbJ {
 }
 
 .animator-US5i9g div.slide-2pHaq5 {
-  background: $nox-level4;
+  background: $palenight-level4;
 }
 
 .animator-US5i9g .content-2BXhLs {
@@ -103,7 +103,7 @@ body .animator-US5i9g .action-1lSjCi.join-33Tr-7:active .actionButton-2PeQbJ {
 }
 
 .animator-US5i9g form.slide-2pHaq5 {
-  background: $nox-level2;
+  background: $palenight-level2;
 }
 
 .animator-US5i9g .action-1lSjCi.create-3jownz .actionIcon-2IISM_ {
@@ -125,44 +125,44 @@ body .animator-US5i9g .action-1lSjCi.join-33Tr-7:active .actionButton-2PeQbJ {
 }
 
 .animator-US5i9g .title-2Dc-Cb {
-  color: $nox-accent;
+  color: $palenight-accent;
 }
 
 .animator-US5i9g .avatarUploaderInner-3UNxY3 {
-  background: $nox-accent;
+  background: $palenight-accent;
 }
 
 .animator-US5i9g .sampleLink-KPFu3I {
-  color: $nox-accent;
+  color: $palenight-accent;
 }
 
 .animator-US5i9g .input-cIJ7To {
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 // .animator-US5i9g input {
 //     border: 0!important;
-//     border-bottom: 2px solid rgba($nox-white, .05)!important;
+//     border-bottom: 2px solid rgba($palenight-white, .05)!important;
 //     border-radius: 0;
 // }
 
 // .animator-US5i9g input:hover {
 //     border: 0!important;
-//     border-bottom: 2px solid $nox-white1!important
+//     border-bottom: 2px solid rgba($palenight-white, 0.1)!important
 // }
 
 // .animator-US5i9g input:focus {
 //     border: 0!important;
-//     border-bottom: 2px solid $nox-accent!important
+//     border-bottom: 2px solid $palenight-accent!important
 // }
 
 // .animator-US5i9g .join-server .link-container label {
-//     color: $nox-white4;
+//     color: rgba($palenight-white, 0.4);
 //     margin-top: 10px
 // }
 
 // .animator-US5i9g .form-actions .btn-default {
-//     color: $nox-white6;
+//     color: rgba($palenight-white, 0.6);
 // }
 
 // .animator-US5i9g .form-actions .btn-default::before {
@@ -181,7 +181,7 @@ body .animator-US5i9g .action-1lSjCi.join-33Tr-7:active .actionButton-2PeQbJ {
 // }
 
 // .animator-US5i9g .join-server .sample-link{
-//     color:#2196F3;
+//     color:$BLUE;
 // }
 
 // .animator-US5i9g .create-guild .guild-form{

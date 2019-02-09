@@ -1,0 +1,34 @@
+@mixin transition($easing, $duration, $properties...) {
+  transition: $properties unquote(map-get($palenight-durations, $duration))
+    unquote(map-get($palenight-easing, $easing));
+}
+
+@mixin prefix($name, $argument) {
+  #{$name}: #{$argument};
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+}
+
+@mixin animation($animate...) {
+  $max: length($animate);
+  $animations: '';
+
+  @for $i from 1 through $max {
+    $animations: #{$animations + nth($animate, $i)};
+
+    @if $i < $max {
+      $animations: #{$animations + ', '};
+    }
+  }
+  @include prefix(animation, $animations);
+}
+
+@mixin keyframes($animationname) {
+  // scss-lint:disable VendorPrefix
+  @keyframes #{$animationname} {
+    @content;
+  }
+  // scss-lint:enable VendorPrefix
+}

@@ -1,7 +1,7 @@
 /*smaller*/
 .avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3::after {
   animation-fill-mode: forwards;
-  background: $nox-white;
+  background: $palenight-white;
   border-radius: 50%;
   content: '';
   display: block;
@@ -26,7 +26,7 @@
 /*/ripples*/
 
 .theme-dark .card-FDVird::before {
-  background: $nox-level1;
+  background: $palenight-level1;
 }
 
 .userSettingsAccount-2eMFVR .input-cIJ7To {
@@ -35,36 +35,36 @@
 }
 
 .avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3:hover {
-  box-shadow: inset 0 0 120px rgba($nox-black, 0);
+  box-shadow: inset 0 0 120px rgba($palenight-black, 0);
 }
 
 .avatarUploader-3XDtmn .avatarUploaderInner-3UNxY3 .avatarUploaderHint-3SN212 {
-  background: rgba($nox-black, 0);
+  @include transition('easeInOut', 'shorter', all);
+  background: rgba($palenight-black, 0);
   border-radius: 1000px;
   color: transparent;
-  transition: all 200ms ease;
 }
 
 .avatarUploaderInner-3UNxY3 {
-  background-color: $nox-accent;
+  background-color: $palenight-accent;
 }
 
 .avatarUploader-3XDtmn
   .avatarUploaderInner-3UNxY3:hover
   .avatarUploaderHint-3SN212 {
-  background: rgba($nox-black, 0.5);
-  color: $nox-white;
+  background: rgba($palenight-black, 0.5);
+  color: $palenight-white;
 }
 
 .userSettingsAccount-2eMFVR .questionMark-CWEQZn,
 .userSettingsAccount-2eMFVR .questionMark-CWEQZn:hover {
-  background: $nox-accent;
+  background: $palenight-accent;
 }
 
 .theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG {
-  color: $nox-white6;
+  color: rgba($palenight-white, 0.6);
 }
 
 .theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG:hover {
-  color: $nox-accent;
+  color: $palenight-accent;
 }

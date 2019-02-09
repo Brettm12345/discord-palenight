@@ -19,7 +19,7 @@
 
 .chat-3bRxxu .large-3ChYtB .status-oxiHuE.typing-2GQL18 {
   // z-index: 1;
-  background: rgba($nox-black, 0.4);
+  background: rgba($palenight-black, 0.4);
 }
 
 @keyframes typing {
@@ -51,6 +51,14 @@
 .chat-3bRxxu .large-3ChYtB .status-oxiHuE.streaming-2_dnHe {
   animation: streaming-flash 1.5s linear infinite !important;
   border-color: $magenta !important;
+}
+
+.online-2S838R {
+  background-color: $green;
+}
+
+.idle-3DEnRT {
+  background-color: $yellow;
 }
 
 .chat-3bRxxu .large-3ChYtB .status-oxiHuE.online-2S838R {

@@ -1,6 +1,6 @@
 .popout-3sVMXz .container-3cGP6G {
-  background: $nox-level0;
-  border-color: $nox-level0;
+  background: $palenight-level0;
+  border-color: $palenight-level0;
   border-radius: 2px;
   cursor: pointer;
   padding: 0;
@@ -10,7 +10,7 @@
   background: none;
   border-radius: 0;
   box-shadow: none !important;
-  color: $nox-white4;
+  color: rgba($palenight-white, 0.4);
   margin: 0;
   min-height: unset;
   padding: 2px !important;
@@ -19,13 +19,13 @@
 }
 
 .container-3cGP6G .item-2J1YMK:hover {
-  background: rgba($nox-white, 0.05);
-  color: $nox-white7;
+  background: rgba($palenight-white, 0.05);
+  color: rgba($palenight-white, 0.7);
   transform: none;
 }
 
 .container-3cGP6G .item-2J1YMK:active {
-  background: rgba($nox-black, 0.1);
-  color: $nox-white7;
+  background: rgba($palenight-black, 0.1);
+  color: rgba($palenight-white, 0.7);
   transform: none;
 }

@@ -1,0 +1,3 @@
+@mixin states($color: $palenight-white, $state: 'hover') {
+  background-color: rgba($color, map-get($palenight-states, $state) / 100%);
+}

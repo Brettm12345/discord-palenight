@@ -7,9 +7,9 @@
   background: transparent !important;
   background: transparent !important;
   border: 0;
-  border-bottom: 2px solid rgba($nox-white, 0.05) !important;
+  border-bottom: 2px solid rgba($palenight-white, 0.05) !important;
   border-radius: 0 !important;
-  color: $nox-white !important;
+  color: $palenight-white !important;
   margin-bottom: 0 !important;
 }
 
@@ -18,21 +18,20 @@
 .form .control-group input:focus,
 .form .control-group textarea:focus,
 .serverfolders-modal input:focus {
-  border-bottom: 2px solid $nox-accent !important;
+  border-bottom: 2px solid $palenight-accent !important;
 }
 
 /*/deprecated*/
 
 .form .btn-primary {
+  @include transition('easeInOut', 'shorter', all);
   border-radius: 3px;
-  box-shadow: 0 6px 10px rgba($nox-black, 0);
+  box-shadow: 0 6px 10px rgba($palenight-black, 0);
   margin-bottom: 5px;
-  transition: all 200ms ease;
 }
 
 .form .btn-primary:hover {
-  box-shadow: 0 6px 15px rgba($nox-black, 0.2);
-  -ms-transform: translate(0, -1px);
+  box-shadow: 0 6px 15px rgba($palenight-black, 0.2);
   transform: translate(0, -1px);
   transition: all 150ms ease-in-out;
 }
@@ -40,13 +39,12 @@
 .form .btn-primary:active {
   background: rgb(220, 220, 220) !important;
   border-radius: 4px;
-  box-shadow: 0 0 0 rgba($nox-black, 0.5);
-  color: rgba($nox-black, 0.7);
-  -ms-transform: translate(0, 2px);
+  box-shadow: 0 0 0 rgba($palenight-black, 0.5);
+  color: rgba($palenight-black, 0.7);
   transform: translate(0, 2px);
   transition: all 50ms ease;
 }
 
 .form .control-groups.control-separator {
-  border-color: rgba($nox-white, 0.02);
+  border-color: rgba($palenight-white, 0.02);
 }

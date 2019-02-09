@@ -1,19 +1,22 @@
-#bd-settingspane-container .bda-slist li[data-name='Nox'] .bda-description {
+#bd-settingspane-container
+  .bda-slist
+  li[data-name='Palenight']
+  .bda-description {
   display: none;
 }
 
-#bd-settingspane-container .bda-slist li[data-name='Nox'] .scroller-wrap {
+#bd-settingspane-container .bda-slist li[data-name='Palenight'] .scroller-wrap {
   position: relative;
 }
 
 #bd-settingspane-container
   .bda-slist
-  li[data-name='Nox']
+  li[data-name='Palenight']
   .scroller-wrap::before {
-  background: $nox-accent;
+  background: $palenight-accent;
   border-radius: 2px;
-  box-shadow: 0 2px 15px rgba($nox-black, 0.2);
-  color: $nox-light-fg;
+  box-shadow: 0 2px 15px rgba($palenight-black, 0.2);
+  color: $palenight-light-fg;
   content: 'Accent color';
   display: inline-block;
   left: 0;
@@ -26,11 +29,11 @@
 
 #bd-settingspane-container
   .bda-slist
-  li[data-name='Nox']
+  li[data-name='Palenight']
   .scroller-wrap::after {
-  background: $nox-notification-color;
+  background: $palenight-notification-color;
   border-radius: 2px;
-  box-shadow: 0 2px 15px rgba($nox-black, 0.2);
+  box-shadow: 0 2px 15px rgba($palenight-black, 0.2);
   color: #000;
   content: 'Notification color';
   display: inline-block;
@@ -42,15 +45,18 @@
   width: auto;
 }
 
-#bd-settingspane-container .bda-slist li[data-name='Nox'] .bda-name,
-#bd-settingspane-container .bda-slist li[data-name='Nox'] .bda-header-title {
+#bd-settingspane-container .bda-slist li[data-name='Palenight'] .bda-name,
+#bd-settingspane-container
+  .bda-slist
+  li[data-name='Palenight']
+  .bda-header-title {
   font-size: 0;
 }
 
 #bd-settingspane-container
   .bda-slist
-  li[data-name='Nox']
+  li[data-name='Palenight']
   .bda-header-title::after {
-  content: $nox-version ' by Lilian Tedone & Zack Rauen';
+  content: $palenight-version ' by Lilian Tedone & Zack Rauen';
   font-size: 12px;
 }

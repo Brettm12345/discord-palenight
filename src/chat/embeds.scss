@@ -10,7 +10,6 @@
   opacity: 0.9;
   position: absolute;
   top: 50%;
-  -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
   width: 3px;
   z-index: 1;
@@ -51,6 +50,10 @@
   padding-bottom: 10px;
 }
 
+.image-details-wrapper {
+  max-width: 100%;
+}
+
 .containerCompact-3bB5aN.image-details-wrapper {
   padding: 20px 8ch;
   width: 0;
@@ -68,7 +71,7 @@
 /*-----EMBED VIDEO-----*/
 
 .embedVideoActionsInner-2reMo2 {
-  background: rgba($nox-black, 0.6) !important;
+  background: rgba($palenight-black, 0.6) !important;
   border-radius: 3px !important;
   height: 100%;
   overflow: hidden;
@@ -88,7 +91,7 @@
 }
 
 .embedVideoActionsInner-2reMo2:hover {
-  background: rgba($nox-black, 0.7) !important;
+  background: rgba($palenight-black, 0.7) !important;
 }
 
 .embedVideoPlay-1r-B3h + .embedVideoPopout-304geM {
@@ -143,12 +146,13 @@
 /*-----/EMBED VIDEO-----*/
 
 .container-1YxwTf .embed-IeVjo6 {
-  background-color: $nox-level2 !important;
+  background-color: $palenight-level2 !important;
   border: 0;
   border-radius: 3px !important;
-  box-shadow: 0 2px 5px rgba($nox-black, 0.1);
+  box-shadow: 0 2px 5px rgba($palenight-black, 0.1);
+  max-width: 100%;
   .embedInner-1-fpTo {
-    background: $nox-level4;
+    background: $palenight-level4;
   }
 }
 
@@ -174,14 +178,14 @@
 /*-----EMBED AUDIO-----*/
 
 .wrapperAudio-1jDe0Q {
-  background-color: $nox-level2 !important;
+  background-color: $palenight-level2 !important;
   border: 0;
   border-radius: 3px !important;
-  box-shadow: 0 2px 5px rgba($nox-black, 0.1);
+  box-shadow: 0 2px 5px rgba($palenight-black, 0.1);
 }
 
 .audioControls-2HsaU6 {
-  background: $nox-level4;
+  background: $palenight-level4;
 }
 
 .audioMetadata-3zOuGv::before {
@@ -192,19 +196,19 @@
 .mediaBarProgress-1xaPtl,
 .mediaBarProgress-1xaPtl::before,
 .mediaBarProgress-1xaPtl::after {
-  background: $nox-accent;
+  background: $palenight-accent;
 }
 
 .mediaBarGrabber-1FqnbN:active,
 .mediaBarInteractionDragging-2QurIZ .mediaBarGrabber-1FqnbN,
 .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN {
-  background: $nox-accent;
-  box-shadow: 0 2px 5px rgba($nox-black, 0.3);
+  background: $palenight-accent;
+  box-shadow: 0 2px 5px rgba($palenight-black, 0.3);
 }
 
 .mediaBarGrabber-1FqnbN:active {
-  background: $nox-accent;
-  box-shadow: 0 2px 5px rgba($nox-black, 0.1);
+  background: $palenight-accent;
+  box-shadow: 0 2px 5px rgba($palenight-black, 0.1);
 }
 
 /*-----/EMBED AUDIO-----*/

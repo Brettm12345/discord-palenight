@@ -23,7 +23,7 @@
 }
 
 .private-channel-call .btn-icon {
-  background-color: $nox-level2 !important;
+  background-color: $palenight-level2 !important;
   border-radius: 100px;
   height: 30px;
   opacity: 0.5;
@@ -32,9 +32,10 @@
 }
 
 .chat-3bRxxu .private-channel-call {
-  background-color: #000 !important;
-  box-shadow: 0 -2px 2px rgba($nox-white, 0.02) inset,
-    0 800px 500px -500px $nox-level4 inset, 0 5px 20px rgba($nox-black, 0.2) !important;
+  background-color: $palenight-black !important;
+  box-shadow: 0 -2px 2px rgba($palenight-white, 0.02) inset,
+    0 800px 500px -500px $palenight-level4 inset,
+    0 5px 20px rgba($palenight-black, 0.2) !important;
   margin-top: 48px;
   z-index: 2;
 }
@@ -45,7 +46,7 @@
 }
 
 .ui-button.brand.filled {
-  color: $nox-white;
+  color: $palenight-white;
 }
 
 .theme-dark .ui-video {
@@ -59,15 +60,14 @@
 }
 
 .private-channel-call .btn-text.btn-danger {
-  background: #f44336;
+  background: $palenight-error;
 }
 
 .private-channel-call .btn-text.btn-danger:hover {
-  background: #d32f2f;
+  background: lighten($palenight-error, 15%);
 }
 
 .private-channel-call .btn-text:hover {
-  -ms-transform: scale(0.95);
   transform: scale(0.95);
 }
 
@@ -82,5 +82,5 @@
 /*-----/CALLS-----*/
 
 .callAvatarBorder-1D_KaE.video-3GgX2M.selected-2esnyn:not(.speaking-oCqYMI):not(.soundsharing-102bS9) {
-  box-shadow: inset 0 0 0 2px $nox-accent;
+  box-shadow: inset 0 0 0 2px $palenight-accent;
 }

@@ -19,9 +19,10 @@
 
 .switch-3wwwcV::after,
 .ui-switch::before {
-  background: $nox-white !important;
+  background: $palenight-white !important;
   border-radius: 50% !important;
-  box-shadow: 0 2px 10px rgba($nox-black, 0.3), 0 1px 0 $nox-white3 inset !important;
+  box-shadow: 0 2px 10px rgba($palenight-black, 0.3),
+    0 1px 0 rgba($palenight-white, 0.3) inset !important;
   content: '';
   display: block;
   height: 23px !important;
@@ -42,12 +43,14 @@
 
 .switch-3wwwcV:hover::after,
 .ui-switch-checkbox:hover + .ui-switch::before {
-  box-shadow: 0 2px 15px rgba($nox-black, 0.5), 0 1px 0 $nox-white3 inset;
+  box-shadow: 0 2px 15px rgba($palenight-black, 0.5),
+    0 1px 0 rgba($palenight-white, 0.3) inset;
 }
 
 .switch-3wwwcV:active::after,
 .ui-switch-checkbox:active + .ui-switch::before {
-  box-shadow: 0 2px 15px rgba($nox-black, 0.5), 0 1px 0 $nox-white3 inset;
+  box-shadow: 0 2px 15px rgba($palenight-black, 0.5),
+    0 1px 0 rgba($palenight-white, 0.3) inset;
 }
 
 .switch-3wwwcV.valueChecked-m-4IJZ:active::after,
@@ -60,7 +63,7 @@
 
 .switch-3wwwcV::before,
 .ui-switch::after {
-  background: $nox-white !important;
+  background: $palenight-white !important;
   border-radius: 100px;
   content: '';
   display: block;
@@ -97,30 +100,30 @@ body .themeClear-1EjkE4.switch-3wwwcV {
 
 body .themeClear-1EjkE4.switch-3wwwcV::before,
 .ui-switch-wrapper.clear .ui-switch-checkbox + .ui-switch::after {
-  background: $nox-white !important;
+  background: $palenight-white !important;
   opacity: 0.4;
 }
 
 body .themeClear-1EjkE4.valueChecked-m-4IJZ.switch-3wwwcV::before,
 .ui-switch-wrapper.clear .ui-switch-checkbox:checked + .ui-switch::after {
-  background: $nox-white !important;
+  background: $palenight-white !important;
   opacity: 0.7;
 }
 
 body .themeClear-1EjkE4.valueChecked-m-4IJZ.switch-3wwwcV::after,
 .ui-switch-wrapper.clear .ui-switch-checkbox:checked + .ui-switch::before {
-  background: $nox-white !important;
+  background: $palenight-white !important;
   opacity: 1;
 }
 
 .valueChecked-m-4IJZ.switch-3wwwcV.switch-3wwwcV::after,
 .ui-switch-checkbox:checked + .ui-switch::before {
-  background: $nox-accent !important;
+  background: $palenight-accent !important;
 }
 
 .valueChecked-m-4IJZ.switch-3wwwcV.switch-3wwwcV::before,
 .ui-switch-checkbox:checked + .ui-switch::after {
-  background: $nox-accent !important;
+  background: $palenight-accent !important;
 }
 
 .switchWrapperDefault,
