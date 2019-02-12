@@ -1,5 +1,5 @@
 .chat-3bRxxu .content-yTz4x3 form {
-  background: $palenight-level1;
+  background: $palenight-level4;
   margin: 0;
 }
 
@@ -8,6 +8,7 @@
 }
 
 .emojiButton-3uL3Aw {
+  @include palenight-white;
   @include transition('easeInOut', 'shortest', all);
   background-color: transparent !important;
   background-image: url('data: image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTEuOTkgMkM2LjQ3IDIgMiA2LjQ4IDIgMTJzNC40NyAxMCA5Ljk5IDEwQzE3LjUyIDIyIDIyIDE3LjUyIDIyIDEyUzE3LjUyIDIgMTEuOTkgMnpNMTIgMjBjLTQuNDIgMC04LTMuNTgtOC04czMuNTgtOCA4LTggOCAzLjU4IDggOC0zLjU4IDgtOCA4em0zLjUtOWMuODMgMCAxLjUtLjY3IDEuNS0xLjVTMTYuMzMgOCAxNS41IDggMTQgOC42NyAxNCA5LjVzLjY3IDEuNSAxLjUgMS41em0tNyAwYy44MyAwIDEuNS0uNjcgMS41LTEuNVM5LjMzIDggOC41IDggNyA4LjY3IDcgOS41IDcuNjcgMTEgOC41IDExem0zLjUgNi41YzIuMzMgMCA0LjMxLTEuNDYgNS4xMS0zLjVINi44OWMuOCAyLjA0IDIuNzggMy41IDUuMTEgMy41eiIvPjwvc3ZnPg==') !important;
@@ -41,6 +42,10 @@ form .channelTextArea-rNsIhG {
   padding-right: 10px;
 }
 
+.textArea-2Spzkt::placeholder {
+  color: rgba($palenight-white, 0.4) !important;
+}
+
 .inner-zqa7da:hover .textArea-2Spzkt {
   @include transition('easeInOut', 'shorter', all);
   color: rgba($palenight-white, 0.8);
@@ -63,6 +68,7 @@ form .channelTextArea-rNsIhG {
 }
 
 .attachButton-1UjEWA {
+  @include palenight-white;
   @include transition('easeInOut', 'shorter', all);
   background-color: transparent !important;
   background-image: url('data: image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTIgMTIuNUMyIDkuNDYgNC40NiA3IDcuNSA3SDE4YzIuMjEgMCA0IDEuNzkgNCA0cy0xLjc5IDQtNCA0SDkuNUM4LjEyIDE1IDcgMTMuODggNyAxMi41UzguMTIgMTAgOS41IDEwSDE3djJIOS40MWMtLjU1IDAtLjU1IDEgMCAxSDE4YzEuMSAwIDItLjkgMi0ycy0uOS0yLTItMkg3LjVDNS41NyA5IDQgMTAuNTcgNCAxMi41UzUuNTcgMTYgNy41IDE2SDE3djJINy41QzQuNDYgMTggMiAxNS41NCAyIDEyLjV6Ii8+ICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==') !important;
@@ -70,7 +76,6 @@ form .channelTextArea-rNsIhG {
   background-repeat: no-repeat !important;
   background-size: 21px !important;
   box-shadow: none !important;
-  fill: transparent !important;
   height: 100%;
   left: 0;
   margin: 0;
@@ -214,8 +219,8 @@ form .channelTextArea-rNsIhG {
 }
 
 .theme-dark .chat-3bRxxu form {
+  @include box-shadow(4);
   border: 0;
-  box-shadow: rgba($palenight-black, 0.1) 0 0 20px;
   margin: 0;
 }
 

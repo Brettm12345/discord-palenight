@@ -1,5 +1,5 @@
 * {
-  font-family: $palenight-font, sans-serif !important;
+  font-family: quote($palenight-font), sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: geometricPrecision !important;
@@ -7,7 +7,7 @@
 
 textarea::placeholder,
 input::placeholder {
-  font-family: $palenight-font, sans-serif !important;
+  font-family: quote($palenight-font), sans-serif !important;
 }
 
 input,
@@ -15,11 +15,11 @@ textarea,
 keygen,
 select,
 button {
-  font-family: $palenight-font, sans-serif !important;
+  font-family: quote($palenight-font), sans-serif !important;
 }
 
 .ace_editor * {
-  font-family: $palenight-code-font, Consolas, Menlo, Monaco, Lucida Console,
+  font-family: quote($palenight-code-font), Consolas, Menlo, Monaco, Lucida Console,
     Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
     monospace, serif !important;
 }
@@ -29,7 +29,7 @@ button {
 .markup-2BOw-j pre code,
 .markup-2BOw-j pre code *,
 .markup-2BOw-j code.inline {
-  font-family: $palenight-code-font, Consolas, Menlo, Monaco, Lucida Console,
+  font-family: quote($palenight-code-font), Consolas, Menlo, Monaco, Lucida Console,
     Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
     monospace, serif !important;
 }

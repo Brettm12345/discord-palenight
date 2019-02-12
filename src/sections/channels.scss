@@ -60,7 +60,7 @@
 
 .channels-Ie2l6A .scrollerWrap-2lJEkd,
 .channels-Ie2l6A .flexChild-faoVW3 {
-  box-shadow: 0 2px 20px rgba($palenight-black, 0.4);
+  @include box-shadow(1);
 }
 
 .channel-2QD9_O.selected-1HYmZZ .name-2WpE7M {

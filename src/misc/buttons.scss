@@ -308,6 +308,7 @@
 }
 
 .button-38aScr.lookBlank-3eh9lL {
+  color: $palenight-white;
   background: none;
 }
 
@@ -340,7 +341,7 @@
 }
 
 .lookOutlined-3sRXeN.colorRed-1TFJan:active {
-  background: rgb(220, 220, 220);
+  background: $palenight-light-fg;
   border-color: transparent;
   color: rgba($palenight-black, 0.7);
 }
@@ -366,4 +367,8 @@ span + button {
 .theme-dark .mobileIndicator-329Gd6:hover,
 .theme-dark .mobileIndicatorPrimary-2viufb:hover {
   opacity: 1;
+}
+
+.theme-dark .button-3AYNKb {
+  color: $palenight-white !important;
 }
